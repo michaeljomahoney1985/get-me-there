@@ -261,8 +261,8 @@ export default function GetMeThere() {
                         </div>
                       </div>
                       
-                      
-                        href={route.bookingUrl}
+                     
+                  <a href={route.bookingUrl}
                         className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg hover:shadow-cyan-500/30 transition-all duration-300 flex items-center gap-2 group/btn transform hover:scale-105 active:scale-95 whitespace-nowrap"
                       >
                         Book Now
