@@ -113,7 +113,7 @@ export default function GetMeThere() {
         <header className="border-b border-blue-400/20 backdrop-blur-sm bg-slate-900/50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex items-center justify-between">
-              <div className="flex items-center gap-3 group">
+              <a href="/" className="flex items-center gap-3 group">
                 <div className="relative">
                   <Mountain className="w-10 h-10 text-cyan-400 group-hover:text-cyan-300 transition-all duration-300 group-hover:scale-110" />
                   <div className="absolute -inset-2 bg-cyan-400/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -124,11 +124,11 @@ export default function GetMeThere() {
                   </h1>
                   <p className="text-sm text-blue-300/70 tracking-wide">Find your perfect route</p>
                 </div>
-              </div>
+              </a>
               <nav className="hidden md:flex gap-8 text-sm">
-                <a href="#" className="text-blue-200 hover:text-cyan-300 transition-colors">Routes</a>
-                <a href="#" className="text-blue-200 hover:text-cyan-300 transition-colors">About</a>
-                <a href="#" className="text-blue-200 hover:text-cyan-300 transition-colors">Contact</a>
+                <a href="/" className="text-cyan-300">Home</a>
+                <a href="/about" className="text-blue-200 hover:text-cyan-300 transition-colors">About</a>
+                <a href="/contact" className="text-blue-200 hover:text-cyan-300 transition-colors">Contact</a>
               </nav>
             </div>
           </div>
@@ -262,13 +262,11 @@ export default function GetMeThere() {
                       </div>
                       
                       
-                    <a href={route.bookingUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg hover:shadow-cyan-500/30 transition-all duration-300 flex items-center gap-2 transform hover:scale-105 active:scale-95 whitespace-nowrap"
+                        href={route.bookingUrl}
+                        className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg hover:shadow-cyan-500/30 transition-all duration-300 flex items-center gap-2 group/btn transform hover:scale-105 active:scale-95 whitespace-nowrap"
                       >
                         Book Now
-                        <ArrowRight className="w-4 h-4" />
+                        <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                       </a>
                     </div>
                   </div>
@@ -295,18 +293,16 @@ export default function GetMeThere() {
               <div>
                 <h4 className="font-semibold text-blue-100 mb-4">Quick Links</h4>
                 <ul className="space-y-2 text-sm text-blue-300/70">
-                  <li><a href="#" className="hover:text-cyan-300 transition-colors">About Us</a></li>
-                  <li><a href="#" className="hover:text-cyan-300 transition-colors">How It Works</a></li>
-                  <li><a href="#" className="hover:text-cyan-300 transition-colors">Privacy Policy</a></li>
-                  <li><a href="#" className="hover:text-cyan-300 transition-colors">Terms of Service</a></li>
+                  <li><a href="/" className="hover:text-cyan-300 transition-colors">Home</a></li>
+                  <li><a href="/about" className="hover:text-cyan-300 transition-colors">About Us</a></li>
+                  <li><a href="/privacy" className="hover:text-cyan-300 transition-colors">Privacy Policy</a></li>
+                  <li><a href="/terms" className="hover:text-cyan-300 transition-colors">Terms of Service</a></li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-semibold text-blue-100 mb-4">Support</h4>
                 <ul className="space-y-2 text-sm text-blue-300/70">
-                  <li><a href="#" className="hover:text-cyan-300 transition-colors">Contact Us</a></li>
-                  <li><a href="#" className="hover:text-cyan-300 transition-colors">FAQ</a></li>
-                  <li><a href="#" className="hover:text-cyan-300 transition-colors">Affiliate Program</a></li>
+                  <li><a href="/contact" className="hover:text-cyan-300 transition-colors">Contact Us</a></li>
                 </ul>
               </div>
             </div>
@@ -336,4 +332,4 @@ export default function GetMeThere() {
       `}</style>
     </div>
   );
-                                }
+    }
