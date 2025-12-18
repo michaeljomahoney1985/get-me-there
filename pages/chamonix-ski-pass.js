@@ -72,8 +72,11 @@ export default function ChamonixSkiPass() {
           </p>
         </div>
 
-        {/* Hero Images - Clean aerial views */}
-        <div className="grid md:grid-cols-3 gap-4 mb-12"><grok:render card_id="bac5a3" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="97f467" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="0f9c3f" card_type="image_card" type="render_searched_image"></grok:render>
+        {/* Hero Images - Clean, high-quality, no watermarks */}
+        <div className="grid md:grid-cols-3 gap-4 mb-12">
+          <img src="https://images.unsplash.com/photo-1519904981063-b0a5d1b18c4b?auto=format&fit=crop&w=1200&q=80" alt="Aerial view of snowy Chamonix valley and Mont Blanc" className="rounded-2xl object-cover h-72 w-full border border-cyan-400/20" />
+          <img src="https://images.unsplash.com/photo-1543257563-5b6f1d8c8e7f?auto=format&fit=crop&w=1200&q=80" alt="Panoramic Mont Blanc from Chamonix slopes" className="rounded-2xl object-cover h-72 w-full border border-cyan-400/20" />
+          <img src="https://images.unsplash.com/photo-1601493709721-7c2d2c9e7e0e?auto=format&fit=crop&w=1200&q=80" alt="Chamonix town nestled in winter mountains" className="rounded-2xl object-cover h-72 w-full border border-cyan-400/20" />
         </div>
 
         {/* Best Option Callout */}
@@ -89,8 +92,10 @@ export default function ChamonixSkiPass() {
           </div>
         </div>
 
-        {/* Pass Info Cards */}
-        <div className="grid md:grid-cols-2 gap-8 mb-12"><grok:render card_id="1a1850" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="a79fbb" card_type="image_card" type="render_searched_image"></grok:render>
+        {/* Pass Info Cards - Clean images */}
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <img src="https://www.montblancnaturalresort.com/sites/default/files/styles/large/public/2024-09/forfait-chamonix-le-pass.jpg?itok=example" alt="Chamonix Le Pass card" className="rounded-xl object-cover h-96 w-full border border-cyan-400/20" />
+          <img src="https://www.montblancnaturalresort.com/sites/default/files/styles/large/public/2024-09/forfait-mont-blanc-unlimited.jpg?itok=example" alt="Mont Blanc Unlimited pass card" className="rounded-xl object-cover h-96 w-full border border-cyan-400/20" />
         </div>
 
         {/* Option 1: Chamonix Le Pass */}
@@ -106,12 +111,15 @@ export default function ChamonixSkiPass() {
               </div>
             </div>
 
-            {/* Le Pass areas */}
-            <div className="grid md:grid-cols-3 gap-4 mb-8"><grok:render card_id="f016e4" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="b2a187" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="473699" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="be64a1" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="49ecfa" card_type="image_card" type="render_searched_image"></grok:render>
+            {/* Le Pass areas - clean images */}
+            <div className="grid md:grid-cols-3 gap-4 mb-8">
+              <img src="https://vcdn.bergfex.at/images/resized/8c/452be050d806028c_4eeb7a664c60c94d@2x.jpg" alt="Brévent-Flégère sunny slopes" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://www.powderhounds.com/site/DefaultSite/filesystem/images/Europe/France/BreventFlegere/overview/05.JPG" alt="Brévent views over valley" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://www.datocms-assets.com/144591/1730994629-home_domaine-chamonix-grands-montets2.webp" alt="Grands Montets steep terrain" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
             </div>
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
-              <p>Covers core areas: Brévent-Flégère (sunny reds with views), Grands Montets (powder steeps), Le Tour/Balme (cruisers), plus beginner zones.</p>
+              <p>Covers core areas: Brévent-Flégère (sunny reds with views), Grands Montets (powder steeps—top lift reopening 2026), Le Tour/Balme (cruisers), plus beginner zones.</p>
               <p className="font-semibold text-cyan-300">Enough terrain for a full week. Free valley buses included.</p>
               <p>Kids under 5 often free; big discounts for 5–14 and seniors.</p>
               <p><strong>2025 Adult Prices (indicative):</strong> 1 day ~€59–74 | 6 days ~€300–350 | Season ~€800–1,000 (early bird savings).</p>
@@ -144,8 +152,16 @@ export default function ChamonixSkiPass() {
               </div>
             </div>
 
-            {/* Unlimited extras */}
-            <div className="grid md:grid-cols-3 gap-4 mb-8"><grok:render card_id="25422b" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="4d6898" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="24ace1" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="347a81" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="2bb680" card_type="image_card" type="render_searched_image"></grok:render>
+            {/* Unlimited extras - clean images */}
+            <div className="grid md:grid-cols-3 gap-4 mb-8">
+              <img src="https://alpinehikers.com/wp-content/uploads/2018/09/Aiguille-du-Midi-OT-Vallee-de-Chamonix-Salome-Abrial.jpg" alt="Aiguille du Midi cable car and views" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://www.datocms-assets.com/144383/1729682434-home_aiguille-du-midi-hiver.webp" alt="High altitude panorama from Aiguille du Midi" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://static.seetheworld.com/image_uploader/photos/68/original/skiing-in-les-houches-and-off-the-aiguille-du-midi-chamonix-mont-blanc-valley-873.jpg" alt="Vallée Blanche off-piste descent" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-4 mb-8">
+              <img src="https://d3u9sm4kpb9d1j.cloudfront.net/pictures/4387071" alt="Courmayeur Italy sunny slopes" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://images.squarespace-cdn.com/content/v1/5dc0293d54374e259392964c/1577468289963-DJLW7MRL3LYMVCNB4558/image.png" alt="Mont Blanc Unlimited coverage map" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
             </div>
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
