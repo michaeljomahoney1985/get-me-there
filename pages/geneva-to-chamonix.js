@@ -1,8 +1,7 @@
 import React from 'react';
 import { Mountain, Train, Bus, Car, Clock, DollarSign, CheckCircle, AlertCircle, Snowflake, Sun } from 'lucide-react';
 
-export default function GenevaToChamon
-ix() {
+export default function GenevaToChamonix() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white">
       {/* Animated Background */}
