@@ -70,7 +70,10 @@ export default function BangkokToChiangMai() {
         </p>
 
         {/* Hero Images: Chiang Mai Landscapes */}
-        <div className="grid md:grid-cols-3 gap-4 mb-12 rounded-2xl overflow-hidden border border-cyan-400/20"><grok:render card_id="93ea9f" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="1ed816" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="0e1be9" card_type="image_card" type="render_searched_image"></grok:render>
+        <div className="grid md:grid-cols-3 gap-4 mb-12">
+          <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/09/7a/f3/79.jpg" alt="Doi Suthep Temple in Chiang Mai" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+          <img src="https://www.aleenta.com/wp-content/uploads/Wat-Phra-That-Doi-Suthep-in-Chiang-Mai.jpg" alt="Wat Phra That Doi Suthep golden stupa" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+          <img src="https://catmotors.net/wp-content/uploads/2022/11/a-birds-eye-view-of-the-wat-doi-kham-temple.jpg" alt="Aerial view of Chiang Mai temple" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
         </div>
 
         {/* Best Option Callout */}
@@ -130,11 +133,16 @@ export default function BangkokToChiangMai() {
             </div>
 
             {/* Train Interior Images */}
-            <div className="grid md:grid-cols-3 gap-4 mb-8"><grok:render card_id="01048e" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="e36a85" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="4c856f" card_type="image_card" type="render_searched_image"></grok:render>
+            <div className="grid md:grid-cols-3 gap-4 mb-8">
+              <img src="https://www.inwanderment.com/wp-content/uploads/2024/02/The-beds-on-the-sleeper-train-Bangkok-to-Chiang-Mai-2nd-Class-AC-1024x768.jpg" alt="Sleeper train bunk beds" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://i.insider.com/62f359e2cc15bf00182fb34f?width=800&format=jpeg&auto=webp" alt="Second class sleeper interior" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://i.insider.com/630d8d66469230001973792a?width=600&format=jpeg&auto=webp" alt="Train bunk setup" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
             </div>
 
             {/* Scenic Views */}
-            <div className="grid md:grid-cols-2 gap-4 mb-8"><grok:render card_id="6bf5eb" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="300362" card_type="image_card" type="render_searched_image"></grok:render>
+            <div className="grid md:grid-cols-2 gap-4 mb-8">
+              <img src="https://www.shutterstock.com/image-photo/scenic-view-train-window-traveling-260nw-2487478781.jpg" alt="Countryside view from train window" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt62a1282b8a560448/6890624f450d713eb1cec581/maria-krasnova-nwcUQlFgQ7w-unsplash-Header_Mobile.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart" alt="Mountain scenery from Thai train" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
             </div>
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
@@ -157,7 +165,7 @@ export default function BangkokToChiangMai() {
 
             <div className="mt-8">
               <a
-                href="https://12go.asia/en/travel/bangkok/chiang-mai?affiliate=yourid"
+                href="https://12go.asia/en/travel/bangkok/chiang-mai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300"
@@ -200,7 +208,8 @@ export default function BangkokToChiangMai() {
               </div>
             </div>
 
-            <div className="mb-8"><grok:render card_id="081510" card_type="image_card" type="render_searched_image"></grok:render>
+            <div className="mb-8">
+              <img src="https://i.ytimg.com/vi/7fuDIKY_2YE/hqdefault.jpg" alt="AirAsia plane interior" className="rounded-xl object-cover h-64 w-full mx-auto border border-cyan-400/20" />
             </div>
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
@@ -253,7 +262,9 @@ export default function BangkokToChiangMai() {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-4 mb-8"><grok:render card_id="a36628" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="8d4d93" card_type="image_card" type="render_searched_image"></grok:render>
+            <div className="grid md:grid-cols-2 gap-4 mb-8">
+              <img src="https://www.tielandtothailand.com/wp-content/uploads/2017/09/VX-Green-Bus-Interior.jpg" alt="VIP bus reclining seats" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://www.tripsavvy.com/thmb/uGAzLGuX-B7W3TkRQgnqPxJZVw8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sleeper-overnight-bus-in-asia-1ca3128bb69541af931b5bb63b55e73a.jpg" alt="Overnight bus interior Thailand" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
             </div>
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
@@ -262,7 +273,7 @@ export default function BangkokToChiangMai() {
 
             <div className="mt-8">
               <a
-                href="https://12go.asia/en/travel/bangkok/chiang-mai?affiliate=yourid"
+                href="https://12go.asia/en/travel/bangkok/chiang-mai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300"
