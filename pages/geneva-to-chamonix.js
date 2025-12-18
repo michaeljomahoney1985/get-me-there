@@ -139,7 +139,7 @@ export default function GenevaToChamonix() {
                 Popular companies: Mountain Dropoffs, AlpyBus, and Chamexpress all run reliable services.
               </p>
 
-              <div className="bg-slate-900/50 border border-cyan-400/30 rounded-xl p-4 mt-6">
+             <div className="bg-slate-900/50 border border-cyan-400/30 rounded-xl p-4 mt-6">
                 <p className="text-sm text-cyan-300 font-semibold mb-2">💡 Pro Tip:</p>
                 <p className="text-sm">
                   Book your shuttle when you book your flights. Prices go up as seats fill, especially during 
