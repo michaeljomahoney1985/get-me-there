@@ -72,11 +72,8 @@ export default function ChamonixSkiPass() {
           </p>
         </div>
 
-        {/* Hero Images */}
-        <div className="grid md:grid-cols-3 gap-4 mb-12">
-          <img src="https://c8.alamy.com/comp/2DDGYR6/chamonix-france-aerial-view-of-chamonix-valley-mountains-montblanc-in-france-in-winter-snow-cover-high-peaks-2DDGYR6.jpg" alt="Aerial view of Chamonix valley in winter" className="rounded-2xl object-cover h-72 w-full border border-cyan-400/20" />
-          <img src="https://c8.alamy.com/comp/2CACR3R/aerial-view-of-the-ski-resort-chamonix-mont-blanc-in-the-alps-2CACR3R.jpg" alt="Chamonix Mont Blanc ski resort aerial" className="rounded-2xl object-cover h-72 w-full border border-cyan-400/20" />
-          <img src="https://thumbs.dreamstime.com/b/chamonix-mont-blanc-best-destination-winter-holiday-full-skiing-snowboarding-relaxing-top-view-town-panoramic-140525312.jpg" alt="Panoramic view of Chamonix town and mountains" className="rounded-2xl object-cover h-72 w-full border border-cyan-400/20" />
+        {/* Hero Images - Clean aerial views */}
+        <div className="grid md:grid-cols-3 gap-4 mb-12"><grok:render card_id="bac5a3" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="97f467" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="0f9c3f" card_type="image_card" type="render_searched_image"></grok:render>
         </div>
 
         {/* Best Option Callout */}
@@ -92,20 +89,8 @@ export default function ChamonixSkiPass() {
           </div>
         </div>
 
-        {/* Intro Text */}
-        <section className="mb-12 text-blue-200/80 text-lg leading-relaxed">
-          <p className="mb-4">
-            Chamonix isn't one big linked resort—it's separate domains with epic variety. Two main passes: Chamonix Le Pass (local valley) and Mont Blanc Unlimited (full access + extras).
-          </p>
-          <p>
-            Pro tip: Buy online 3+ days ahead for discounts (up to 20%). Early bird season passes (until ~Nov 30) save even more.
-          </p>
-        </section>
-
-        {/* Ski Pass Cards Images */}
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <img src="https://www.mountaindropoffs.com/wp-content/uploads/2025/02/Chamonix-lift-pass-information.jpg" alt="Chamonix ski pass information card" className="rounded-xl object-cover h-96 w-full border border-cyan-400/20" />
-          <img src="https://www.chamonix.net/sites/default/files/styles/medium/public/2024-09/chamonix-ski-winter-passes.jpg?itok=oxTFGoop" alt="Chamonix winter ski passes overview" className="rounded-xl object-cover h-96 w-full border border-cyan-400/20" />
+        {/* Pass Info Cards */}
+        <div className="grid md:grid-cols-2 gap-8 mb-12"><grok:render card_id="1a1850" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="a79fbb" card_type="image_card" type="render_searched_image"></grok:render>
         </div>
 
         {/* Option 1: Chamonix Le Pass */}
@@ -121,20 +106,15 @@ export default function ChamonixSkiPass() {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-4 mb-8">
-              <img src="https://vcdn.bergfex.at/images/resized/8c/452be050d806028c_4eeb7a664c60c94d@2x.jpg" alt="Brévent-Flégère ski area sunny slopes" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
-              <img src="https://en.chamonix.com/sites/default/files/styles/ogimage/public/sit/images/682257/26902487.jpg?itok=W-g4aup5" alt="Flégère views over Mont Blanc" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-4 mb-8">
-              <img src="https://www.powderhounds.com/site/DefaultSite/filesystem/images/Europe/France/GrandsMontets/overview/19.JPG" alt="Grands Montets powder skiing" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
-              <img src="https://www.chamonix.net/sites/default/files/styles/wide/public/nodeimages/grands-montets-chamonix.jpg?itok=gGnUt-Ad" alt="Grands Montets steep terrain" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+            {/* Le Pass areas */}
+            <div className="grid md:grid-cols-3 gap-4 mb-8"><grok:render card_id="f016e4" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="b2a187" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="473699" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="be64a1" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="49ecfa" card_type="image_card" type="render_searched_image"></grok:render>
             </div>
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
-              <p>Covers core areas: Brévent-Flégère (sunny reds with views), Grands Montets (powder steeps—note top lift may have restrictions), Le Tour/Balme (cruisers), plus beginner zones.</p>
+              <p>Covers core areas: Brévent-Flégère (sunny reds with views), Grands Montets (powder steeps), Le Tour/Balme (cruisers), plus beginner zones.</p>
               <p className="font-semibold text-cyan-300">Enough terrain for a full week. Free valley buses included.</p>
               <p>Kids under 5 often free; big discounts for 5–14 and seniors.</p>
+              <p><strong>2025 Adult Prices (indicative):</strong> 1 day ~€59–74 | 6 days ~€300–350 | Season ~€800–1,000 (early bird savings).</p>
             </div>
 
             <div className="mt-8">
@@ -164,20 +144,14 @@ export default function ChamonixSkiPass() {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-4 mb-8">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Punta_helbronner_1.jpg" alt="Aiguille du Midi cable car" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
-              <img src="https://alpinehikers.com/wp-content/uploads/2018/09/Aiguille-du-Midi-OT-Vallee-de-Chamonix-Salome-Abrial.jpg" alt="Vallée Blanche descent" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
-              <img src="https://i.ytimg.com/vi/dvZ_CBOgPd4/sddefault.jpg" alt="Panoramic views from Aiguille du Midi" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-4 mb-8">
-              <img src="https://images.squarespace-cdn.com/content/v1/5dc0293d54374e259392964c/1577468289963-DJLW7MRL3LYMVCNB4558/image.png" alt="Mont Blanc Unlimited coverage map" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
-              <img src="https://d3u9sm4kpb9d1j.cloudfront.net/pictures/4387071" alt="Courmayeur Italy ski slopes" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+            {/* Unlimited extras */}
+            <div className="grid md:grid-cols-3 gap-4 mb-8"><grok:render card_id="25422b" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="4d6898" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="24ace1" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="347a81" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="2bb680" card_type="image_card" type="render_searched_image"></grok:render>
             </div>
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
               <p>Includes everything in Le Pass + Aiguille du Midi (Vallée Blanche—guide recommended), Les Houches, Courmayeur (Italy), Verbier days (Switzerland), extras like pool/rink.</p>
               <p className="font-semibold text-cyan-300">Ideal for experts chasing off-piste and international days.</p>
+              <p><strong>2025 Adult Prices (indicative):</strong> 1 day ~€75–90 | 6 days ~€380–450 | Season ~€1,200–1,500 (early bird deals).</p>
             </div>
 
             <div className="mt-8">
