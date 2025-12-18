@@ -148,13 +148,12 @@ export default function GenevaToChamonix() {
               </div>
             </div>
 
-            <div className="mt-8">
+         <div className="mt-8">
               
                 href="https://www.getyourguide.com/chamonix-mont-blanc-l220/from-geneva-airport-bus-transfer-to-chamonix-t55754/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300"
-              >
+                className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
                 Check Shuttle Availability
                 <Bus className="w-5 h-5" />
               </a>
