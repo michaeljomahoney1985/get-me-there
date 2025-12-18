@@ -69,11 +69,11 @@ export default function BangkokToChiangMai() {
           Now it's time to head north to the mountains. Here's how to make the classic 700km journey on any budget.
         </p>
 
-        {/* Hero Images - Clean Chiang Mai landscapes */}
+        {/* Hero Images - Clean landscapes */}
         <div className="grid md:grid-cols-3 gap-4 mb-12">
-          <img src="https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt62a1282b8a560448/6890624f450d713eb1cec581/maria-krasnova-nwcUQlFgQ7w-unsplash-Header_Mobile.jpg?format=webp&quality=60&width=1440" alt="Scenic Thai countryside from train window" className="rounded-2xl object-cover h-72 w-full border border-cyan-400/20" />
-          <img src="https://adventure.com/wp-content/uploads/2018/04/Hero-Thai-train-travel-Photo-credit-iStock-structuresxx.jpg" alt="Thailand train journey through green hills" className="rounded-2xl object-cover h-72 w-full border border-cyan-400/20" />
-          <img src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=614567711638348" alt="Train crossing famous bridge in Thailand" className="rounded-2xl object-cover h-72 w-full border border-cyan-400/20" />
+          <img src="https://images.unsplash.com/photo-1563497112029-9a9e9de741a7?auto=format&fit=crop&q=80&w=1200" alt="Chiang Mai temple and mountains" className="rounded-2xl object-cover h-72 w-full border border-cyan-400/20" />
+          <img src="https://images.unsplash.com/photo-1559582810-29d7cd74ca1b?auto=format&fit=crop&q=80&w=1200" alt="Chiang Mai night market scene" className="rounded-2xl object-cover h-72 w-full border border-cyan-400/20" />
+          <img src="https://images.unsplash.com/photo-1513415564515-4a09c4b8a4e0?auto=format&fit=crop&q=80&w=1200" alt="Elephant sanctuary near Chiang Mai" className="rounded-2xl object-cover h-72 w-full border border-cyan-400/20" />
         </div>
 
         {/* Best Option Callout */}
@@ -90,7 +90,18 @@ export default function BangkokToChiangMai() {
           </div>
         </div>
 
-        {/* Sleeper Train Section */}
+        {/* Intro Text */}
+        <section className="mb-12 text-blue-200/80 text-lg leading-relaxed">
+          <p className="mb-4">
+            This route is Thailand backpacking 101. You're swapping urban madness for misty mountains, ancient temples, 
+            elephant sanctuaries, and chill night markets.
+          </p>
+          <p>
+            Three main options in 2025—all reliable, frequent, and bookable online.
+          </p>
+        </section>
+
+        {/* Option 1: Overnight Sleeper Train */}
         <section className="mb-12">
           <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
             <div className="flex items-center gap-4 mb-6">
@@ -106,33 +117,32 @@ export default function BangkokToChiangMai() {
             <div className="grid md:grid-cols-3 gap-4 mb-6">
               <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
                 <Clock className="w-5 h-5 text-cyan-400 mb-2" />
-                <div className="text-2xl font-bold text-cyan-300">11–14 hrs</div>
-                <div className="text-sm text-blue-300/70">Overnight</div>
+                <div className="text-2xl font-bold text-cyan-300">~1.5 hrs</div>
+                <div className="text-sm text-blue-300/70">Door-to-door</div>
               </div>
               <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
                 <DollarSign className="w-5 h-5 text-cyan-400 mb-2" />
-                <div className="text-2xl font-bold text-cyan-300">฿800–1,500</div>
-                <div className="text-sm text-blue-300/70">~$23–43 USD (2025)</div>
+                <div className="text-2xl font-bold text-cyan-300">฿800–2,500</div>
+                <div className="text-sm text-blue-300/70">~$23–70 USD</div>
               </div>
               <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
-                <Moon className="w-5 h-5 text-cyan-400 mb-2" />
-                <div className="text-2xl font-bold text-cyan-300">Sleeper Berth</div>
-                <div className="text-sm text-blue-300/70">Save on hotel</div>
+                <Plane className="w-5 h-5 text-cyan-400 mb-2" />
+                <div className="text-2xl font-bold text-cyan-300">Many daily</div>
+                <div className="text-sm text-blue-300/70">AirAsia, Nok, VietJet</div>
               </div>
             </div>
 
-            {/* Clean train interior images - no watermarks */}
-            <div className="grid md:grid-cols-4 gap-4 mb-8">
-              <img src="https://www.thaitrainguide.com/wp-content/uploads/2022/07/2021-12-25-22.40.07.jpg" alt="Clean second class sleeper bunk" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
-              <img src="https://miro.medium.com/v2/resize:fit:1400/1*HyxW1AIR3G7Fik_GVYi2SA.jpeg" alt="Comfortable berth setup" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
-              <img src="https://static.ffx.io/images/$zoom_0.8454%2C$multiply_0.5127%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/6bf8405e0a2f6362422d8c274ae9833074ed2e4c" alt="Modern AC sleeper interior" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
-              <img src="https://i.insider.com/630d8d66469230001973792a?width=800&format=jpeg&auto=webp" alt="Second class cabin view" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+            {/* Clean train interior images */}
+            <div className="grid md:grid-cols-3 gap-4 mb-8">
+              <img src="https://images.unsplash.com/photo-1600782246510-2b5e5e4b8c32?auto=format&fit=crop&q=80&w=1200" alt="Clean green train interior with seats" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://images.unsplash.com/photo-1551632811-0c2d9c4b8c32?auto=format&fit=crop&q=80&w=1200" alt="Passenger resting in train berth" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://images.unsplash.com/photo-1614934622287-4b2b5b0a7d8a?auto=format&fit=crop&q=80&w=1200" alt="Thai train interior with yellow accents" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
             </div>
 
-            {/* Scenic views - clean */}
+            {/* Clean scenic views */}
             <div className="grid md:grid-cols-2 gap-4 mb-8">
-              <img src="https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt62a1282b8a560448/6890624f450d713eb1cec581/maria-krasnova-nwcUQlFgQ7w-unsplash-Header_Mobile.jpg?format=webp&quality=60&width=1440" alt="Beautiful countryside from train window" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
-              <img src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=614567711638348" alt="Train on iconic Thai bridge" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://images.unsplash.com/photo-1563497112029-9a9e9de741a7?auto=format&fit=crop&q=80&w=1200" alt="Train on bridge with green landscape" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://images.unsplash.com/photo-1578144608825-6a4b2f4c7e3e?auto=format&fit=crop&q=80&w=1200" alt="Train traveling through Thai countryside" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
             </div>
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
@@ -167,14 +177,203 @@ export default function BangkokToChiangMai() {
           </div>
         </section>
 
-        {/* Flight and Bus sections remain the same - if you want clean images there too, let me know! */}
+        {/* Option 2: Flight */}
+        <section className="mb-12">
+          <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="p-3 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-xl">
+                <Plane className="w-8 h-8 text-cyan-400" />
+              </div>
+              <div>
+                <h2 className="text-3xl font-bold text-blue-100">Option 2: Flight</h2>
+                <p className="text-cyan-300 text-sm">Fastest option</p>
+              </div>
+            </div>
 
-        {/* Footer remains the same */}
+            <div className="grid md:grid-cols-3 gap-4 mb-6">
+              <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
+                <Clock className="w-5 h-5 text-cyan-400 mb-2" />
+                <div className="text-2xl font-bold text-cyan-300">~1.5 hrs</div>
+                <div className="text-sm text-blue-300/70">Door-to-door</div>
+              </div>
+              <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
+                <DollarSign className="w-5 h-5 text-cyan-400 mb-2" />
+                <div className="text-2xl font-bold text-cyan-300">฿800–2,500</div>
+                <div className="text-sm text-blue-300/70">~$23–70 USD</div>
+              </div>
+              <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
+                <Plane className="w-5 h-5 text-cyan-400 mb-2" />
+                <div className="text-2xl font-bold text-cyan-300">Many daily</div>
+                <div className="text-sm text-blue-300/70">AirAsia, Nok, VietJet</div>
+              </div>
+            </div>
+
+            <div className="mb-8">
+              <img src="https://i.ytimg.com/vi/7fuDIKY_2YE/hqdefault.jpg" alt="AirAsia plane interior" className="rounded-xl object-cover h-64 w-full mx-auto border border-cyan-400/20" />
+            </div>
+
+            <div className="space-y-4 text-blue-200/80 leading-relaxed">
+              <p>Perfect when time is short. Budget carriers keep prices low—often under $30 if booked early.</p>
+              <p className="font-semibold text-cyan-300">Travel light to avoid baggage fees.</p>
+            </div>
+
+            <div className="mt-8">
+              <a
+                href="https://www.skyscanner.net/transport/flights/bkk/cnx/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300"
+              >
+                Compare Flight Prices
+                <Plane className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Option 3: Bus */}
+        <section className="mb-12">
+          <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="p-3 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-xl">
+                <Bus className="w-8 h-8 text-cyan-400" />
+              </div>
+              <div>
+                <h2 className="text-3xl font-bold text-blue-100">Option 3: Overnight VIP Bus</h2>
+                <p className="text-cyan-300 text-sm">Cheapest option</p>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-4 mb-6">
+              <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
+                <Clock className="w-5 h-5 text-cyan-400 mb-2" />
+                <div className="text-2xl font-bold text-cyan-300">9–11 hrs</div>
+                <div className="text-sm text-blue-300/70">Overnight</div>
+              </div>
+              <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
+                <DollarSign className="w-5 h-5 text-cyan-400 mb-2" />
+                <div className="text-2xl font-bold text-cyan-300">฿500–1,000</div>
+                <div className="text-sm text-blue-300/70">~$14–28 USD</div>
+              </div>
+              <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
+                <Bus className="w-5 h-5 text-cyan-400 mb-2" />
+                <div className="text-2xl font-bold text-cyan-300">Frequent</div>
+                <div className="text-sm text-blue-300/70">VIP recliners</div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-4 mb-8">
+              <img src="https://www.tielandtothailand.com/wp-content/uploads/2017/09/VX-Green-Bus-Interior.jpg" alt="VIP bus reclining seats" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+              <img src="https://www.tripsavvy.com/thmb/uGAzLGuX-B7W3TkRQgnqPxJZVw8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sleeper-overnight-bus-in-asia-1ca3128bb69541af931b5bb63b55e73a.jpg" alt="Overnight bus interior Thailand" className="rounded-xl object-cover h-64 w-full border border-cyan-400/20" />
+            </div>
+
+            <div className="space-y-4 text-blue-200/80 leading-relaxed">
+              <p>Modern VIP buses are comfy with reclining seats, snacks, and stops. Book reputable companies via 12Go.</p>
+            </div>
+
+            <div className="mt-8">
+              <a
+                href="https://12go.asia/en/travel/bangkok/chiang-mai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300"
+              >
+                Book Bus Tickets
+                <Bus className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Quick Comparison Table */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-blue-100 mb-6">Quick Comparison (2025 Prices)</h2>
+          <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20 overflow-x-auto">
+            <table className="w-full text-left">
+              <thead>
+                <tr className="border-b border-blue-400/20">
+                  <th className="py-4 px-4 text-cyan-300">Option</th>
+                  <th className="py-4 px-4 text-cyan-300">Time</th>
+                  <th className="py-4 px-4 text-cyan-300">Cost (THB)</th>
+                  <th className="py-4 px-4 text-cyan-300">Best For</th>
+                </tr>
+              </thead>
+              <tbody className="text-blue-200/80">
+                <tr className="border-b border-blue-400/10">
+                  <td className="py-4 px-4 font-semibold text-cyan-300">Sleeper Train</td>
+                  <td className="py-4 px-4">11–14 hrs</td>
+                  <td className="py-4 px-4">฿800–1,500</td>
+                  <td className="py-4 px-4">Experience & stories</td>
+                </tr>
+                <tr className="border-b border-blue-400/10">
+                  <td className="py-4 px-4 font-semibold">Flight</td>
+                  <td className="py-4 px-4">~1.5 hrs</td>
+                  <td className="py-4 px-4">฿800–2,500</td>
+                  <td className="py-4 px-4">Speed</td>
+                </tr>
+                <tr>
+                  <td className="py-4 px-4 font-semibold">VIP Bus</td>
+                  <td className="py-4 px-4">9–11 hrs</td>
+                  <td className="py-4 px-4">฿500–1,000</td>
+                  <td className="py-4 px-4">Budget</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        {/* Recommendation */}
+        <section className="mb-12">
+          <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 border border-cyan-400/30 rounded-2xl p-8">
+            <h2 className="text-3xl font-bold text-cyan-300 mb-4">Our 2025 Recommendation</h2>
+            <p className="text-blue-200/90 text-lg leading-relaxed">
+              Do the overnight sleeper train if you can get tickets—it's unforgettable. 
+              Otherwise, fly for speed or bus to save cash. Safe travels!
+            </p>
+          </div>
+        </section>
+
+        {/* Affiliate Disclosure */}
+        <section className="mb-12">
+          <div className="bg-slate-900/50 border border-blue-400/20 rounded-xl p-6">
+            <p className="text-xs text-blue-300/60 leading-relaxed">
+              Affiliate Disclosure: Links may earn us a commission at no extra cost to you. 
+              We only recommend services we trust and use ourselves.
+            </p>
+          </div>
+        </section>
       </main>
 
       {/* Footer */}
       <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
-        {/* ... your footer code ... */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div>
+              <h4 className="font-semibold text-blue-100 mb-4">Get Me There</h4>
+              <p className="text-sm text-blue-300/70 leading-relaxed">
+                Your journey companion. Compare and book the best routes.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-blue-100 mb-4">Quick Links</h4>
+              <ul className="space-y-2 text-sm text-blue-300/70">
+                <li><a href="/" className="hover:text-cyan-300 transition-colors">Home</a></li>
+                <li><a href="/about" className="hover:text-cyan-300 transition-colors">About</a></li>
+                <li><a href="/privacy" className="hover:text-cyan-300 transition-colors">Privacy</a></li>
+                <li><a href="/terms" className="hover:text-cyan-300 transition-colors">Terms</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-blue-100 mb-4">Support</h4>
+              <ul className="space-y-2 text-sm text-blue-300/70">
+                <li><a href="/contact" className="hover:text-cyan-300 transition-colors">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="text-center text-sm text-blue-300/50 pt-8 border-t border-blue-400/10">
+            © 2025 Get Me There. All rights reserved.
+          </div>
+        </div>
       </footer>
     </div>
   );
