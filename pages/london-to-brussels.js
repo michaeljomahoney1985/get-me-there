@@ -277,6 +277,34 @@ export default function LondonToBrussels() {
             <p className="text-blue-200/80 leading-relaxed mb-6">
               Views are limited—much tunnel and flat land—but Belgian countryside offers pleasant glimpses. Spring and autumn are ideal; winter brings Christmas markets, summer beer festivals.
             </p>
+            <p className="text-blue-200/80 leading-relaxed mb-8">
+              Sit on the right side (facing forward) for the best Belgian countryside views as you approach Brussels.
+            </p>
+          </section>
+
+          {/* NEW: Highlights Along the Way – Destination + Countryside */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-8">Highlights Along the Way</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <figure>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/1/18/Brussels_Grand_Place_2021.jpg"
+                  alt="Iconic Grand Place square in Brussels – stunning historic heart of the city"
+                  className="w-full rounded-2xl object-cover shadow-2xl"
+                  loading="lazy"
+                />
+                <figcaption className="text-blue-300 text-sm mt-2 text-center">Grand Place, Brussels – your destination highlight</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="https://uploads.statics.raileurope.com/blog/images/4605-f1a84175ba029537f0fd3bc23a799085.jpg?1701426560"
+                  alt="Flat green countryside and fields in northern France and Belgium along the Eurostar route"
+                  className="w-full rounded-2xl object-cover shadow-2xl"
+                  loading="lazy"
+                />
+                <figcaption className="text-blue-300 text-sm mt-2 text-center">Typical Belgian countryside views</figcaption>
+              </figure>
+            </div>
           </section>
 
           {/* FAQ Section */}
