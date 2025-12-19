@@ -221,10 +221,10 @@ export default function LondonToParis() {
                 Depart iconic St Pancras International, dive into the Channel Tunnel for ~35 minutes, emerge in France and speed to Paris Gare du Nord. Onboard café, free Wi-Fi, power sockets.
               </p>
 
-              {/* Departure Station */}
+              {/* Beautiful St Pancras Image – restored */}
               <figure className="mb-8">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/4/4f/St_Pancras_International_main_concourse_2021.jpg"
+                  src="https://images.showmethejourney.com/f_jpg,q_90,w_930,c_fill/v1615565365/272e77ee_944d_4cae_9ce8_c7235c4d4425_3681d67fdf"
                   alt="Grand departure hall at London St Pancras International for Eurostar to Paris"
                   className="w-full rounded-2xl object-cover shadow-2xl"
                   loading="lazy"
@@ -260,21 +260,10 @@ export default function LondonToParis() {
             </div>
           </section>
 
-          {/* Arrival Station Image – fixed with reliable URL */}
-          <figure className="mb-12">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Gare_du_Nord_-_Eurostar_arrival_area.jpg"
-              alt="Eurostar arrival platforms at Paris Gare du Nord station"
-              className="w-full rounded-2xl object-cover shadow-2xl"
-              loading="lazy"
-            />
-            <figcaption className="text-blue-300 text-sm mt-2 text-center">
-              Arrival at Paris Gare du Nord
-            </figcaption>
-          </figure>
+          {/* REMOVED: Paris Gare du Nord arrival image */}
 
           {/* Who This Route Is Best For */}
-          <section mostró="mb-12">
+          <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
               <li><strong>Backpackers:</strong> Cheap early fares, central stations.</li>
@@ -319,7 +308,7 @@ export default function LondonToParis() {
             </div>
           </section>
 
-          {/* Booking CTAs – Primary and Secondary */}
+          {/* Booking CTAs */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -344,7 +333,7 @@ export default function LondonToParis() {
             </div>
           </section>
 
-          {/* Eurail/Interrail Pass Section – Moved BELOW booking CTAs */}
+          {/* Eurail/Interrail Pass Section – below booking CTAs */}
           <section className="mb-12">
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <div className="flex items-center gap-4 mb-6">
