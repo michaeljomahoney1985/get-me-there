@@ -43,48 +43,37 @@ export default function LondonToParis() {
       </header>
 
       <main className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="mb-12">
-          <div className="flex items-center gap-3 text-cyan-400 text-sm mb-4">
-            <a href="/" className="hover:text-cyan-300">Home</a>
-            <span>→</span>
-            <a href="/europe" className="hover:text-cyan-300">Europe</a>
-            <span>→</span>
-            <span className="text-blue-300">London to Paris</span>
-          </div>
-          
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            <span className="bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
-              London to Paris by Train:
-            </span>
-            <br />
-            <span className="text-blue-100">Eurostar Guide 2025</span>
-          </h1>
-          
-          <p className="text-xl text-blue-200/80 leading-relaxed">
-            The Eurostar from London to Paris is one of Europe's most iconic train journeys. Here's everything you need to know about booking tickets, journey times, and getting the best deals.
-          </p>
+        <div className="flex items-center gap-3 text-cyan-400 text-sm mb-4">
+          <a href="/" className="hover:text-cyan-300">Home</a>
+          <span>→</span>
+          <a href="/europe" className="hover:text-cyan-300">Europe</a>
+          <span>→</span>
+          <span className="text-blue-300">London to Paris</span>
         </div>
+
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+          <span className="bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
+            London to Paris:
+          </span>
+          <br />
+          <span className="text-blue-100">Eurostar Guide (December 2025)</span>
+        </h1>
+
+        <p className="text-xl text-blue-200/80 leading-relaxed mb-12">
+          The iconic high-speed Eurostar journey from London to Paris—city centre to city centre in just over 2 hours. Faster and easier than flying.
+        </p><grok:render card_id="b6f04f" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="5f105e" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="f99371" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="49bde6" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="01b4bd" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="97e747" card_type="image_card" type="render_searched_image"></grok:render>
 
         <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 border border-cyan-400/30 rounded-2xl p-6 mb-12">
           <div className="flex items-start gap-4">
             <CheckCircle className="w-6 h-6 text-cyan-400 flex-shrink-0 mt-1" />
             <div>
-              <h3 className="text-xl font-bold text-cyan-300 mb-2">Quick Answer</h3>
+              <h3 className="text-xl font-bold text-cyan-300 mb-2">Quick Summary</h3>
               <p className="text-blue-200/90 leading-relaxed">
-                The Eurostar is the only direct option. Journey takes 2 hours 15 minutes from London St Pancras to Paris Gare du Nord. Tickets from £39 if booked early, or €78-180 last minute. Book 2-3 months ahead for best prices.
+                Eurostar direct train: 2h 16-17min, from £39 one-way if booked early (up to £180 last-minute). Up to 15-20 departures daily. Book on eurostar.com for best deals.
               </p>
             </div>
           </div>
         </div>
-
-        <section className="mb-12">
-          <p className="text-blue-200/80 text-lg leading-relaxed mb-4">
-            The London to Paris train route is one of the busiest in Europe. The Eurostar high-speed service whisks you from central London to central Paris in just over two hours, making it faster and easier than flying when you factor in airport security and transfers.
-          </p>
-          <p className="text-blue-200/80 text-lg leading-relaxed">
-            Trains depart up to 20 times daily, with journey times of 2 hours 15 minutes on direct services. You'll travel through the Channel Tunnel at speeds up to 300km/h (186mph).
-          </p>
-        </section>
 
         <section className="mb-12">
           <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
@@ -94,68 +83,59 @@ export default function LondonToParis() {
               </div>
               <div>
                 <h2 className="text-3xl font-bold text-blue-100">Eurostar Direct Train</h2>
-                <p className="text-cyan-300 text-sm">The only direct option</p>
+                <p className="text-cyan-300 text-sm">The unbeatable option</p>
               </div>
             </div>
 
             <div className="grid md:grid-cols-3 gap-4 mb-6">
               <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
                 <Clock className="w-5 h-5 text-cyan-400 mb-2" />
-                <div className="text-2xl font-bold text-cyan-300">2h 15min</div>
-                <div className="text-sm text-blue-300/70">Direct journey</div>
+                <div className="text-2xl font-bold text-cyan-300">2h 16-17min</div>
+                <div className="text-sm text-blue-300/70">Direct</div>
               </div>
               <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
                 <DollarSign className="w-5 h-5 text-cyan-400 mb-2" />
                 <div className="text-2xl font-bold text-cyan-300">£39-180</div>
-                <div className="text-sm text-blue-300/70">One-way</div>
+                <div className="text-sm text-blue-300/70">One-way (Dec 2025)</div>
               </div>
               <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
                 <Train className="w-5 h-5 text-cyan-400 mb-2" />
-                <div className="text-2xl font-bold text-cyan-300">15-20/day</div>
-                <div className="text-sm text-blue-300/70">Departures</div>
+                <div className="text-2xl font-bold text-cyan-300">15-20 daily</div>
+                <div className="text-sm text-blue-300/70">From St Pancras</div>
               </div>
             </div>
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
-              <p>
-                The Eurostar departs from London St Pancras International and arrives at Paris Gare du Nord in the city center. Check-in closes 30 minutes before departure (not 2-3 hours like airports), and you go through UK and French border controls before boarding.
-              </p>
+              <p>Depart London St Pancras International, arrive Paris Gare du Nord. High-speed through the Channel Tunnel (300 km/h). Free Wi-Fi, power sockets, generous luggage allowance.</p>
 
-              <p className="font-semibold text-cyan-300">
-                Ticket classes:
-              </p>
+              <p className="font-semibold text-cyan-300">Classes & Prices (approx. Dec 2025):</p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Standard: £39-120. Comfortable seats, luggage storage, no food included.</li>
-                <li>Standard Premier: £90-180. Spacious seats, light meal and drinks included.</li>
-                <li>Business Premier: £280-350. Fully flexible, lounge access, champagne meal.</li>
+                <li>Standard: £39-120 (early to peak)</li>
+                <li>Standard Premier: £90-200 (wider seats + light meal)</li>
+                <li>Business Premier: £280+ (flexible, lounge, full meal)</li>
               </ul>
 
-              <p className="font-semibold text-cyan-300">
-                When to book:
-              </p>
-              <p>
-                Tickets go on sale 120 days (4 months) ahead. Book early for £39-59 "Snap" fares. Prices rise closer to departure, reaching £120-180 in the final weeks. Friday evenings and Sunday afternoons are most expensive.
-              </p>
+              <p>Book 6-8 months ahead for £39 fares. Prices rise quickly—midweek cheaper than weekends.</p>
 
-              <div className="bg-slate-900/50 border border-cyan-400/30 rounded-xl p-4 mt-6">
-                <p className="text-sm text-cyan-300 font-semibold mb-2">💡 Pro Tips:</p>
+              <div className="bg-slate-900/50 border border-cyan-400/30 rounded-xl p-4">
+                <p className="text-sm text-cyan-300 font-semibold mb-2">💡 Tips:</p>
                 <ul className="text-sm space-y-2">
-                  <li>• Book Tuesday-Thursday departures for cheapest fares</li>
-                  <li>• Avoid 6-9am and 5-8pm trains (business travelers)</li>
-                  <li>• Sign up for Eurostar emails for flash sales</li>
-                  <li>• Consider a return journey discount (often 10-15% off)</li>
+                  <li>Book direct on eurostar.com</li>
+                  <li>Avoid peak times (Fri eve/Sun aft)</li>
+                  <li>Arrive 45-90 min early for border checks</li>
+                  <li>Sign up for alerts/Snap for deals</li>
                 </ul>
               </div>
-            </div>
+            </div><grok:render card_id="655ea5" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="7d4407" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="ad2d6f" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="e2a88f" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="1ecc45" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="01864a" card_type="image_card" type="render_searched_image"></grok:render>
 
             <div className="mt-8">
-              <a href="https://www.omio.com/trains/london/paris" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
-                Check Eurostar Tickets
+              <a href="https://www.eurostar.com/uk-en" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
+                Book on Eurostar.com
                 <Train className="w-5 h-5" />
               </a>
             </div>
           </div>
-        </section>
+        </section><grok:render card_id="7c5545" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="b6f7a5" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="e70634" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="bc306b" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="88723c" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="4c8340" card_type="image_card" type="render_searched_image"></grok:render>
 
         <section className="mb-12">
           <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
@@ -164,37 +144,20 @@ export default function LondonToParis() {
                 <Star className="w-8 h-8 text-cyan-400" />
               </div>
               <div>
-                <h2 className="text-3xl font-bold text-blue-100">Eurail/Interrail Pass Option</h2>
-                <p className="text-cyan-300 text-sm">For multi-country travel</p>
+                <h2 className="text-3xl font-bold text-blue-100">Eurail/Interrail Pass</h2>
+                <p className="text-cyan-300 text-sm">For wider Europe trips</p>
               </div>
             </div>
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
-              <p>
-                If you're traveling around Europe, a Eurail Pass (non-Europeans) or Interrail Pass (Europeans) can save money. The Eurostar accepts both passes but requires a seat reservation fee.
-              </p>
-
-              <p className="font-semibold text-cyan-300">
-                Eurail/Interrail reservation fee: £30-38 (in addition to pass)
-              </p>
-
-              <p>
-                A 4-day Eurail Pass costs around €260-320, so if you're doing London-Paris-Amsterdam-Brussels, the pass pays for itself vs buying individual tickets.
-              </p>
-
-              <div className="bg-slate-900/50 border border-cyan-400/30 rounded-xl p-4">
-                <p className="text-sm text-cyan-300 font-semibold mb-2">Worth it if:</p>
-                <ul className="text-sm space-y-1 list-disc list-inside">
-                  <li>You're visiting 3+ countries in 1-2 weeks</li>
-                  <li>You want flexibility to hop on trains spontaneously</li>
-                  <li>You're under 28 (youth discounts available)</li>
-                </ul>
-              </div>
+              <p>Eurail (non-EU) or Interrail (EU residents) passes cover Eurostar with a mandatory seat reservation.</p>
+              <p className="font-semibold text-cyan-300">Reservation fee: €30 Standard / €38 Premier (2025)</p>
+              <p>Limited seats for passholders—book early. Worth it for multi-country itineraries.</p>
             </div>
 
             <div className="mt-8">
-              <a href="https://www.omio.com/rail-passes" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
-                Compare Rail Passes
+              <a href="https://www.eurail.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
+                Explore Eurail Passes
                 <Star className="w-5 h-5" />
               </a>
             </div>
@@ -216,21 +179,21 @@ export default function LondonToParis() {
               <tbody className="text-blue-200/80">
                 <tr className="border-b border-blue-400/10">
                   <td className="py-4 px-4 font-semibold text-cyan-300">Eurostar</td>
-                  <td className="py-4 px-4">2h 15min</td>
+                  <td className="py-4 px-4">2h 16min</td>
                   <td className="py-4 px-4">£39-180</td>
-                  <td className="py-4 px-4">Direct, fastest option</td>
+                  <td className="py-4 px-4">Everyone—fast & convenient</td>
                 </tr>
                 <tr className="border-b border-blue-400/10">
-                  <td className="py-4 px-4 font-semibold">Flying</td>
+                  <td className="py-4 px-4 font-semibold text-cyan-300">Flying</td>
                   <td className="py-4 px-4">~4-5h total</td>
                   <td className="py-4 px-4">£40-150</td>
-                  <td className="py-4 px-4">Not worth it vs train</td>
+                  <td className="py-4 px-4">Rarely—train wins</td>
                 </tr>
                 <tr>
-                  <td className="py-4 px-4 font-semibold">Rail Pass</td>
-                  <td className="py-4 px-4">2h 15min</td>
-                  <td className="py-4 px-4">Pass + £30</td>
-                  <td className="py-4 px-4">Multi-country trips</td>
+                  <td className="py-4 px-4 font-semibold text-cyan-300">Rail Pass</td>
+                  <td className="py-4 px-4">2h 16min</td>
+                  <td className="py-4 px-4">Pass + €30-38</td>
+                  <td className="py-4 px-4">Multi-stop Europe trips</td>
                 </tr>
               </tbody>
             </table>
@@ -238,56 +201,10 @@ export default function LondonToParis() {
         </section>
 
         <section className="mb-12">
-          <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
-            <h2 className="text-3xl font-bold text-blue-100 mb-6">Common Questions</h2>
-            
-            <div className="space-y-6">
-              <div>
-                <h3 className="text-xl font-bold text-cyan-300 mb-2">Do I need to book in advance?</h3>
-                <p className="text-blue-200/80 leading-relaxed">
-                  Yes. While you can buy tickets on the day, they're 2-3x more expensive (£120-180 vs £39-59). Book 2-3 months ahead for best prices.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-bold text-cyan-300 mb-2">How early should I arrive?</h3>
-                <p className="text-blue-200/80 leading-relaxed">
-                  Gates close 30 minutes before departure. Arrive 45-60 minutes early to allow time for check-in and security. It's quicker than airports but don't cut it close.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-bold text-cyan-300 mb-2">Can I take luggage?</h3>
-                <p className="text-blue-200/80 leading-relaxed">
-                  Yes. Two large bags plus one small bag allowed. No weight limit. Much better than airlines. Store overhead or at the end of carriages.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-bold text-cyan-300 mb-2">Is there WiFi?</h3>
-                <p className="text-blue-200/80 leading-relaxed">
-                  Yes, free WiFi on all Eurostar trains. It works in the tunnel too. Speed is decent for emails and browsing, less so for streaming.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-bold text-cyan-300 mb-2">What about food?</h3>
-                <p className="text-blue-200/80 leading-relaxed">
-                  Standard class: Buy from Café Métropole bar car (sandwiches £6-8, snacks £2-4). Standard Premier: Light meal included. Business Premier: Full meal with champagne.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="mb-12">
           <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 border border-cyan-400/30 rounded-2xl p-8">
             <h2 className="text-3xl font-bold text-cyan-300 mb-4">Our Recommendation</h2>
-            <p className="text-blue-200/90 text-lg leading-relaxed mb-4">
-              The Eurostar is unbeatable for London to Paris. Book 2-3 months ahead for £39-59 tickets in Standard class. Avoid Friday evenings and Sunday afternoons when prices spike. The train is faster, easier, and more comfortable than flying.
-            </p>
             <p className="text-blue-200/90 text-lg leading-relaxed">
-              If you're doing a wider Europe trip, consider a Eurail/Interrail pass—it can save money vs multiple point-to-point tickets.
+              Eurostar every time—book early on eurostar.com for £39-59 fares. It's faster door-to-door than flying, more relaxing, and you arrive in the heart of Paris.
             </p>
           </div>
         </section>
@@ -295,7 +212,7 @@ export default function LondonToParis() {
         <section className="mb-12">
           <div className="bg-slate-900/50 border border-blue-400/20 rounded-xl p-6">
             <p className="text-xs text-blue-300/60 leading-relaxed">
-              Affiliate Disclosure: Links may earn us a commission at no extra cost to you. We only recommend booking platforms we trust and use ourselves.
+              Affiliate links may earn commission at no cost to you. Prices approximate for Dec 2025—check current rates.
             </p>
           </div>
         </section>
@@ -334,88 +251,3 @@ export default function LondonToParis() {
     </div>
   );
 }
-```
-
----
-
-## 🎯 FIRST 50 EUROPEAN RAIL ROUTES TO CREATE:
-
-**Create these THIS WEEKEND using the template above:**
-
-### **UK Routes (10):**
-1. london-to-paris.js ✅ (template above)
-2. london-to-amsterdam.js
-3. london-to-brussels.js
-4. london-to-edinburgh.js
-5. london-to-manchester.js
-6. london-to-dublin.js (via ferry)
-7. edinburgh-to-london.js
-8. manchester-to-london.js
-9. birmingham-to-london.js
-10. glasgow-to-edinburgh.js
-
-### **France Routes (15):**
-11. paris-to-amsterdam.js
-12. paris-to-brussels.js
-13. paris-to-london.js
-14. paris-to-barcelona.js
-15. paris-to-milan.js
-16. paris-to-geneva.js
-17. paris-to-lyon.js
-18. paris-to-marseille.js
-19. paris-to-nice.js
-20. paris-to-strasbourg.js
-21. lyon-to-paris.js
-22. marseille-to-paris.js
-23. nice-to-paris.js
-24. bordeaux-to-paris.js
-25. toulouse-to-paris.js
-
-### **Netherlands/Belgium Routes (10):**
-26. amsterdam-to-paris.js
-27. amsterdam-to-brussels.js
-28. amsterdam-to-berlin.js
-29. amsterdam-to-london.js
-30. amsterdam-to-cologne.js
-31. brussels-to-paris.js
-32. brussels-to-amsterdam.js
-33. brussels-to-london.js
-34. brussels-to-cologne.js
-35. rotterdam-to-amsterdam.js
-
-### **Germany Routes (10):**
-36. berlin-to-prague.js
-37. berlin-to-amsterdam.js
-38. berlin-to-munich.js
-39. berlin-to-hamburg.js
-40. munich-to-vienna.js
-41. munich-to-zurich.js
-42. cologne-to-brussels.js
-43. frankfurt-to-paris.js
-44. hamburg-to-berlin.js
-45. stuttgart-to-zurich.js
-
-### **Spain/Italy Routes (5):**
-46. barcelona-to-madrid.js
-47. madrid-to-barcelona.js
-48. rome-to-florence.js
-49. rome-to-venice.js
-50. milan-to-rome.js
-
----
-
-## 🚀 HOW TO GENERATE PAGES FAST:
-
-**Use ChatGPT/Claude with this prompt:**
-```
-Using the London to Paris template I provided, create a page for [ORIGIN] to [DESTINATION].
-
-Key details:
-- Main train operator: [NAME]
-- Journey time: [TIME]
-- Typical cost: [PRICE RANGE]
-- Number of daily trains: [NUMBER]
-- Key stops: [IF ANY]
-- Special notes: [HIGH SPEED / NIGHT TRAIN / ETC]
-
-Keep the same structure, just change the specific details.
