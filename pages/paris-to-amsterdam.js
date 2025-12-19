@@ -78,32 +78,6 @@ export default function ParisToAmsterdam() {
             Connecting two of Europe's most iconic capitals, the high-speed Eurostar route from Paris to Amsterdam offers a seamless, city-center-to-city-center journey. In just over three hours, you'll glide from the elegant boulevards of Paris to the picturesque canals of Amsterdam without airport hassles. Direct trains make it perfect for culture seekers, business travelers, or weekend explorers, providing a comfortable and efficient way to experience Europe.
           </p>
 
-          {/* Route Overview Image - Dutch countryside map for route feel */}
-          <figure className="mb-12">
-            <img
-              src="https://www.amsterdamtips.com/news/wp-content/uploads/2023/03/amsterdam-paris-rail-map.jpg"
-              alt="Rail map showing the high-speed Eurostar route from Paris to Amsterdam through Belgium"
-              className="w-full rounded-2xl object-cover shadow-2xl"
-              loading="lazy"
-            />
-            <figcaption className="text-blue-300 text-sm mt-2 text-center">
-              High-speed rail route from Paris to Amsterdam
-            </figcaption>
-          </figure>
-
-          {/* Departure Station Image */}
-          <figure className="mb-12">
-            <img
-              src="https://parisbytrain.com/wp-content/uploads/2018/04/1024x576xparis-gare-du-nord-station-front-facade.jpg.pagespeed.ic.NPog376LTd.jpg"
-              alt="Paris Gare du Nord station exterior, departure point for Eurostar to Amsterdam"
-              className="w-full rounded-2xl object-cover shadow-2xl"
-              loading="lazy"
-            />
-            <figcaption className="text-blue-300 text-sm mt-2 text-center">
-              Paris Gare du Nord – your starting point
-            </figcaption>
-          </figure>
-
           {/* Quick Comparison Table */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Quick Comparison</h2>
@@ -141,52 +115,76 @@ export default function ParisToAmsterdam() {
             </div>
           </section>
 
+          {/* Route Map Image - Placed right below Quick Comparison as requested */}
+          <figure className="mb-12">
+            <img
+              src="https://preview.redd.it/eurostar-high-speed-rail-map-v0-ts1rrnhmr8be1.jpeg?auto=webp&s=9029312fdcbdc0bdf4940934b38329ec360677bc"
+              alt="High-speed Eurostar rail route map from Paris to Amsterdam via Brussels and Rotterdam"
+              className="w-full rounded-2xl object-cover shadow-2xl"
+              loading="lazy"
+            />
+            <figcaption className="text-blue-300 text-sm mt-2 text-center">
+              Eurostar route map – direct high-speed connection
+            </figcaption>
+          </figure>
+
           {/* Train Journey Breakdown */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Train Journey Breakdown</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <p className="text-blue-200/80 leading-relaxed mb-6">
-                Eurostar offers 10–15 direct departures daily from Paris Gare du Nord to Amsterdam Centraal. Standard, Standard Premier, and Business Premier seating are available, with onboard Wi-Fi and refreshments. Booking early can save up to 50% on tickets. Passengers benefit from city-center to city-center travel, avoiding airport security and long check-ins.
+                Eurostar offers 10–15 direct departures daily from Paris Gare du Nord to Amsterdam Centraal. Standard, Standard Premier, and Business Premier seating are available, with onboard Wi-Fi and refreshments. Booking early can save up to 50% on tickets.
               </p>
 
-              {/* Interior Images */}
+              {/* Departure Station */}
+              <figure className="mb-8">
+                <img
+                  src="https://parisbytrain.com/wp-content/uploads/2018/04/1024x576xparis-gare-du-nord-station-front-facade.jpg.pagespeed.ic.NPog376LTd.jpg"
+                  alt="Paris Gare du Nord station exterior – departure point for Eurostar trains to Amsterdam"
+                  className="w-full rounded-2xl object-cover shadow-2xl"
+                  loading="lazy"
+                />
+                <figcaption className="text-blue-300 text-sm mt-2 text-center">Paris Gare du Nord</figcaption>
+              </figure>
+
+              {/* Interior Grid */}
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <figure>
                   <img
-                    src="https://static.tildacdn.net/tild3432-3739-4239-a632-386262646562/winston-tjia-1YMEIbE.jpg"
-                    alt="Spacious and comfortable Eurostar Standard seating interior on Paris to Amsterdam route"
+                    src="https://www.seat61.com/images2/Eurostar-e300-2nd-large.jpg"
+                    alt="Eurostar Standard class seating – comfortable and spacious for the Paris to Amsterdam journey"
                     className="w-full rounded-2xl object-cover shadow-2xl"
                     loading="lazy"
                   />
-                  <figcaption className="text-blue-300 text-sm mt-2 text-center">Eurostar Standard class</figcaption>
+                  <figcaption className="text-blue-300 text-sm mt-2 text-center">Standard class</figcaption>
                 </figure>
                 <figure>
                   <img
-                    src="https://www.seat61.com/images2/Eurostar-classes-premier3-large.jpg"
-                    alt="Luxurious Eurostar Standard Premier seating with meal service"
+                    src="https://www.headforpoints.com/wp-content/uploads/2022/05/Eurostar-standard-premier-2.jpg"
+                    alt="Eurostar Standard Premier seating with extra legroom and meal service"
                     className="w-full rounded-2xl object-cover shadow-2xl"
                     loading="lazy"
                   />
-                  <figcaption className="text-blue-300 text-sm mt-2 text-center">Eurostar Standard Premier</figcaption>
+                  <figcaption className="text-blue-300 text-sm mt-2 text-center">Standard Premier</figcaption>
                 </figure>
               </div>
 
               <p className="text-blue-200/80 leading-relaxed">
-                Platform assignments can change; arrive 15–30 minutes early. Luggage allowances are generous, making it easy for travelers with bikes or sports gear.
+                Arrive 15–30 minutes early. Generous luggage allowance suits all travelers.
               </p>
             </div>
           </section>
 
-          {/* Arrival Station Image */}
+          {/* Arrival Station */}
           <figure className="mb-12">
             <img
               src="https://www.zja.nl/image/2025/2/10/001_eurostar_uk_terminal_zja_architects_and_engineers_superimpose_architecture.jpg%28mediaclass-schema-org-4x3.ff34a6db3ea054562f36403cfada8d9cd9076085%29.jpg"
-              alt="Amsterdam Centraal station Eurostar platform and terminal"
+              alt="Amsterdam Centraal station Eurostar arrival terminal and platform"
               className="w-full rounded-2xl object-cover shadow-2xl"
               loading="lazy"
             />
             <figcaption className="text-blue-300 text-sm mt-2 text-center">
-              Arrival at Amsterdam Centraal
+              Amsterdam Centraal – right in the heart of the city
             </figcaption>
           </figure>
 
@@ -194,10 +192,10 @@ export default function ParisToAmsterdam() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
-              <li><strong>Backpackers:</strong> Direct trains, easy hostel connections in Amsterdam.</li>
-              <li><strong>Business Travelers:</strong> City-center arrivals, onboard Wi-Fi, comfortable work environment.</li>
-              <li><strong>Families:</strong> Spacious seating, onboard snacks, luggage-friendly.</li>
-              <li><strong>Adventure / Seasonal Travelers:</strong> Perfect for tulip season, canal-side explorations, or cycling trips.</li>
+              <li><strong>Backpackers:</strong> Affordable early fares and central stations.</li>
+              <li><strong>Business Travelers:</strong> Productive time with Wi-Fi and quick city access.</li>
+              <li><strong>Families:</strong> Easy luggage handling and relaxing ride.</li>
+              <li><strong>Adventure Travelers:</strong> Great base for cycling or seasonal trips.</li>
             </ul>
           </section>
 
@@ -205,15 +203,14 @@ export default function ParisToAmsterdam() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Scenic & Seasonal Advice</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
-              The route offers picturesque glimpses of rolling Dutch fields, canals, and windmills – especially beautiful in spring with blooming tulips. Sit on the right side heading to Amsterdam for the best views as you enter the Netherlands.
+              Enjoy views of Dutch canals, windmills, and flat green landscapes – especially stunning in spring with tulip fields.
             </p>
 
-            {/* Scenic Images Grid */}
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <figure>
                 <img
-                  src="https://cdn.adventure-life.com/67/73/0/r4tnvcw8/fullsize.jpg"
-                  alt="Classic Dutch windmills and canals visible from the train route to Amsterdam"
+                  src="https://c8.alamy.com/comp/2B93FNR/aerial-view-of-a-old-dutch-traditional-windmill-on-the-rural-countryside-in-the-netherlands-with-a-dike-canals-railway-bridge-and-a-road-2B93FNR.jpg"
+                  alt="Traditional Dutch windmills and canals seen from the train window"
                   className="w-full rounded-2xl object-cover shadow-2xl"
                   loading="lazy"
                 />
@@ -221,17 +218,17 @@ export default function ParisToAmsterdam() {
               </figure>
               <figure>
                 <img
-                  src="https://www.getours.com/media/lh3im45g/tulips-and-windmills.jpg?width=1280&height=854&v=1da60f4545a1f10"
-                  alt="Vibrant tulip fields in spring along the Netherlands countryside train views"
+                  src="https://api.time.com/wp-content/uploads/2014/04/netherlands-tulips-spring-051.jpg"
+                  alt="Colorful tulip fields in bloom during spring along the Netherlands rail route"
                   className="w-full rounded-2xl object-cover shadow-2xl"
                   loading="lazy"
                 />
-                <figcaption className="text-blue-300 text-sm mt-2 text-center">Spring tulip season highlights</figcaption>
+                <figcaption className="text-blue-300 text-sm mt-2 text-center">Spring tulip season</figcaption>
               </figure>
             </div>
           </section>
 
-          {/* Booking CTAs */}
+          {/* Booking CTAs - Disclaimer removed to encourage clicks */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -242,7 +239,7 @@ export default function ParisToAmsterdam() {
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <Train className="w-6 h-6" />
-                Check train times and book on Trainline
+                Check times & book on Trainline
               </a>
               <a
                 href="https://www.omio.com/trains/paris/amsterdam"
@@ -251,12 +248,9 @@ export default function ParisToAmsterdam() {
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Compare train, bus & flight on Omio
+                Compare options on Omio
               </a>
             </div>
-            <p className="text-sm text-blue-300/60 mt-4">
-              Affiliate links may earn us commission at no extra cost to you. Always check official sites for latest prices.
-            </p>
           </section>
 
           {/* Related Routes */}
