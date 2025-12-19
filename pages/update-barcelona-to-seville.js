@@ -60,20 +60,8 @@ export default function BarcelonaToSeville() {
         </h1>
 
         <p className="text-xl text-blue-200/80 leading-relaxed mb-12">
-          Direct high-speed connection across Spain—from vibrant Catalonia to historic Andalusia, with operators Renfe AVE and iryo.
+          Long-distance high-speed connection across Spain—from Catalonia to Andalusia, direct trains with multiple operators.
         </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12"><grok:render card_id="9c4452" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="46e4ff" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="56951c" card_type="image_card" type="render_searched_image"></grok:render>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12"><grok:render card_id="48592f" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="cf7c47" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="293591" card_type="image_card" type="render_searched_image"></grok:render>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12"><grok:render card_id="8e3e58" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="9334ba" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="2c58bf" card_type="image_card" type="render_searched_image"></grok:render>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12"><grok:render card_id="29ca25" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="9d73cd" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="e61a75" card_type="image_card" type="render_searched_image"></grok:render>
-        </div>
 
         <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 border border-cyan-400/30 rounded-2xl p-6 mb-12">
           <div className="flex items-start gap-4">
@@ -81,7 +69,7 @@ export default function BarcelonaToSeville() {
             <div>
               <h3 className="text-xl font-bold text-cyan-300 mb-2">Quick Summary</h3>
               <p className="text-blue-200/90 leading-relaxed">
-                Direct high-speed trains (Renfe AVE & iryo): ~5h 30min, from €30 one-way if booked early (up to €180 last-minute). 6-8 departures daily. Book on renfe.com or iryo.eu.
+                Direct high-speed trains (AVE, iryo): ~5h 30min, from €30 one-way if booked early (up to €180+ last-minute). Around 6-8 departures daily. Book on renfe.com or iryo.eu.
               </p>
             </div>
           </div>
@@ -118,31 +106,31 @@ export default function BarcelonaToSeville() {
             </div>
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
-              <p>Direct services by Renfe AVE and iryo. High-speed (up to 310 km/h), route passes through Madrid (direction change, no platform change). Wi-Fi, power sockets, cafe-bar on board.</p>
+              <p>Direct high-speed services operated by Renfe AVE and iryo. Cross Spain at up to 310 km/h, passing Madrid (change of direction but no platform change). Wi-Fi, power sockets, cafe-bar.</p>
 
               <p className="font-semibold text-cyan-300">Classes & Prices (current 2026 prices):</p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Economy/Básico: €30-90 (early fares)</li>
-                <li>Standard: €40-120</li>
-                <li>Premium/Preferente/Infinita: €100-180+ (meals, lounge access)</li>
+                <li>Básico/iryo Básico: €30-90 (early fares)</li>
+                <li>Standard AVE: €40-120</li>
+                <li>Premium/Preferente: €100-180+ (meals, lounge)</li>
               </ul>
 
-              <p>Book early for lowest fares—competition keeps prices competitive.</p>
+              <p>Book early for lowest fares—competition between operators keeps prices reasonable.</p>
 
               <div className="bg-slate-900/50 border border-cyan-400/30 rounded-xl p-4">
                 <p className="text-sm text-cyan-300 font-semibold mb-2">💡 Tips:</p>
                 <ul className="text-sm space-y-2">
                   <li>Compare renfe.com and iryo.eu</li>
-                  <li>Morning departures often cheaper</li>
+                  <li>Morning trains often cheaper</li>
                   <li>Arrive 20-30 min early</li>
-                  <li>Free local connections often included</li>
+                  <li>Free Cercanías connection included on many tickets</li>
                 </ul>
               </div>
             </div>
 
             <div className="mt-8">
-              <a href="https://www.thetrainline.com/en/train-times/barcelona-to-seville" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
-                Compare & Book Tickets
+              <a href="https://www.renfe.com/es/en" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
+                Book on Renfe.com
                 <Train className="w-5 h-5" />
               </a>
             </div>
@@ -163,7 +151,7 @@ export default function BarcelonaToSeville() {
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
               <p>Eurail (non-EU) or Interrail (EU residents) passes valid on AVE and iryo. Reservation mandatory (€15-30).</p>
-              <p>Limited seats—book well in advance for this popular route.</p>
+              <p>Limited seats for passholders—book well in advance.</p>
             </div>
 
             <div className="mt-8">
@@ -192,13 +180,13 @@ export default function BarcelonaToSeville() {
                   <td className="py-4 px-4 font-semibold text-cyan-300">High-Speed Train</td>
                   <td className="py-4 px-4">~5h 30min</td>
                   <td className="py-4 px-4">€30-180</td>
-                  <td className="py-4 px-4">Direct comfort</td>
+                  <td className="py-4 px-4">Comfort & direct</td>
                 </tr>
                 <tr className="border-b border-blue-400/10">
                   <td className="py-4 px-4 font-semibold text-cyan-300">Flying</td>
                   <td className="py-4 px-4">~4-5h total</td>
                   <td className="py-4 px-4">€50-150</td>
-                  <td className="py-4 px-4">Similar with airports</td>
+                  <td className="py-4 px-4">Similar time with airports</td>
                 </tr>
                 <tr>
                   <td className="py-4 px-4 font-semibold text-cyan-300">Rail Pass</td>
@@ -215,7 +203,7 @@ export default function BarcelonaToSeville() {
           <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 border border-cyan-400/30 rounded-2xl p-8">
             <h2 className="text-3xl font-bold text-cyan-300 mb-4">Our Recommendation</h2>
             <p className="text-blue-200/90 text-lg leading-relaxed">
-              Direct high-speed train—book early on Trainline or operators for €30+ fares. Relaxing, no transfers, and scenic Spanish views make it the best way to travel between these iconic cities.
+              Direct high-speed train—book early across AVE and iryo for €30+ fares. Relaxing journey with no airport hassle, perfect for enjoying the Spanish landscape.
             </p>
           </div>
         </section>
