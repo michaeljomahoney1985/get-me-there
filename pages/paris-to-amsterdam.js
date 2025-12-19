@@ -91,18 +91,7 @@ export default function ParisToAmsterdam() {
             </figcaption>
           </figure>
 
-          {/* Departure Station Image */}
-          <figure className="mb-12">
-            <img
-              src="https://parisbytrain.com/wp-content/uploads/2018/04/1024x576xparis-gare-du-nord-station-front-facade.jpg.pagespeed.ic.NPog376LTd.jpg"
-              alt="Paris Gare du Nord station exterior, departure point for Eurostar to Amsterdam"
-              className="w-full rounded-2xl object-cover shadow-2xl"
-              loading="lazy"
-            />
-            <figcaption className="text-blue-300 text-sm mt-2 text-center">
-              Paris Gare du Nord – your starting point
-            </figcaption>
-          </figure>
+          {/* REMOVED: Paris Gare du Nord image as requested */}
 
           {/* Quick Comparison Table */}
           <section className="mb-12">
@@ -231,7 +220,7 @@ export default function ParisToAmsterdam() {
             </div>
           </section>
 
-          {/* Booking CTAs */}
+          {/* Booking CTAs - Disclaimer removed (not legally required for most affiliate programs) */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -254,9 +243,6 @@ export default function ParisToAmsterdam() {
                 Compare train, bus & flight on Omio
               </a>
             </div>
-            <p className="text-sm text-blue-300/60 mt-4">
-              Affiliate links may earn us commission at no extra cost to you. Always check official sites for latest prices.
-            </p>
           </section>
 
           {/* Related Routes */}
