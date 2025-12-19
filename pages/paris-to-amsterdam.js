@@ -2,47 +2,68 @@ import React from 'react';
 import { Mountain, Train, CheckCircle, Star } from 'lucide-react';
 import Head from 'next/head';
 
-export default function ParisToAmsterdam() {
+export default function LondonToEdinburgh() {
   return (
     <>
       <Head>
-        <title>Paris to Amsterdam by Train: Time, Cost & Travel Guide (2026)</title>
+        <title>London to Edinburgh by Train: Time, Cost & Travel Guide (2026)</title>
         <meta
           name="description"
-          content="Book Paris to Amsterdam train tickets from €35 with Eurostar. Discover 2026 schedules, cheap fares, direct city-center travel tips, luggage rules, and why the train beats flying."
+          content="Book London to Edinburgh train tickets from £40 with LNER. Discover 2026 schedules, cheap fares, direct city-center travel tips, scenic East Coast route, and why the train beats flying."
         />
-        <meta property="og:title" content="Paris to Amsterdam by Train: Time, Cost & Travel Guide (2026)" />
-        <meta property="og:description" content="Direct Eurostar from Paris to Amsterdam in 3h20m – cheap tickets, schedules, tips & FAQs." />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1519671482749-fd9c4aea589a?auto=format&fit=crop&w=1200&q=80" />
-        <meta property="og:url" content="https://www.get-me-there.com/paris-to-amsterdam" />
+        {/* Open Graph / Social Tags */}
+        <meta property="og:title" content="London to Edinburgh by Train: Time, Cost & Travel Guide (2026)" />
+        <meta property="og:description" content="Direct LNER Azuma from London to Edinburgh in 4h20m – cheap tickets, schedules, tips & FAQs." />
+        <meta property="og:url" content="https://www.get-me-there.com/london-to-edinburgh" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Paris to Amsterdam by Train: Time, Cost & Travel Guide (2026)" />
-        <meta name="twitter:description" content="Direct Eurostar from Paris to Amsterdam in 3h20m – cheap tickets, schedules, tips & FAQs." />
-        <meta name="twitter:image" content="https://images.unsplash.com/photo-1519671482749-fd9c4aea589a?auto=format&fit=crop&w=1200&q=80" />
+        <meta name="twitter:title" content="London to Edinburgh by Train: Time, Cost & Travel Guide (2026)" />
+        <meta name="twitter:description" content="Direct LNER Azuma from London to Edinburgh in 4h20m – cheap tickets, schedules, tips & FAQs." />
 
+        {/* FAQ Structured Data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
-              { "@type": "Question", name: "How long does the Eurostar train from Paris to Amsterdam take?", acceptedAnswer: { "@type": "Answer", text: "The direct Eurostar journey takes exactly 3 hours 20 minutes." } },
-              { "@type": "Question", name: "Do I need a passport or ID for the Paris to Amsterdam train?", acceptedAnswer: { "@type": "Answer", text: "No passport control – both countries are in Schengen. Bring ID for possible spot checks." } },
-              { "@type": "Question", name: "Can I bring luggage or a bike on Eurostar?", acceptedAnswer: { "@type": "Answer", text: "Generous allowance: 2 large bags + hand luggage (no weight limit). Folding bikes OK if under 85cm; full bikes currently not allowed on this route." } },
-              { "@type": "Question", name: "When is the best time to book cheap Eurostar tickets?", acceptedAnswer: { "@type": "Answer", text: "Book 4–6 months ahead for €35 fares. Midweek and off-peak are cheapest." } },
-              { "@type": "Question", name: "Which side of the train has the best views from Paris to Amsterdam?", acceptedAnswer: { "@type": "Answer", text: "Sit on the right side (facing forward) for the best Dutch countryside, canals, and windmills as you approach Amsterdam." } }
+              {
+                "@type": "Question",
+                name: "How long does the train from London to Edinburgh take?",
+                acceptedAnswer: { "@type": "Answer", text: "Direct LNER services take as little as 4 hours 20 minutes." }
+              },
+              {
+                "@type": "Question",
+                name: "Do I need ID for the London to Edinburgh train?",
+                acceptedAnswer: { "@type": "Answer", text: "No passport or ID checks – domestic UK route." }
+              },
+              {
+                "@type": "Question",
+                name: "Can I bring luggage or a bike on LNER?",
+                acceptedAnswer: { "@type": "Answer", text: "Generous allowance: 2 large bags + hand luggage (no weight limit). Bikes require reservation (free, limited spaces)." }
+              },
+              {
+                "@type": "Question",
+                name: "When is the best time to book cheap tickets?",
+                acceptedAnswer: { "@type": "Answer", text: "Book 8–12 weeks ahead for £40–60 Advance fares. Off-peak and midweek cheapest." }
+              },
+              {
+                "@type": "Question",
+                name: "Which side of the train has the best views from London to Edinburgh?",
+                acceptedAnswer: { "@type": "Answer", text: "Right side (facing forward) for dramatic North Sea coast views between Newcastle and Edinburgh." }
+              }
             ]
           })}
         </script>
 
+        {/* Breadcrumb Structured Data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
               { "@type": "ListItem", position: 1, name: "Home", item: "https://www.get-me-there.com/" },
-              { "@type": "ListItem", position: 2, name: "Europe", item: "https://www.get-me-there.com/europe" },
-              { "@type": "ListItem", position: 3, name: "Paris to Amsterdam by Train", item: "https://www.get-me-there.com/paris-to-amsterdam" }
+              { "@type": "ListItem", position: 2, name: "UK", item: "https://www.get-me-there.com/uk" },
+              { "@type": "ListItem", position: 3, name: "London to Edinburgh by Train", item: "https://www.get-me-there.com/london-to-edinburgh" }
             ]
           })}
         </script>
@@ -58,7 +79,12 @@ export default function ParisToAmsterdam() {
                 <stop offset="100%" stopColor="#3b82f6" stopOpacity="0.6" />
               </linearGradient>
             </defs>
-            <path d="M0,400 L0,180 L200,140 L350,200 L500,80 L650,160 L800,100 L950,180 L1200,120 L1200,400 Z" fill="url(#train-gradient)" className="animate-pulse" style={{ animationDuration: '8s' }} />
+            <path
+              d="M0,400 L0,180 L200,140 L350,200 L500,80 L650,160 L800,100 L950,180 L1200,120 L1200,400 Z"
+              fill="url(#train-gradient)"
+              className="animate-pulse"
+              style={{ animationDuration: '8s' }}
+            />
           </svg>
         </div>
 
@@ -69,7 +95,9 @@ export default function ParisToAmsterdam() {
               <a href="/" className="flex items-center gap-3 group">
                 <Mountain className="w-10 h-10 text-cyan-400 group-hover:text-cyan-300 transition-all" />
                 <div>
-                  <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-cyan-300 via-blue-400 to-indigo-400 bg-clip-text text-transparent">Get Me There</h1>
+                  <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-cyan-300 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
+                    Get Me There
+                  </h1>
                   <p className="text-sm text-blue-300/70">Find your perfect route</p>
                 </div>
               </a>
@@ -87,28 +115,24 @@ export default function ParisToAmsterdam() {
           <div className="flex items-center gap-3 text-cyan-400 text-sm mb-4">
             <a href="/" className="hover:text-cyan-300">Home</a>
             <span>→</span>
-            <a href="/europe" className="hover:text-cyan-300">Europe</a>
+            <a href="/uk" className="hover:text-cyan-300">UK</a>
             <span>→</span>
-            <span className="text-blue-300">Paris to Amsterdam</span>
+            <span className="text-blue-300">London to Edinburgh</span>
           </div>
 
           {/* H1 */}
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            <span className="bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300 bg-clip-text text-transparent">Paris to Amsterdam by Train:</span>
+            <span className="bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
+              London to Edinburgh by Train:
+            </span>
             <br />
             <span className="text-blue-100">Time, Cost & Travel Guide (2026)</span>
           </h1>
 
           {/* Intro */}
           <p className="text-xl text-blue-200/80 leading-relaxed mb-12">
-            Connecting two of Europe's most iconic capitals, the high-speed Eurostar route from Paris to Amsterdam offers a seamless, city-center-to-city-center journey. In just over three hours, you'll glide from the elegant boulevards of Paris to the picturesque canals of Amsterdam without airport hassles. Direct trains make it perfect for culture seekers, business travelers, or weekend explorers, providing a comfortable and efficient way to experience Europe.
+            The classic East Coast Main Line route connects London King's Cross to Edinburgh Waverley in around 4½ hours on modern LNER Azuma trains. One of Britain's most scenic journeys with dramatic North Sea coast views, it's far more relaxing than flying—perfect for history buffs, festival-goers, or Highland adventures.
           </p>
-
-          {/* Route Overview Image */}
-          <figure className="mb-12">
-            <img src="https://images.unsplash.com/photo-1519671482749-fd9c4aea589a?auto=format&fit=crop&w=1200&q=80" alt="Rail route map from Paris to Amsterdam" className="w-full rounded-2xl object-cover shadow-2xl" loading="lazy" />
-            <figcaption className="text-blue-300 text-sm mt-2 text-center">High-speed rail route from Paris to Amsterdam</figcaption>
-          </figure>
 
           {/* Quick Comparison Table */}
           <section className="mb-12">
@@ -125,33 +149,33 @@ export default function ParisToAmsterdam() {
                 </thead>
                 <tbody className="text-blue-200/80">
                   <tr className="border-b border-blue-400/10">
-                    <td className="py-4 px-4 font-semibold text-cyan-300">Train (Eurostar direct)</td>
-                    <td className="py-4 px-4">3h 20min</td>
-                    <td className="py-4 px-4">€35–200+</td>
-                    <td className="py-4 px-4">Everyone—fast, direct, city-center arrivals, no security queues</td>
+                    <td className="py-4 px-4 font-semibold text-cyan-300">Train (LNER direct)</td>
+                    <td className="py-4 px-4">4h 20min</td>
+                    <td className="py-4 px-4">£40–150+</td>
+                    <td className="py-4 px-4">Everyone—scenic, city-center, relaxing</td>
                   </tr>
                   <tr className="border-b border-blue-400/10">
-                    <td className="py-4 px-4 font-semibold text-cyan-300">Bus (FlixBus/BlaBlaCar)</td>
-                    <td className="py-4 px-4">6–8h</td>
-                    <td className="py-4 px-4">€20–70</td>
-                    <td className="py-4 px-4">Budget travelers; overnight saves accommodation</td>
+                    <td className="py-4 px-4 font-semibold text-cyan-300">Bus (Megabus/National Express)</td>
+                    <td className="py-4 px-4">8–10h</td>
+                    <td className="py-4 px-4">£15–50</td>
+                    <td className="py-4 px-4">Ultra-budget; overnight options</td>
                   </tr>
                   <tr>
                     <td className="py-4 px-4 font-semibold text-cyan-300">Flight</td>
                     <td className="py-4 px-4">4–6h door-to-door</td>
-                    <td className="py-4 px-4">€50–200</td>
-                    <td className="py-4 px-4">Rarely—airports add stress and time</td>
+                    <td className="py-4 px-4">£50–200</td>
+                    <td className="py-4 px-4">Rarely—airports far from centers</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </section>
 
-          {/* Eurostar Paris to Amsterdam Schedule */}
+          {/* LNER London to Edinburgh Schedule */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-blue-100 mb-6">Eurostar Paris to Amsterdam Schedule</h2>
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">LNER London to Edinburgh Schedule</h2>
             <p className="text-blue-200/80 leading-relaxed">
-              Eurostar runs 10–15 direct trains daily from Paris Gare du Nord to Amsterdam Centraal. First departure around 6–7am, last around 8–9pm. Journey time is consistently 3 hours 20 minutes – perfect city-center to city-center train travel without changes.
+              Hourly direct departures from London King's Cross to Edinburgh Waverley. First trains ~5:30am, last ~7pm. Fastest ~4h20m, average 4h30m.
             </p>
           </section>
 
@@ -159,18 +183,18 @@ export default function ParisToAmsterdam() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Ticket Prices & Discounts</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
-              Cheap train tickets from Paris to Amsterdam start at €35 one-way when booked early (4–6 months ahead). Standard fares range €35–130, Premier €90–220+. Last-minute can hit €200+. Look for flash sales and midweek/off-peak for the best deals on Eurostar tickets.
+              Advance tickets from £40–80 one-way when booked early. Standard Anytime £150+. Railcards save 1/3. Book 8–12 weeks ahead for best deals.
             </p>
           </section>
 
           {/* Travel Tips for First-Time Passengers */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Travel Tips for First-Time Passengers</h2>
-            <ul className="list-disc list-inside text-blue-200/80 space-y-2">
-              <li>Arrive 20–30 minutes early – no heavy security like UK routes.</li>
-              <li>No passport control (Schengen zone), but carry ID.</li>
-              <li>Free Wi-Fi and power sockets onboard.</li>
-              <li>Generous luggage – great for shopping trips!</li>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-3">
+              <li>No ID checks – domestic UK travel.</li>
+              <li>Reserve seats (free) for window views.</li>
+              <li>First Class includes complimentary food/drinks on weekdays.</li>
+              <li>Generous luggage – no weight limits.</li>
             </ul>
           </section>
 
@@ -179,22 +203,11 @@ export default function ParisToAmsterdam() {
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Train Journey Breakdown</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <p className="text-blue-200/80 leading-relaxed mb-6">
-                Eurostar offers 10–15 direct departures daily from Paris Gare du Nord to Amsterdam Centraal. Standard, Standard Premier, and Business Premier seating are available, with onboard Wi-Fi and refreshments. Booking early can save up to 50% on tickets. Passengers benefit from city-center to city-center travel, avoiding airport security and long check-ins.
+                Modern LNER Azuma trains (up to 125mph) run the scenic East Coast route: past York Minster, Durham Cathedral, Newcastle, then dramatic North Sea coast to Edinburgh.
               </p>
 
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                <figure>
-                  <img src="https://images.unsplash.com/photo-1589985785297-2f9d4b2eb6d0?auto=format&fit=crop&w=1200&q=80" alt="Eurostar Standard class interior" className="w-full rounded-2xl object-cover shadow-2xl" loading="lazy" />
-                  <figcaption className="text-blue-300 text-sm mt-2 text-center">Standard class</figcaption>
-                </figure>
-                <figure>
-                  <img src="https://images.unsplash.com/photo-1603987241969-32e3d7d3b4f2?auto=format&fit=crop&w=1200&q=80" alt="Eurostar Premier class interior" className="w-full rounded-2xl object-cover shadow-2xl" loading="lazy" />
-                  <figcaption className="text-blue-300 text-sm mt-2 text-center">Premier class</figcaption>
-                </figure>
-              </div>
-
               <p className="text-blue-200/80 leading-relaxed">
-                Platform assignments can change; arrive 15–30 minutes early. Luggage allowances are generous, making it easy for travelers with bikes or sports gear.
+                Wi-Fi, power sockets, café bar. Quiet coach available.
               </p>
             </div>
           </section>
@@ -203,10 +216,10 @@ export default function ParisToAmsterdam() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
-              <li><strong>Backpackers:</strong> Direct trains, easy hostel connections in Amsterdam.</li>
-              <li><strong>Business Travelers:</strong> City-center arrivals, onboard Wi-Fi, comfortable work environment.</li>
-              <li><strong>Families:</strong> Spacious seating, onboard snacks, luggage-friendly.</li>
-              <li><strong>Adventure / Seasonal Travelers:</strong> Perfect for tulip season, canal-side explorations, or cycling trips.</li>
+              <li><strong>Scenic Seekers:</strong> One of UK's most beautiful rail journeys.</li>
+              <li><strong>Festival-Goers:</strong> Direct to Edinburgh Fringe in August.</li>
+              <li><strong>Families:</strong> Spacious, no airport hassles.</li>
+              <li><strong>Business/Leisure:</strong> Productive time with First Class perks.</li>
             </ul>
           </section>
 
@@ -214,44 +227,116 @@ export default function ParisToAmsterdam() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Scenic & Seasonal Advice</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
-              The route offers picturesque glimpses of rolling Dutch fields, canals, and windmills – especially beautiful in spring with blooming tulips.
+              Stunning coastal section north of Newcastle with dramatic sea views. Spring/autumn best for clear skies; winter atmospheric, summer vibrant green.
             </p>
             <p className="text-blue-200/80 leading-relaxed mb-8">
-              Sit on the right side (facing forward) for the best views as you approach Amsterdam.
+              Sit on the right side (facing forward) for the best North Sea coast views.
             </p>
           </section>
 
-          {/* Highlights Along the Way */}
+          {/* FAQ Section */}
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-blue-100 mb-8">Highlights Along the Way</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <figure>
-                <img src="https://images.unsplash.com/photo-1517736996303-4e4f7e9c8d5e?auto=format&fit=crop&w=1200&q=80" alt="Iconic Amsterdam canals" className="w-full rounded-2xl object-cover shadow-2xl" loading="lazy" />
-                <figcaption className="text-blue-300 text-sm mt-2 text-center">Amsterdam canals</figcaption>
-              </figure>
-              <figure>
-                <img src="https://images.unsplash.com/photo-1587560699531-2d6a0f0d6a4d?auto=format&fit=crop&w=1200&q=80" alt="Dutch countryside with windmills" className="w-full rounded-2xl object-cover shadow-2xl" loading="lazy" />
-                <figcaption className="text-blue-300 text-sm mt-2 text-center">Dutch countryside</figcaption>
-              </figure>
-            </div>
-          </section>
-
-          {/* FAQs */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs About Paris to Amsterdam Train</h2>
+            <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs About London to Edinburgh Train</h2>
             <div className="space-y-6">
               <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">How long does the Eurostar train from Paris to Amsterdam take?</summary>
-                <p className="mt-4 text-blue-200/80">The direct journey is exactly 3 hours 20 minutes – city center to city center.</p>
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">How long does the train from London to Edinburgh take?</summary>
+                <p className="mt-4 text-blue-200/80">As little as 4 hours 20 minutes on fastest LNER services.</p>
               </details>
-              {/* Other FAQs... */}
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Do I need ID?</summary>
+                <p className="mt-4 text-blue-200/80">No – domestic UK route.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Can I bring luggage or a bike?</summary>
+                <p className="mt-4 text-blue-200/80">2 large bags + hand luggage free. Bikes require free reservation.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Best time to book cheap fares?</summary>
+                <p className="mt-4 text-blue-200/80">8–12 weeks ahead for £40–60 Advance tickets.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Which side has the best views?</summary>
+                <p className="mt-4 text-blue-200/80">Right side for dramatic North Sea coast.</p>
+              </details>
             </div>
           </section>
 
-          {/* Booking CTAs and rest unchanged */}
+          {/* Booking CTAs */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <a
+                href="https://www.thetrainline.com/en-us/train-times/london-to-edinburgh"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                <Train className="w-6 h-6" />
+                Check train times and book on Trainline
+              </a>
+              <a
+                href="https://www.omio.com/trains/london/edinburgh"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                <CheckCircle className="w-6 h-6" />
+                Compare train, bus & flight on Omio
+              </a>
+            </div>
+          </section>
+
+          {/* Eurail/Interrail Pass Section */}
+          <section className="mb-12">
+            <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="p-3 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-xl">
+                  <Star className="w-8 h-8 text-cyan-400" />
+                </div>
+                <div>
+                  <h2 className="text-3xl font-bold text-blue-100">Eurail/Interrail Pass</h2>
+                  <p className="text-cyan-300 text-sm">For wider UK trips</p>
+                </div>
+              </div>
+
+              <div className="space-y-4 text-blue-200/80 leading-relaxed">
+                <p>Britrail (non-UK) or Interrail (UK residents possible with restrictions) passes valid on LNER with seat reservation (free but required).</p>
+                <p>Limited passholder seats—book early. Best for multi-trip UK itineraries.</p>
+              </div>
+
+              <div className="mt-8">
+                <a
+                  href="https://www.eurail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300"
+                >
+                  Explore Rail Passes
+                  <Star className="w-5 h-5" />
+                </a>
+              </div>
+            </div>
+          </section>
+
+          {/* Related Routes */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-2">
+              <li><a href="/london-to-glasgow" className="text-cyan-300 hover:text-cyan-400">London to Glasgow by train</a></li>
+              <li><a href="/edinburgh-to-inverness" className="text-cyan-300 hover:text-cyan-400">Edinburgh to Inverness scenic route</a></li>
+              <li><a href="/london-to-york" className="text-cyan-300 hover:text-cyan-400">London to York train</a></li>
+            </ul>
+          </section>
         </main>
 
         {/* Footer */}
+        <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div className="text-center text-sm text-blue-300/50 pt-8 border-t border-blue-400/10">
+              © 2026 Get Me There. All rights reserved.
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   );
