@@ -1,253 +1,114 @@
-import React from 'react';
-import { Mountain, Train, Clock, DollarSign, CheckCircle, AlertCircle, Star } from 'lucide-react';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris to Amsterdam by Train: Time, Cost & Travel Guide</title>
+    <meta name="description" content="Travel from Paris to Amsterdam by train in just over 3 hours with Eurostar. Discover times, costs from €35, direct routes, and why it's the best option over flying or bus.">
+    <!-- Add any additional SEO meta tags, styles, or schema as needed -->
+    <style>
+        .responsive { width: 100%; height: auto; }
+    </style>
+</head>
+<body>
 
-export default function ParisToAmsterdam() {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white">
-      <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-20">
-        <svg className="absolute bottom-0 w-full h-96" viewBox="0 0 1200 400" preserveAspectRatio="none">
-          <defs>
-            <linearGradient id="train-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" stopColor="#60a5fa" stopOpacity="0.3" />
-              <stop offset="100%" stopColor="#3b82f6" stopOpacity="0.6" />
-            </linearGradient>
-          </defs>
-          <path
-            d="M0,400 L0,180 L200,140 L350,200 L500,80 L650,160 L800,100 L950,180 L1200,120 L1200,400 Z"
-            fill="url(#train-gradient)"
-            className="animate-pulse"
-            style={{ animationDuration: '8s' }}
-          />
-        </svg>
-      </div>
+<h1>Paris to Amsterdam by Train: Time, Cost & Travel Guide</h1>
 
-      <header className="relative border-b border-blue-400/20 backdrop-blur-sm bg-slate-900/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex items-center justify-between">
-            <a href="/" className="flex items-center gap-3 group">
-              <Mountain className="w-10 h-10 text-cyan-400 group-hover:text-cyan-300 transition-all" />
-              <div>
-                <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-cyan-300 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
-                  Get Me There
-                </h1>
-                <p className="text-sm text-blue-300/70">Find your perfect route</p>
-              </div>
-            </a>
-            <nav className="hidden md:flex gap-8 text-sm">
-              <a href="/" className="text-blue-200 hover:text-cyan-300 transition-colors">Home</a>
-              <a href="/about" className="text-blue-200 hover:text-cyan-300 transition-colors">About</a>
-              <a href="/contact" className="text-blue-200 hover:text-cyan-300 transition-colors">Contact</a>
-            </nav>
-          </div>
-        </div>
-      </header>
+<p>Connecting two of Europe's most iconic capitals, the high-speed **Eurostar** route from Paris to Amsterdam offers a seamless, city-center-to-city-center journey across northern France, Belgium, and into the Netherlands. In just over three hours, you'll transition from the elegant boulevards of Paris to the picturesque canals of Amsterdam without the hassles of airport security or long transfers. Whether you're chasing art and culture, cycling along waterways, or simply enjoying a quick getaway, this route delivers convenience, comfort, and a relaxed travel experience that's hard to beat.</p>
 
-      <main className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="flex items-center gap-3 text-cyan-400 text-sm mb-4">
-          <a href="/" className="hover:text-cyan-300">Home</a>
-          <span>→</span>
-          <a href="/europe" className="hover:text-cyan-300">Europe</a>
-          <span>→</span>
-          <span className="text-blue-300">Paris to Amsterdam</span>
-        </div>
+<p>This direct service, with multiple departures daily, makes it easy to plan spontaneous trips or longer European adventures. Arrive rested and ready to explore—no jet lag, no baggage claim delays.</p>
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-          <span className="bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
-            Paris to Amsterdam:
-          </span>
-          <br />
-          <span className="text-blue-100">Eurostar Guide (December 2025)</span>
-        </h1>
+<img src="[INSERT_ROUTE_IMAGE]" alt="High-speed Eurostar train from Paris to Amsterdam passing through scenic Dutch countryside with windmills and canals" class="responsive">
 
-        <p className="text-xl text-blue-200/80 leading-relaxed mb-12">
-          High-speed Eurostar (former Thalys) from Paris Gare du Nord to Amsterdam Centraal—city centre to city centre in just over 3 hours.
-        </p>
+<h2>Quick Comparison Table</h2>
 
-        <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 border border-cyan-400/30 rounded-2xl p-6 mb-12">
-          <div className="flex items-start gap-4">
-            <CheckCircle className="w-6 h-6 text-cyan-400 flex-shrink-0 mt-1" />
-            <div>
-              <h3 className="text-xl font-bold text-cyan-300 mb-2">Quick Summary</h3>
-              <p className="text-blue-200/90 leading-relaxed">
-                Eurostar direct train: 3h 20min, from €35 one-way if booked early (up to €200 last-minute). 8-10 departures daily. Book direct on eurostar.com.
-              </p>
-            </div>
-          </div>
-        </div>
+<table>
+    <thead>
+        <tr>
+            <th>Option</th>
+            <th>Time</th>
+            <th>Cost</th>
+            <th>Best For</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Train (Eurostar direct)</td>
+            <td>3h 20m</td>
+            <td>€35–200+</td>
+            <td>Everyone—fast, direct, city-center arrivals, and far less hassle than alternatives</td>
+        </tr>
+        <tr>
+            <td>Bus (FlixBus/BlaBlaCar Bus)</td>
+            <td>6h 20m–8h</td>
+            <td>€20–70</td>
+            <td>Ultra-budget travelers with plenty of time; overnight options can save on accommodation</td>
+        </tr>
+        <tr>
+            <td>Flight (CDG/Orly to Schiphol)</td>
+            <td>4–6h total (1h 20m air time + transfers/security)</td>
+            <td>€50–200</td>
+            <td>Rarely the best choice—airport transfers add time and stress, often making door-to-door slower than the train</td>
+        </tr>
+    </tbody>
+</table>
 
-        <section className="mb-12">
-          <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="p-3 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-xl">
-                <Train className="w-8 h-8 text-cyan-400" />
-              </div>
-              <div>
-                <h2 className="text-3xl font-bold text-blue-100">Eurostar Direct Train</h2>
-                <p className="text-cyan-300 text-sm">The unbeatable option (former Thalys)</p>
-              </div>
-            </div>
+<h2>Train Journey Breakdown</h2>
 
-            <div className="grid md:grid-cols-3 gap-4 mb-6">
-              <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
-                <Clock className="w-5 h-5 text-cyan-400 mb-2" />
-                <div className="text-2xl font-bold text-cyan-300">3h 20min</div>
-                <div className="text-sm text-blue-300/70">Direct</div>
-              </div>
-              <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
-                <DollarSign className="w-5 h-5 text-cyan-400 mb-2" />
-                <div className="text-2xl font-bold text-cyan-300">€35-200</div>
-                <div className="text-sm text-blue-300/70">One-way (Dec 2025)</div>
-              </div>
-              <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
-                <Train className="w-5 h-5 text-cyan-400 mb-2" />
-                <div className="text-2xl font-bold text-cyan-300">8-10 daily</div>
-                <div className="text-sm text-blue-300/70">From Gare du Nord</div>
-              </div>
-            </div>
+<p>The Paris to Amsterdam route is almost exclusively served by direct **Eurostar** high-speed trains (formerly known as Thalys, fully rebranded by 2025). These sleek red trains reach speeds of up to 300 km/h, whisking you from Paris Gare du Nord straight to Amsterdam Centraal without any changes.</p>
 
-            <div className="space-y-4 text-blue-200/80 leading-relaxed">
-              <p>Depart Paris Gare du Nord, arrive Amsterdam Centraal. High-speed service (300 km/h). Free Wi-Fi, power sockets, generous luggage allowance (2 large bags + hand luggage, no weight limit).</p>
+<p>Most services are direct, with 10–15 departures daily spread from early morning to evening. Journey time is consistently around 3 hours 20 minutes. The main operator is **Eurostar**, offering modern amenities like free Wi-Fi, power sockets at every seat, and an onboard café serving meals, snacks, and drinks.</p>
 
-              <p className="font-semibold text-cyan-300">Classes & Prices (approx. Dec 2025):</p>
-              <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Standard: €35-120+ (early booking essential for lowest fares)</li>
-                <li>Standard Premier (Plus): €90-200 (wider seats + light meal)</li>
-                <li>Business Premier: €280+ (flexible, lounge, full meal)</li>
-              </ul>
+<img src="[INSERT_OPERATOR_IMAGE]" alt="Comfortable Eurostar train interior with spacious seats on the Paris to Amsterdam route" class="responsive">
 
-              <p>Book 4-6 months ahead for €35 fares. Prices rise quickly—midweek cheaper than weekends.</p>
+<p>Seat classes include:</p>
+<ul>
+    <li><strong>Standard</strong>: Affordable and comfortable, with plenty of legroom and generous luggage allowance (two large bags + hand luggage, no weight limits).</li>
+    <li><strong>Standard Plus (Premier)</strong>: Wider seats, quieter carriages, and a light meal served at your seat.</li>
+    <li><strong>Business Premier</strong>: Lounge access, flexible tickets, and full meals for ultimate productivity or relaxation.</li>
+</ul>
 
-              <div className="bg-slate-900/50 border border-cyan-400/30 rounded-xl p-4">
-                <p className="text-sm text-cyan-300 font-semibold mb-2">💡 Tips:</p>
-                <ul className="text-sm space-y-2">
-                  <li>Book direct on eurostar.com for best deals</li>
-                  <li>Avoid peak times (Fri eve/Sun aft)</li>
-                  <li>Arrive 20-30 min early (no full security like UK routes)</li>
-                  <li>Sign up for alerts for flash sales</li>
-                </ul>
-              </div>
-            </div>
+<p>Booking tips: Fares start at €35 if booked 4–6 months ahead on eurostar.com—prices climb quickly, especially for weekends or peaks. Midweek and off-peak departures are cheapest. No strict security like UK-bound routes; arrive 20–30 minutes early.</p>
 
-            <div className="mt-8">
-              <a href="https://www.eurostar.com/uk-en/train/paris-to-amsterdam" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
-                Book on Eurostar.com
-                <Train className="w-5 h-5" />
-              </a>
-            </div>
-          </div>
-        </section>
+<h2>Who This Route Is Best For</h2>
 
-        <section className="mb-12">
-          <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="p-3 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-xl">
-                <Star className="w-8 h-8 text-cyan-400" />
-              </div>
-              <div>
-                <h2 className="text-3xl font-bold text-blue-100">Eurail/Interrail Pass</h2>
-                <p className="text-cyan-300 text-sm">For wider Europe trips</p>
-              </div>
-            </div>
+<p><strong>Backpackers</strong>: Snap up €35 early-bird fares for budget travel. The generous luggage policy means no worries about backpack size, and city-center stations save on transfers. Pair with a rail pass for multi-stop trips, though direct bookings are often cheaper for this single leg.</p>
 
-            <div className="space-y-4 text-blue-200/80 leading-relaxed">
-              <p>Eurail (non-EU) or Interrail (EU residents) passes cover Eurostar with a mandatory seat reservation.</p>
-              <p className="font-semibold text-cyan-300">Reservation fee: €30 Standard / €38 Premier (2025)</p>
-              <p>Limited seats for passholders—book early. Worth it for multi-country itineraries.</p>
-            </div>
+<p><strong>Business travelers</strong>: Direct, reliable scheduling with Wi-Fi and power keeps you productive. Business Premier offers lounge access in Paris and flexible changes. Door-to-door in under 4 hours beats flying when factoring in airports.</p>
 
-            <div className="mt-8">
-              <a href="https://www.eurail.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
-                Explore Eurail Passes
-                <Star className="w-5 h-5" />
-              </a>
-            </div>
-          </div>
-        </section>
+<img src="[INSERT_THEME_IMAGE]" alt="Business travelers working comfortably on Eurostar from Paris to Amsterdam" class="responsive">
 
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-blue-100 mb-6">Quick Comparison</h2>
-          <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20 overflow-x-auto">
-            <table className="w-full text-left">
-              <thead>
-                <tr className="border-b border-blue-400/20">
-                  <th className="py-4 px-4 text-cyan-300">Option</th>
-                  <th className="py-4 px-4 text-cyan-300">Time</th>
-                  <th className="py-4 px-4 text-cyan-300">Cost</th>
-                  <th className="py-4 px-4 text-cyan-300">Best For</th>
-                </tr>
-              </thead>
-              <tbody className="text-blue-200/80">
-                <tr className="border-b border-blue-400/10">
-                  <td className="py-4 px-4 font-semibold text-cyan-300">Eurostar</td>
-                  <td className="py-4 px-4">3h 20min</td>
-                  <td className="py-4 px-4">€35-200</td>
-                  <td className="py-4 px-4">Everyone—fast & convenient</td>
-                </tr>
-                <tr className="border-b border-blue-400/10">
-                  <td className="py-4 px-4 font-semibold text-cyan-300">Flying</td>
-                  <td className="py-4 px-4">~4-5h total</td>
-                  <td className="py-4 px-4">€40-150</td>
-                  <td className="py-4 px-4">Rarely—train wins</td>
-                </tr>
-                <tr>
-                  <td className="py-4 px-4 font-semibold text-cyan-300">Rail Pass</td>
-                  <td className="py-4 px-4">3h 20min</td>
-                  <td className="py-4 px-4">Pass + €30-38</td>
-                  <td className="py-4 px-4">Multi-stop Europe trips</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
+<p><strong>Families</strong>: Spacious seats, no weight limits on luggage, and easy stroller/bag handling make it stress-free. Kids love watching the countryside zip by, and central arrivals mean quick access to family-friendly sights like Amsterdam's Vondelpark or canal boats.</p>
 
-        <section className="mb-12">
-          <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 border border-cyan-400/30 rounded-2xl p-8">
-            <h2 className="text-3xl font-bold text-cyan-300 mb-4">Our Recommendation</h2>
-            <p className="text-blue-200/90 text-lg leading-relaxed">
-              Eurostar every time—book early on eurostar.com for €35 fares. It's faster door-to-door than flying, more relaxing, and you arrive right in the centre of Amsterdam.
-            </p>
-          </div>
-        </section>
+<p><strong>Ski/adventure travelers</strong>: While not a ski route, the unlimited luggage suits bike packing or gear-heavy trips. In winter, combine with onward connections to the Alps; in summer, it's perfect for cycling adventures starting in bike-friendly Amsterdam.</p>
 
-        <section className="mb-12">
-          <div className="bg-slate-900/50 border border-blue-400/20 rounded-xl p-6">
-            <p className="text-xs text-blue-300/60 leading-relaxed">
-              Affiliate links may earn commission at no cost to you. Prices approximate for Dec 2025—check current rates.
-            </p>
-          </div>
-        </section>
-      </main>
+<h2>Scenic & Seasonal Advice</h2>
 
-      <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <h4 className="font-semibold text-blue-100 mb-4">Get Me There</h4>
-              <p className="text-sm text-blue-300/70 leading-relaxed">
-                Your journey companion. Compare and book the best routes.
-              </p>
-            </div>
-            <div>
-              <h4 className="font-semibold text-blue-100 mb-4">Quick Links</h4>
-              <ul className="space-y-2 text-sm text-blue-300/70">
-                <li><a href="/" className="hover:text-cyan-300 transition-colors">Home</a></li>
-                <li><a href="/about" className="hover:text-cyan-300 transition-colors">About</a></li>
-                <li><a href="/privacy" className="hover:text-cyan-300 transition-colors">Privacy</a></li>
-                <li><a href="/terms" className="hover:text-cyan-300 transition-colors">Terms</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold text-blue-100 mb-4">Support</h4>
-              <ul className="space-y-2 text-sm text-blue-300/70">
-                <li><a href="/contact" className="hover:text-cyan-300 transition-colors">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="text-center text-sm text-blue-300/50 pt-8 border-t border-blue-400/10">
-            © 2025 Get Me There. All rights reserved.
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-}
+<p>The Paris to Amsterdam route isn't Europe's most dramatic scenic journey—much of it crosses flat farmland in northern France, Belgium, and the Dutch lowlands. That said, you'll spot classic Dutch windmills, canals, and green fields, especially as you approach Amsterdam. It's pleasantly rural rather than jaw-dropping, offering a relaxing backdrop to read, work, or chat.</p>
+
+<img src="[INSERT_SCENIC_IMAGE]" alt="Scenic views of Dutch canals and fields from the Eurostar train window en route from Paris to Amsterdam" class="responsive">
+
+<p>Best travel season: Spring (March–May) for blooming tulip fields visible from the train, especially around Keukenhof (plan a stop if flexible). Autumn brings golden colors and fewer crowds. Summer is vibrant but busier; winter offers festive markets and lower fares.</p>
+
+<p>Peak vs off-peak: Avoid Friday evenings and Sunday afternoons for cheaper tickets and quieter carriages. Holiday periods (Christmas, Easter) see higher demand—book early. Off-peak midweek trips often yield the lowest fares and most relaxed experience.</p>
+
+<h2>Booking CTAs</h2>
+
+<p><strong>Primary</strong>: Check train times and seat availability for this route</p>
+
+<p><strong>Secondary</strong>: Compare train, bus, and flight options for this journey</p>
+
+<h2>Related Routes</h2>
+
+<ul>
+    <li><a href="/paris-to-brussels-by-train">Paris to Brussels by Train</a> – Quick hop en route, with frequent connections.</li>
+    <li><a href="/amsterdam-to-rotterdam-by-train">Amsterdam to Rotterdam by Train</a> – Extend your Dutch adventure southward.</li>
+    <li><a href="/paris-to-london-by-train">Paris to London by Train</a> – Iconic Eurostar under the Channel.</li>
+    <li><a href="/brussels-to-amsterdam-by-train">Brussels to Amsterdam by Train</a> – Shorter high-speed alternative with stops.</li>
+    <li><a href="/amsterdam-to-berlin-by-train">Amsterdam to Berlin by Train</a> – Overnight or day options eastward.</li>
+</ul>
+
+<!-- Word count: approximately 1,050 -->
+
+</body>
+</html>
