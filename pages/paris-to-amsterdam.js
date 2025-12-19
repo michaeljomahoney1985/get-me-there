@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mountain, Train, Clock, DollarSign, CheckCircle, Star } from 'lucide-react';
+import { Mountain, Train, CheckCircle } from 'lucide-react';
 import Head from 'next/head';
 
 export default function ParisToAmsterdam() {
@@ -75,19 +75,19 @@ export default function ParisToAmsterdam() {
 
           {/* Intro */}
           <p className="text-xl text-blue-200/80 leading-relaxed mb-12">
-            Connecting two of Europe's most iconic capitals, the high-speed Eurostar route from Paris to Amsterdam offers a seamless, city-center-to-city-center journey. In just over three hours, you'll glide from the elegant boulevards of Paris to the picturesque canals of Amsterdam without airport hassles. This direct service makes it ideal for culture seekers, cyclists, or quick getaways—arrive rested and ready to explore.
+            Connecting two of Europe's most iconic capitals, the high-speed Eurostar route from Paris to Amsterdam offers a seamless, city-center-to-city-center journey. In just over three hours, you'll glide from the elegant boulevards of Paris to the picturesque canals of Amsterdam without airport hassles. Direct trains make it perfect for culture seekers, business travelers, or weekend explorers, providing a comfortable and efficient way to experience Europe.
           </p>
 
           {/* Route Image */}
           <figure className="mb-12">
             <img
-              src="https://images.unsplash.com/photo-1601944174462-07a18c345c0f"
-              alt="High-speed Eurostar train from Paris to Amsterdam passing through scenic Dutch countryside with windmills and canals"
+              src="/images/dutch-countryside-eurostar.jpg"
+              alt="Eurostar train passing Dutch countryside with windmills and canals"
               className="w-full rounded-2xl object-cover shadow-2xl"
               loading="lazy"
             />
             <figcaption className="text-blue-300 text-sm mt-2">
-              Eurostar train gliding through Dutch countryside
+              Eurostar passing through Dutch countryside
             </figcaption>
           </figure>
 
@@ -115,13 +115,13 @@ export default function ParisToAmsterdam() {
                     <td className="py-4 px-4 font-semibold text-cyan-300">Bus (FlixBus/BlaBlaCar)</td>
                     <td className="py-4 px-4">6–8h</td>
                     <td className="py-4 px-4">€20–70</td>
-                    <td className="py-4 px-4">Budget travelers with time; overnight saves accommodation</td>
+                    <td className="py-4 px-4">Budget travelers; overnight saves accommodation</td>
                   </tr>
                   <tr>
                     <td className="py-4 px-4 font-semibold text-cyan-300">Flight</td>
                     <td className="py-4 px-4">4–6h door-to-door</td>
                     <td className="py-4 px-4">€50–200</td>
-                    <td className="py-4 px-4">Rarely—airports add stress and extra time</td>
+                    <td className="py-4 px-4">Rarely—airports add stress and time</td>
                   </tr>
                 </tbody>
               </table>
@@ -133,23 +133,23 @@ export default function ParisToAmsterdam() {
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Train Journey Breakdown</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <p className="text-blue-200/80 leading-relaxed mb-6">
-                Almost all services are direct Eurostar high-speed trains (300 km/h) from Paris Gare du Nord to Amsterdam Centraal, with 10–15 daily departures. The journey takes around 3h 20min, offering comfortable seating, onboard Wi-Fi, and refreshments. Standard, Standard Premier, and Business Premier classes are available, so you can choose the comfort level that suits your trip. Booking early can save up to 50% on tickets, especially during weekends or holidays.
+                Eurostar offers 10–15 direct departures daily from Paris Gare du Nord to Amsterdam Centraal. Standard, Standard Premier, and Business Premier seating are available, with onboard Wi-Fi and refreshments. Booking early can save up to 50% on tickets. Passengers benefit from city-center to city-center travel, avoiding airport security and long check-ins.
               </p>
 
               <figure className="mb-8">
                 <img
-                  src="https://images.unsplash.com/photo-1567848464821-3c7b68d3a3b4"
-                  alt="Eurostar train interior with comfortable seats on Paris to Amsterdam route"
+                  src="/images/eurostar-interior.jpg"
+                  alt="Eurostar train interior with spacious seats"
                   className="w-full rounded-2xl object-cover shadow-2xl"
                   loading="lazy"
                 />
                 <figcaption className="text-blue-300 text-sm mt-2">
-                  Spacious seating inside Eurostar trains
+                  Eurostar Standard Premier seating
                 </figcaption>
               </figure>
 
               <p className="text-blue-200/80 leading-relaxed">
-                Direct trains mean no transfers, city-center departures and arrivals save time compared to flying, and luggage restrictions are generous. Check platforms 15–30 minutes before departure, as Eurostar may adjust assignments slightly.
+                Platform assignments can change; arrive 15–30 minutes early. Luggage allowances are generous, making it easy for travelers with bikes or sports gear.
               </p>
             </div>
           </section>
@@ -158,10 +158,10 @@ export default function ParisToAmsterdam() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
-              <li><strong>Backpackers:</strong> Quick and direct route, easy connections to hostels in Amsterdam.</li>
-              <li><strong>Business Travelers:</strong> Arrive in city-center offices fast, onboard Wi-Fi ideal for working.</li>
-              <li><strong>Families:</strong> Spacious seating, snacks onboard, and luggage-friendly.</li>
-              <li><strong>Adventure / Seasonal Travelers:</strong> Great for cycling trips, spring tulip season, or canal-side explorations.</li>
+              <li><strong>Backpackers:</strong> Direct trains, easy hostel connections in Amsterdam.</li>
+              <li><strong>Business Travelers:</strong> City-center arrivals, onboard Wi-Fi, comfortable work environment.</li>
+              <li><strong>Families:</strong> Spacious seating, onboard snacks, luggage-friendly.</li>
+              <li><strong>Adventure / Seasonal Travelers:</strong> Perfect for tulip season, canal-side explorations, or cycling trips.</li>
             </ul>
           </section>
 
@@ -169,17 +169,17 @@ export default function ParisToAmsterdam() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Scenic & Seasonal Advice</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
-              The route offers charming views of the French and Dutch countryside. Rolling fields, canals, and occasional windmills make the journey scenic, though most of it is urban/suburban. Spring and early autumn are the most picturesque months, while summer and holidays are peak travel times.
+              The route offers picturesque glimpses of rolling Dutch fields, canals, and windmills. Spring and early autumn provide the most beautiful scenery. Summer and holiday periods are peak times with busier trains.
             </p>
             <figure className="mb-8">
               <img
-                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
-                alt="Scenic countryside along Paris to Amsterdam train route"
+                src="/images/dutch-countryside-scenic.jpg"
+                alt="Rolling fields and windmills along Paris to Amsterdam train route"
                 className="w-full rounded-2xl object-cover shadow-2xl"
                 loading="lazy"
               />
               <figcaption className="text-blue-300 text-sm mt-2">
-                Dutch countryside glimpsed from the Eurostar train
+                Dutch countryside along the Eurostar route
               </figcaption>
             </figure>
           </section>
