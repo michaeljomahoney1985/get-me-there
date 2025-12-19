@@ -105,29 +105,25 @@ export default function CordobaStopover() {
             <div className="bg-slate-800/50 rounded-2xl p-6">
               <h3 className="text-2xl font-bold text-cyan-300 mb-4">Mezquita-Catedral (Mosque-Cathedral)</h3>
               <p className="text-blue-200/80 mb-4">UNESCO icon—hypnotic forest of red-and-white arches. Must-see (€13, book timed tickets online—sells out!).</p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4"><grok:render card_id="d97868" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="36759a" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="1a93ed" card_type="image_card" type="render_searched_image"></grok:render>
-              </div>
+              <p className="text-sm text-blue-300/70">Stunning interior columns, mihrab, and Christian cathedral overlay.</p>
             </div>
 
             <div className="bg-slate-800/50 rounded-2xl p-6">
               <h3 className="text-2xl font-bold text-cyan-300 mb-4">Jewish Quarter (Juderia)</h3>
               <p className="text-blue-200/80 mb-4">Charming narrow streets, flower-filled patios, synagogue (€0.30).</p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4"><grok:render card_id="09d123" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="524d04" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="2cb46e" card_type="image_card" type="render_searched_image"></grok:render>
-              </div>
+              <p className="text-sm text-blue-300/70">Wander Calleja de las Flores for classic views, visit the small synagogue.</p>
             </div>
 
             <div className="bg-slate-800/50 rounded-2xl p-6">
               <h3 className="text-2xl font-bold text-cyan-300 mb-4">Roman Bridge & Views</h3>
               <p className="text-blue-200/80 mb-4">Iconic 16-arch bridge over Guadalquivir—great photos of Mezquita skyline.</p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4"><grok:render card_id="8dc9d4" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="259b7d" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="9b9359" card_type="image_card" type="render_searched_image"></grok:render>
-              </div>
+              <p className="text-sm text-blue-300/70">Walk across for panoramic shots, especially at sunset.</p>
             </div>
 
             <div className="bg-slate-800/50 rounded-2xl p-6">
               <h3 className="text-2xl font-bold text-cyan-300 mb-4">Alcázar de los Reyes Cristianos</h3>
               <p className="text-blue-200/80 mb-4">Fortress with beautiful gardens, towers, and history (€5).</p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4"><grok:render card_id="6d3145" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="fc2575" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="f92952" card_type="image_card" type="render_searched_image"></grok:render>
-              </div>
+              <p className="text-sm text-blue-300/70">Mosaic rooms, climb towers for views, relaxing gardens with fountains.</p>
             </div>
           </div>
         </section>
