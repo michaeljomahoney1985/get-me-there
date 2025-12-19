@@ -63,6 +63,23 @@ export default function MadridToSeville() {
           Direct high-speed connection from the capital to Andalusia's vibrant heart—multiple operators for choice and excellent value.
         </p>
 
+        {/* Córdoba Stopover Highlight */}
+        <div className="bg-gradient-to-br from-cyan-500/10 to-indigo-600/10 border border-cyan-400/40 rounded-2xl p-8 mb-12">
+          <div className="flex items-start gap-4">
+            <Star className="w-8 h-8 text-cyan-400 flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-2xl font-bold text-cyan-300 mb-3">Recommended Stopover: Córdoba</h3>
+              <p className="text-blue-200/90 leading-relaxed mb-4">
+                Most trains on this route stop in Córdoba—home to the breathtaking Mezquita-Catedral. Turn your journey into a highlight with a 4-8 hour (or overnight) stop.
+              </p>
+              <a href="/cordoba-stopover" className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
+                Full Córdoba Stopover Guide
+                <Train className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 border border-cyan-400/30 rounded-2xl p-6 mb-12">
           <div className="flex items-start gap-4">
             <CheckCircle className="w-6 h-6 text-cyan-400 flex-shrink-0 mt-1" />
@@ -137,6 +154,7 @@ export default function MadridToSeville() {
           </div>
         </section>
 
+        {/* Rest of sections unchanged */}
         <section className="mb-12">
           <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
             <div className="flex items-center gap-4 mb-6">
