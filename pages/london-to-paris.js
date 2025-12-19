@@ -224,7 +224,7 @@ export default function LondonToParis() {
               {/* Departure Station */}
               <figure className="mb-8">
                 <img
-                  src="https://images.showmethejourney.com/f_jpg,q_90,w_930,c_fill/v1615565365/272e77ee_944d_4cae_9ce8_c7235c4d4425_3681d67fdf"
+                  src="https://upload.wikimedia.org/wikipedia/commons/4/4f/St_Pancras_International_main_concourse_2021.jpg"
                   alt="Grand departure hall at London St Pancras International for Eurostar to Paris"
                   className="w-full rounded-2xl object-cover shadow-2xl"
                   loading="lazy"
@@ -260,43 +260,10 @@ export default function LondonToParis() {
             </div>
           </section>
 
-          {/* Eurail/Interrail Pass Section */}
-          <section className="mb-12">
-            <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="p-3 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-xl">
-                  <Star className="w-8 h-8 text-cyan-400" />
-                </div>
-                <div>
-                  <h2 className="text-3xl font-bold text-blue-100">Eurail/Interrail Pass</h2>
-                  <p className="text-cyan-300 text-sm">For wider UK/Europe trips</p>
-                </div>
-              </div>
-
-              <div className="space-y-4 text-blue-200/80 leading-relaxed">
-                <p>Eurail (non-EU) or Interrail (EU residents) passes are valid on Eurostar with a mandatory seat reservation.</p>
-                <p className="font-semibold text-cyan-300">Reservation fee: £26–35 Standard / £38–48 Premier (2026)</p>
-                <p>Limited seats for passholders—book early via Eurostar or rail.cc. Worth it only for multi-country itineraries including the UK.</p>
-              </div>
-
-              <div className="mt-8">
-                <a
-                  href="https://www.eurail.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300"
-                >
-                  Explore Eurail Passes
-                  <Star className="w-5 h-5" />
-                </a>
-              </div>
-            </div>
-          </section>
-
-          {/* Arrival Station Image */}
+          {/* Arrival Station Image – fixed with reliable URL */}
           <figure className="mb-12">
             <img
-              src="https://parisbytrain.com/wp-content/uploads/2020/02/810x456xeurostar-arrival-area-signs-gare_du_nord.jpg.pagespeed.ic.d9vH_WhNCX.jpg"
+              src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Gare_du_Nord_-_Eurostar_arrival_area.jpg"
               alt="Eurostar arrival platforms at Paris Gare du Nord station"
               className="w-full rounded-2xl object-cover shadow-2xl"
               loading="lazy"
@@ -307,7 +274,7 @@ export default function LondonToParis() {
           </figure>
 
           {/* Who This Route Is Best For */}
-          <section className="mb-12">
+          <section mostró="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
               <li><strong>Backpackers:</strong> Cheap early fares, central stations.</li>
@@ -352,7 +319,7 @@ export default function LondonToParis() {
             </div>
           </section>
 
-          {/* Booking CTAs */}
+          {/* Booking CTAs – Primary and Secondary */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -374,6 +341,39 @@ export default function LondonToParis() {
                 <CheckCircle className="w-6 h-6" />
                 Compare train, bus & flight on Omio
               </a>
+            </div>
+          </section>
+
+          {/* Eurail/Interrail Pass Section – Moved BELOW booking CTAs */}
+          <section className="mb-12">
+            <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="p-3 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-xl">
+                  <Star className="w-8 h-8 text-cyan-400" />
+                </div>
+                <div>
+                  <h2 className="text-3xl font-bold text-blue-100">Eurail/Interrail Pass</h2>
+                  <p className="text-cyan-300 text-sm">For wider UK/Europe trips</p>
+                </div>
+              </div>
+
+              <div className="space-y-4 text-blue-200/80 leading-relaxed">
+                <p>Eurail (non-EU) or Interrail (EU residents) passes are valid on Eurostar with a mandatory seat reservation.</p>
+                <p className="font-semibold text-cyan-300">Reservation fee: £26–35 Standard / £38–48 Premier (2026)</p>
+                <p>Limited seats for passholders—book early via Eurostar or rail.cc. Worth it only for multi-country itineraries including the UK.</p>
+              </div>
+
+              <div className="mt-8">
+                <a
+                  href="https://www.eurail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300"
+                >
+                  Explore Eurail Passes
+                  <Star className="w-5 h-5" />
+                </a>
+              </div>
             </div>
           </section>
 
