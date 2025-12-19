@@ -63,17 +63,17 @@ export default function BarcelonaToParis() {
           Direct high-speed TGV journey across the Pyrenees—city centre to city centre in under 7 hours.
         </p>
 
-        {/* Border Control Note */}
+        {/* Corrected Border Control Note */}
         <div className="bg-gradient-to-br from-cyan-500/10 to-indigo-600/10 border border-cyan-400/40 rounded-2xl p-8 mb-12">
           <div className="flex items-start gap-4">
             <AlertCircle className="w-8 h-8 text-cyan-400 flex-shrink-0 mt-1" />
             <div>
               <h3 className="text-2xl font-bold text-cyan-300 mb-3">Border & ID Requirements</h3>
               <p className="text-blue-200/90 leading-relaxed mb-4">
-                Spain and France are both in the Schengen Area—no systematic passport checks or border controls on this train. However, random ID checks can occur (carry your passport/ID). Non-EU citizens must ensure compliance with Schengen 90/180-day rule.
+                Spain and France are both in the Schengen Area—no systematic passport checks or border controls on this train. However, random ID checks can occur (always carry your passport or national ID card). Non-EU citizens must comply with the Schengen 90/180-day rule.
               </p>
-              <a href="https://travel.europa.eu/en/apply-visa" target="_blank" rel="noopener noreferrer" className="text-cyan-300 hover:text-cyan-200 underline">
-                Official EU Schengen Info & Visa Checker →
+              <a href="https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en" target="_blank" rel="noopener noreferrer" className="text-cyan-300 hover:text-cyan-200 underline">
+                Official EU Schengen & Visa Information →
               </a>
             </div>
           </div>
