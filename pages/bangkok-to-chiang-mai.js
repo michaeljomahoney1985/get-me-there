@@ -156,15 +156,13 @@ export default function BangkokToChiangMai() {
               </div>
             </div>
 
+
             <div className="mt-8">
-              
-                href="https://12go.asia/en/travel/bangkok/chiang-mai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
+              <a href="https://12go.asia/en/travel/bangkok/chiang-mai" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
                 Book Sleeper Train Tickets
                 <Train className="w-5 h-5" />
               </a>
+            </div>
             </div>
           </div>
         </section>
