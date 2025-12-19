@@ -61,7 +61,7 @@ export default function LondonToParis() {
 
         <p className="text-xl text-blue-200/80 leading-relaxed mb-12">
           The iconic high-speed Eurostar journey from London to Paris—city centre to city centre in just over 2 hours. Faster and easier than flying.
-        </p><grok:render card_id="b6f04f" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="5f105e" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="f99371" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="49bde6" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="01b4bd" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="97e747" card_type="image_card" type="render_searched_image"></grok:render>
+        </p>
 
         <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 border border-cyan-400/30 rounded-2xl p-6 mb-12">
           <div className="flex items-start gap-4">
@@ -69,7 +69,7 @@ export default function LondonToParis() {
             <div>
               <h3 className="text-xl font-bold text-cyan-300 mb-2">Quick Summary</h3>
               <p className="text-blue-200/90 leading-relaxed">
-                Eurostar direct train: 2h 16-17min, from £39 one-way if booked early (up to £180 last-minute). Up to 15-20 departures daily. Book on eurostar.com for best deals.
+                Eurostar direct train: 2h 16-17min, from £39 one-way if booked early (up to £180+ last-minute). 15-20 departures daily. Book direct on eurostar.com.
               </p>
             </div>
           </div>
@@ -95,7 +95,7 @@ export default function LondonToParis() {
               </div>
               <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
                 <DollarSign className="w-5 h-5 text-cyan-400 mb-2" />
-                <div className="text-2xl font-bold text-cyan-300">£39-180</div>
+                <div className="text-2xl font-bold text-cyan-300">£39-180+</div>
                 <div className="text-sm text-blue-300/70">One-way (Dec 2025)</div>
               </div>
               <div className="bg-slate-900/50 rounded-xl p-4 border border-blue-400/20">
@@ -106,12 +106,12 @@ export default function LondonToParis() {
             </div>
 
             <div className="space-y-4 text-blue-200/80 leading-relaxed">
-              <p>Depart London St Pancras International, arrive Paris Gare du Nord. High-speed through the Channel Tunnel (300 km/h). Free Wi-Fi, power sockets, generous luggage allowance.</p>
+              <p>Depart London St Pancras International, arrive Paris Gare du Nord. High-speed through the Channel Tunnel (300 km/h). Free Wi-Fi, power sockets, generous luggage allowance (2 large bags + hand luggage, no weight limit).</p>
 
               <p className="font-semibold text-cyan-300">Classes & Prices (approx. Dec 2025):</p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Standard: £39-120 (early to peak)</li>
-                <li>Standard Premier: £90-200 (wider seats + light meal)</li>
+                <li>Standard: £39-120+ (early booking essential for lowest fares)</li>
+                <li>Standard Premier (Plus): £90-200 (wider seats + light meal)</li>
                 <li>Business Premier: £280+ (flexible, lounge, full meal)</li>
               </ul>
 
@@ -120,13 +120,13 @@ export default function LondonToParis() {
               <div className="bg-slate-900/50 border border-cyan-400/30 rounded-xl p-4">
                 <p className="text-sm text-cyan-300 font-semibold mb-2">💡 Tips:</p>
                 <ul className="text-sm space-y-2">
-                  <li>Book direct on eurostar.com</li>
+                  <li>Book direct on eurostar.com for best deals</li>
                   <li>Avoid peak times (Fri eve/Sun aft)</li>
                   <li>Arrive 45-90 min early for border checks</li>
-                  <li>Sign up for alerts/Snap for deals</li>
+                  <li>Sign up for alerts or try Snap for last-minute deals</li>
                 </ul>
               </div>
-            </div><grok:render card_id="655ea5" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="7d4407" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="ad2d6f" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="e2a88f" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="1ecc45" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="01864a" card_type="image_card" type="render_searched_image"></grok:render>
+            </div>
 
             <div className="mt-8">
               <a href="https://www.eurostar.com/uk-en" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300">
@@ -135,7 +135,7 @@ export default function LondonToParis() {
               </a>
             </div>
           </div>
-        </section><grok:render card_id="7c5545" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="b6f7a5" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="e70634" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="bc306b" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="88723c" card_type="image_card" type="render_searched_image"></grok:render><grok:render card_id="4c8340" card_type="image_card" type="render_searched_image"></grok:render>
+        </section>
 
         <section className="mb-12">
           <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
@@ -180,7 +180,7 @@ export default function LondonToParis() {
                 <tr className="border-b border-blue-400/10">
                   <td className="py-4 px-4 font-semibold text-cyan-300">Eurostar</td>
                   <td className="py-4 px-4">2h 16min</td>
-                  <td className="py-4 px-4">£39-180</td>
+                  <td className="py-4 px-4">£39-180+</td>
                   <td className="py-4 px-4">Everyone—fast & convenient</td>
                 </tr>
                 <tr className="border-b border-blue-400/10">
@@ -204,7 +204,7 @@ export default function LondonToParis() {
           <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 border border-cyan-400/30 rounded-2xl p-8">
             <h2 className="text-3xl font-bold text-cyan-300 mb-4">Our Recommendation</h2>
             <p className="text-blue-200/90 text-lg leading-relaxed">
-              Eurostar every time—book early on eurostar.com for £39-59 fares. It's faster door-to-door than flying, more relaxing, and you arrive in the heart of Paris.
+              Eurostar every time—book early on eurostar.com for £39 fares. It's faster door-to-door than flying, more relaxing, and you arrive in the heart of Paris.
             </p>
           </div>
         </section>
