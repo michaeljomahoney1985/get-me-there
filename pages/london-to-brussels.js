@@ -282,11 +282,11 @@ export default function LondonToBrussels() {
             </p>
           </section>
 
-          {/* Highlights Along the Way – Fixed */}
+          {/* Highlights Along the Way – Landmark (left) with caption, Countryside (right) with caption */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-8">Highlights Along the Way</h2>
             <div className="grid md:grid-cols-2 gap-8">
-              {/* Famous Landmark – Left with caption */}
+              {/* Famous Landmark – Left */}
               <figure>
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/2/26/Grand-Place%2C_Brussels_-_panorama%2C_June_2018.jpg"
@@ -296,14 +296,15 @@ export default function LondonToBrussels() {
                 />
                 <figcaption className="text-blue-300 text-sm mt-2 text-center">Grand Place, Brussels</figcaption>
               </figure>
-              {/* Countryside – Right with no caption */}
+              {/* Countryside – Right */}
               <figure>
                 <img
                   src="https://media.istockphoto.com/id/2194571010/photo/view-to-the-rural-landscape-in-wallonie-belgium.jpg?s=612x612&w=0&k=20&c=k_7tFQtqDPNEv3eeRrtPxCG-Zk1r4DMpe-KXqYCrlTw="
-                  alt="Flat green fields and rural landscape in Belgium countryside"
+                  alt="Green fields and rural Belgian countryside landscape"
                   className="w-full rounded-2xl object-cover shadow-2xl"
                   loading="lazy"
                 />
+                <figcaption className="text-blue-300 text-sm mt-2 text-center">Belgian countryside</figcaption>
               </figure>
             </div>
           </section>
