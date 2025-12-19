@@ -9,7 +9,7 @@ export default function ParisToAmsterdam() {
         <title>Paris to Amsterdam by Train: Time, Cost & Travel Guide</title>
         <meta
           name="description"
-          content="Travel from Paris to Amsterdam by train in just over 3 hours with Eurostar. Discover times, costs from €35, direct routes, scenic tips, and why it's the best option over flying or bus."
+          content="Travel from Paris to Amsterdam by train in just over 3 hours with Eurostar. Discover times, costs from €35, direct routes, scenic tips, who it's best for, and why trains beat buses or flights."
         />
       </Head>
 
@@ -32,7 +32,7 @@ export default function ParisToAmsterdam() {
           </svg>
         </div>
 
-        {/* Header - Full site branding */}
+        {/* Header */}
         <header className="relative border-b border-blue-400/20 backdrop-blur-sm bg-slate-900/50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex items-center justify-between">
@@ -78,12 +78,18 @@ export default function ParisToAmsterdam() {
             Connecting two of Europe's most iconic capitals, the high-speed Eurostar route from Paris to Amsterdam offers a seamless, city-center-to-city-center journey. In just over three hours, you'll glide from the elegant boulevards of Paris to the picturesque canals of Amsterdam without airport hassles. This direct service makes it ideal for culture seekers, cyclists, or quick getaways—arrive rested and ready to explore.
           </p>
 
-          {/* Route Image Placeholder */}
-          <img
-            src="[INSERT_ROUTE_IMAGE]"
-            alt="High-speed Eurostar train from Paris to Amsterdam passing through scenic Dutch countryside with windmills and canals"
-            className="w-full rounded-2xl mb-12 object-cover shadow-2xl"
-          />
+          {/* Route Image */}
+          <figure className="mb-12">
+            <img
+              src="https://images.unsplash.com/photo-1601944174462-07a18c345c0f"
+              alt="High-speed Eurostar train from Paris to Amsterdam passing through scenic Dutch countryside with windmills and canals"
+              className="w-full rounded-2xl object-cover shadow-2xl"
+              loading="lazy"
+            />
+            <figcaption className="text-blue-300 text-sm mt-2">
+              Eurostar train gliding through Dutch countryside
+            </figcaption>
+          </figure>
 
           {/* Quick Comparison Table */}
           <section className="mb-12">
@@ -115,7 +121,7 @@ export default function ParisToAmsterdam() {
                     <td className="py-4 px-4 font-semibold text-cyan-300">Flight</td>
                     <td className="py-4 px-4">4–6h door-to-door</td>
                     <td className="py-4 px-4">€50–200</td>
-                    <td className="py-4 px-4">Rarely—airports add stress and time</td>
+                    <td className="py-4 px-4">Rarely—airports add stress and extra time</td>
                   </tr>
                 </tbody>
               </table>
@@ -127,22 +133,58 @@ export default function ParisToAmsterdam() {
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Train Journey Breakdown</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <p className="text-blue-200/80 leading-relaxed mb-6">
-                Almost all services are direct Eurostar high-speed trains (300 km/h) from Paris Gare du Nord to Amsterdam Centraal. 10–15 daily departures, consistent 3h 20min journey.
+                Almost all services are direct Eurostar high-speed trains (300 km/h) from Paris Gare du Nord to Amsterdam Centraal, with 10–15 daily departures. The journey takes around 3h 20min, offering comfortable seating, onboard Wi-Fi, and refreshments. Standard, Standard Premier, and Business Premier classes are available, so you can choose the comfort level that suits your trip. Booking early can save up to 50% on tickets, especially during weekends or holidays.
               </p>
-              <img
-                src="[INSERT_OPERATOR_IMAGE]"
-                alt="Comfortable Eurostar train interior with spacious seats on the Paris to Amsterdam route"
-                className="w-full rounded-2xl mb-8 object-cover"
-              />
-              {/* Classes, tips, etc. - abbreviated for space, expand with full details */}
+
+              <figure className="mb-8">
+                <img
+                  src="https://images.unsplash.com/photo-1567848464821-3c7b68d3a3b4"
+                  alt="Eurostar train interior with comfortable seats on Paris to Amsterdam route"
+                  className="w-full rounded-2xl object-cover shadow-2xl"
+                  loading="lazy"
+                />
+                <figcaption className="text-blue-300 text-sm mt-2">
+                  Spacious seating inside Eurostar trains
+                </figcaption>
+              </figure>
+
+              <p className="text-blue-200/80 leading-relaxed">
+                Direct trains mean no transfers, city-center departures and arrivals save time compared to flying, and luggage restrictions are generous. Check platforms 15–30 minutes before departure, as Eurostar may adjust assignments slightly.
+              </p>
             </div>
           </section>
 
-          {/* Who This Route Is Best For - with optional images */}
+          {/* Who This Route Is Best For */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-2">
+              <li><strong>Backpackers:</strong> Quick and direct route, easy connections to hostels in Amsterdam.</li>
+              <li><strong>Business Travelers:</strong> Arrive in city-center offices fast, onboard Wi-Fi ideal for working.</li>
+              <li><strong>Families:</strong> Spacious seating, snacks onboard, and luggage-friendly.</li>
+              <li><strong>Adventure / Seasonal Travelers:</strong> Great for cycling trips, spring tulip season, or canal-side explorations.</li>
+            </ul>
+          </section>
 
-          {/* Scenic & Seasonal Advice - with image */}
+          {/* Scenic & Seasonal Advice */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Scenic & Seasonal Advice</h2>
+            <p className="text-blue-200/80 leading-relaxed mb-6">
+              The route offers charming views of the French and Dutch countryside. Rolling fields, canals, and occasional windmills make the journey scenic, though most of it is urban/suburban. Spring and early autumn are the most picturesque months, while summer and holidays are peak travel times.
+            </p>
+            <figure className="mb-8">
+              <img
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+                alt="Scenic countryside along Paris to Amsterdam train route"
+                className="w-full rounded-2xl object-cover shadow-2xl"
+                loading="lazy"
+              />
+              <figcaption className="text-blue-300 text-sm mt-2">
+                Dutch countryside glimpsed from the Eurostar train
+              </figcaption>
+            </figure>
+          </section>
 
-          {/* Booking CTAs - Now with real affiliate-friendly links */}
+          {/* Booking CTAs */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -153,7 +195,7 @@ export default function ParisToAmsterdam() {
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <Train className="w-6 h-6" />
-                Check train times and book on Trainline (Primary)
+                Check train times and book on Trainline
               </a>
               <a
                 href="https://www.omio.com/trains/paris/amsterdam"
@@ -162,7 +204,7 @@ export default function ParisToAmsterdam() {
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Compare train, bus & flight on Omio (Secondary)
+                Compare train, bus & flight on Omio
               </a>
             </div>
             <p className="text-sm text-blue-300/60 mt-4">
@@ -171,15 +213,19 @@ export default function ParisToAmsterdam() {
           </section>
 
           {/* Related Routes */}
-
-          {/* Full content from master prompt structure here - word count ~1000+ */}
-
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-2">
+              <li><a href="/paris-to-brussels" className="text-cyan-300 hover:text-cyan-400">Paris to Brussels</a></li>
+              <li><a href="/amsterdam-to-berlin" className="text-cyan-300 hover:text-cyan-400">Amsterdam to Berlin</a></li>
+              <li><a href="/paris-to-rotterdam" className="text-cyan-300 hover:text-cyan-400">Paris to Rotterdam</a></li>
+            </ul>
+          </section>
         </main>
 
-        {/* Footer - Full site branding */}
+        {/* Footer */}
         <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            {/* Footer content from your original */}
             <div className="text-center text-sm text-blue-300/50 pt-8 border-t border-blue-400/10">
               © 2026 Get Me There. All rights reserved.
             </div>
