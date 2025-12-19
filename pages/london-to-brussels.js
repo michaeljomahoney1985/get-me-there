@@ -282,27 +282,28 @@ export default function LondonToBrussels() {
             </p>
           </section>
 
-          {/* NEW: Highlights Along the Way – Destination + Countryside */}
+          {/* Highlights Along the Way – Fixed */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-8">Highlights Along the Way</h2>
             <div className="grid md:grid-cols-2 gap-8">
+              {/* Famous Landmark – Left with caption */}
               <figure>
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/1/18/Brussels_Grand_Place_2021.jpg"
-                  alt="Iconic Grand Place square in Brussels – stunning historic heart of the city"
+                  src="https://upload.wikimedia.org/wikipedia/commons/2/26/Grand-Place%2C_Brussels_-_panorama%2C_June_2018.jpg"
+                  alt="Grand Place, Brussels – UNESCO World Heritage site and iconic square"
                   className="w-full rounded-2xl object-cover shadow-2xl"
                   loading="lazy"
                 />
-                <figcaption className="text-blue-300 text-sm mt-2 text-center">Grand Place, Brussels – your destination highlight</figcaption>
+                <figcaption className="text-blue-300 text-sm mt-2 text-center">Grand Place, Brussels</figcaption>
               </figure>
+              {/* Countryside – Right with no caption */}
               <figure>
                 <img
-                  src="https://uploads.statics.raileurope.com/blog/images/4605-f1a84175ba029537f0fd3bc23a799085.jpg?1701426560"
-                  alt="Flat green countryside and fields in northern France and Belgium along the Eurostar route"
+                  src="https://media.istockphoto.com/id/2194571010/photo/view-to-the-rural-landscape-in-wallonie-belgium.jpg?s=612x612&w=0&k=20&c=k_7tFQtqDPNEv3eeRrtPxCG-Zk1r4DMpe-KXqYCrlTw="
+                  alt="Flat green fields and rural landscape in Belgium countryside"
                   className="w-full rounded-2xl object-cover shadow-2xl"
                   loading="lazy"
                 />
-                <figcaption className="text-blue-300 text-sm mt-2 text-center">Typical Belgian countryside views</figcaption>
               </figure>
             </div>
           </section>
