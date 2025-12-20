@@ -168,6 +168,7 @@ export default function OsloToBergen() {
             </div>
           </section>
 
+          {/* Quick Comparison */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Quick Comparison</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20 overflow-x-auto">
@@ -204,6 +205,7 @@ export default function OsloToBergen() {
             </div>
           </section>
 
+          {/* Schedule */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Oslo to Bergen Schedule</h2>
             <p className="text-blue-200/80 leading-relaxed">
@@ -211,6 +213,7 @@ export default function OsloToBergen() {
             </p>
           </section>
 
+          {/* Ticket Prices */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Ticket Prices & Discounts</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
@@ -218,6 +221,7 @@ export default function OsloToBergen() {
             </p>
           </section>
 
+          {/* Travel Tips */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Travel Tips for First-Time Passengers</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-3">
@@ -228,6 +232,7 @@ export default function OsloToBergen() {
             </ul>
           </section>
 
+          {/* Journey Breakdown */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Train Journey Breakdown</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
@@ -240,6 +245,7 @@ export default function OsloToBergen() {
             </div>
           </section>
 
+          {/* Who Best For */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
@@ -250,6 +256,7 @@ export default function OsloToBergen() {
             </ul>
           </section>
 
+          {/* Scenic & Seasonal Advice */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Scenic & Seasonal Advice</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
@@ -263,7 +270,7 @@ export default function OsloToBergen() {
             </p>
           </section>
 
-          {/* Booking CTAs */}
+          {/* Booking CTAs – updated secondary link */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -277,7 +284,7 @@ export default function OsloToBergen() {
                 Book train on Vy.no (official)
               </a>
               <a
-                href="https://www.fjordtours.com/en/norway/fjord-cruises-from-bergen"
+                href="https://www.fjordtours.com/en"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
