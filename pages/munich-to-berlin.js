@@ -342,12 +342,12 @@ export default function MunichToBerlin() {
             </div>
           </section>
 
-          {/* Hotels Section – Booking.com + Hotels.com */}
+          {/* Hotels Section – Booking.com (blue) + Hotels.com (red) */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a hotel in Berlin?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="https://www.booking.com/city/de/berlin.en.html"
+                href="https://www.booking.com/city/de/berlin.html"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
@@ -355,10 +355,10 @@ export default function MunichToBerlin() {
                 Find hotels on Booking.com
               </a>
               <a
-                href="https://www.hotels.com/ho120001/berlin-germany/"
+                href="https://www.hotels.com/de332483/hotels-berlin-germany/"
                 target="_blank"
                 rel="nofollow noopener"
-                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003B95] hover:bg-[#002b70] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#E31C3D] hover:bg-[#c41734] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 Find hotels on Hotels.com
               </a>
