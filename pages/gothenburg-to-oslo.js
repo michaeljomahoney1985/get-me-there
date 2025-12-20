@@ -24,11 +24,31 @@ export default function GothenburgToOslo() {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
-              { "@type": "Question", name: "How long does the train from Gothenburg to Oslo take?", acceptedAnswer: { "@type": "Answer", text: "Direct Vy trains take around 3 hours 40 minutes." } },
-              { "@type": "Question", name: "Do I need a passport for the Gothenburg to Oslo train?", acceptedAnswer: { "@type": "Answer", text: "No formal checks (Nordic agreement), but carry ID for possible spot checks." } },
-              { "@type": "Question", name: "Can I bring luggage or a bike?", acceptedAnswer: { "@type": "Answer", text: "Generous allowance on Vy trains; bikes require reservation (€10–15)." } },
-              { "@type": "Question", name: "When is the best time to book cheap tickets?", acceptedAnswer: { "@type": "Answer", text: "Book early for advance fares from €25." } },
-              { "@type": "Question", name: "Which side of the train has the best views from Gothenburg to Oslo?", acceptedAnswer: { "@type": "Answer", text: "Right side (facing forward) for varied countryside, forests, and occasional glimpses of Oslofjord approach." } }
+              {
+                "@type": "Question",
+                name: "How long does the train from Gothenburg to Oslo take?",
+                acceptedAnswer: { "@type": "Answer", text: "Direct Vy trains take around 3 hours 40 minutes." }
+              },
+              {
+                "@type": "Question",
+                name: "Do I need a passport for the Gothenburg to Oslo train?",
+                acceptedAnswer: { "@type": "Answer", text: "No formal checks (Nordic agreement), but carry ID for possible spot checks." }
+              },
+              {
+                "@type": "Question",
+                name: "Can I bring luggage or a bike?",
+                acceptedAnswer: { "@type": "Answer", text: "Generous allowance on Vy trains; bikes require reservation (€10–15)." }
+              },
+              {
+                "@type": "Question",
+                name: "When is the best time to book cheap tickets?",
+                acceptedAnswer: { "@type": "Answer", text: "Book early for advance fares from €25." }
+              },
+              {
+                "@type": "Question",
+                name: "Which side of the train has the best views from Gothenburg to Oslo?",
+                acceptedAnswer: { "@type": "Answer", text: "Right side (facing forward) for varied countryside, forests, and occasional glimpses of Oslofjord approach." }
+              }
             ]
           })}
         </script>
@@ -55,7 +75,12 @@ export default function GothenburgToOslo() {
                 <stop offset="100%" stopColor="#3b82f6" stopOpacity="0.6" />
               </linearGradient>
             </defs>
-            <path d="M0,400 L0,180 L200,140 L350,200 L500,80 L650,160 L800,100 L950,180 L1200,120 L1200,400 Z" fill="url(#train-gradient)" className="animate-pulse" style={{ animationDuration: '8s' }} />
+            <path
+              d="M0,400 L0,180 L200,140 L350,200 L500,80 L650,160 L800,100 L950,180 L1200,120 L1200,400 Z"
+              fill="url(#train-gradient)"
+              className="animate-pulse"
+              style={{ animationDuration: '8s' }}
+            />
           </svg>
         </div>
 
@@ -65,7 +90,9 @@ export default function GothenburgToOslo() {
               <a href="/" className="flex items-center gap-3 group">
                 <Mountain className="w-10 h-10 text-cyan-400 group-hover:text-cyan-300 transition-all" />
                 <div>
-                  <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-cyan-300 via-blue-400 to-indigo-400 bg-clip-text text-transparent">Get Me There</h1>
+                  <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-cyan-300 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
+                    Get Me There
+                  </h1>
                   <p className="text-sm text-blue-300/70">Find your perfect route</p>
                 </div>
               </a>
