@@ -67,7 +67,6 @@ export default function FlamToBergen() {
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white">
-        {/* Background SVG */}
         <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-20">
           <svg className="absolute bottom-0 w-full h-96" viewBox="0 0 1200 400" preserveAspectRatio="none">
             <defs>
@@ -85,7 +84,6 @@ export default function FlamToBergen() {
           </svg>
         </div>
 
-        {/* Header */}
         <header className="relative border-b border-blue-400/20 backdrop-blur-sm bg-slate-900/50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex items-center justify-between">
@@ -108,7 +106,6 @@ export default function FlamToBergen() {
         </header>
 
         <main className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          {/* Breadcrumb */}
           <div className="flex items-center gap-3 text-cyan-400 text-sm mb-4">
             <a href="/" className="hover:text-cyan-300">Home</a>
             <span>→</span>
@@ -117,7 +114,6 @@ export default function FlamToBergen() {
             <span className="text-blue-300">Flåm to Bergen</span>
           </div>
 
-          {/* H1 */}
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
               Flåm to Bergen by Train:
@@ -126,12 +122,10 @@ export default function FlamToBergen() {
             <span className="text-blue-100">Time, Cost & Travel Guide (2026)</span>
           </h1>
 
-          {/* Intro */}
           <p className="text-xl text-blue-200/80 leading-relaxed mb-12">
             The reverse of the classic Bergen Line journey takes you from fjord-level Flåm up the legendary Flåm Railway before joining the main Bergen Line across mountains and valleys to colourful Bergen. This scenic masterpiece offers dramatic ascents, waterfalls, plateaus, and coastal approaches – ideal for completing a Norway fjord adventure.
           </p>
 
-          {/* Route Highlights Card */}
           <section className="mb-12">
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/60 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <div className="flex items-center gap-3 mb-6">
@@ -174,7 +168,6 @@ export default function FlamToBergen() {
             </div>
           </section>
 
-          {/* Quick Comparison Table */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Quick Comparison</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20 overflow-x-auto">
@@ -211,7 +204,6 @@ export default function FlamToBergen() {
             </div>
           </section>
 
-          {/* Schedule */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Flåm to Bergen Schedule</h2>
             <p className="text-blue-200/80 leading-relaxed">
@@ -219,7 +211,6 @@ export default function FlamToBergen() {
             </p>
           </section>
 
-          {/* Ticket Prices & Discounts */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Ticket Prices & Discounts</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
@@ -227,7 +218,6 @@ export default function FlamToBergen() {
             </p>
           </section>
 
-          {/* Travel Tips for First-Time Passengers */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Travel Tips for First-Time Passengers</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-3">
@@ -238,7 +228,6 @@ export default function FlamToBergen() {
             </ul>
           </section>
 
-          {/* Train Journey Breakdown */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Train Journey Breakdown</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
@@ -251,7 +240,6 @@ export default function FlamToBergen() {
             </div>
           </section>
 
-          {/* Who This Route Is Best For */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
@@ -262,7 +250,6 @@ export default function FlamToBergen() {
             </ul>
           </section>
 
-          {/* Scenic & Seasonal Advice */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Scenic & Seasonal Advice</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
@@ -273,7 +260,6 @@ export default function FlamToBergen() {
             </p>
           </section>
 
-          {/* FAQ Section */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs About Flåm to Bergen Train</h2>
             <div className="space-y-6">
@@ -300,18 +286,18 @@ export default function FlamToBergen() {
             </div>
           </section>
 
-          {/* Booking CTAs */}
+          {/* Updated Booking CTAs */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="https://www.thetrainline.com/en-us/train-times/flam-to-bergen"
+                href="https://www.vy.no/en"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <Train className="w-6 h-6" />
-                Check train times and book on Trainline
+                Book on Vy.no (official)
               </a>
               <a
                 href="https://www.omio.com/trains/flam/bergen"
@@ -320,12 +306,11 @@ export default function FlamToBergen() {
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Compare options on Omio
+                Compare prices on Omio
               </a>
             </div>
           </section>
 
-          {/* Eurail/Interrail Pass Section */}
           <section className="mb-12">
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <div className="flex items-center gap-4 mb-6">
@@ -357,7 +342,6 @@ export default function FlamToBergen() {
             </div>
           </section>
 
-          {/* Related Routes */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
@@ -368,7 +352,6 @@ export default function FlamToBergen() {
           </section>
         </main>
 
-        {/* Footer */}
         <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="text-center text-sm text-blue-300/50 pt-8 border-t border-blue-400/10">
