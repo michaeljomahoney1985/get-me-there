@@ -137,7 +137,7 @@ export default function BerlinToMunich() {
               <div className="flex items-center gap-3 mb-6">
                 <Train className="w-8 h-8 text-cyan-400" />
                 <h2 className="text-2xl font-bold text-blue-100">Direct ICE High-Speed Train</h2>
-                <p className="text-cyan-300 text-sm">Deutsche Bahn</  p>
+                <p className="text-cyan-300 text-sm">Deutsche Bahn</p>
               </div>
 
               <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -345,7 +345,7 @@ export default function BerlinToMunich() {
 
               <div className="mt-8">
                 <a
-                  0href="https://www.eurail.com"
+                  href="https://www.eurail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300"
