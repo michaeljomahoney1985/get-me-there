@@ -311,7 +311,7 @@ export default function MunichToRozvadov() {
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a hotel in Rozvadov?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="https://www.booking.com/hotel/cz/king-s-resort.en-gb.html"
+                href="https://www.booking.com/hotel/cz/kings-casino-amp.html"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
@@ -319,7 +319,7 @@ export default function MunichToRozvadov() {
                 Book King's Resort on Booking.com
               </a>
               <a
-                href="https://www.hotels.com/ho522909/king-s-resort-rozvadov-czech-republic/"
+                href="https://www.hotels.com/ho773404864/kings-casino-hotel-rozvadov-czech-republic/"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#E31C3D] hover:bg-[#c41734] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
