@@ -342,6 +342,22 @@ export default function MunichToBerlin() {
             </div>
           </section>
 
+          {/* NEW: Booking.com Hotel Section */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a hotel in Berlin?</h2>
+            <a
+              href="https://www.booking.com/city/de/berlin.en.html"
+              target="_blank"
+              rel="nofollow noopener"
+              className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+            >
+              Find hotels on Booking.com
+            </a>
+            <p className="text-blue-300 text-sm mt-4">
+              (Add your affiliate ID later: &aid=YOUR_ID)
+            </p>
+          </section>
+
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
