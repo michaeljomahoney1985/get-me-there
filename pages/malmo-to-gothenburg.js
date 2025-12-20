@@ -260,12 +260,12 @@ export default function MalmoToGothenburg() {
             </p>
           </section>
 
-          {/* Booking CTAs – Trainline in green */}
+          {/* Booking CTAs – Trainline in green, working link */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="https://www.thetrainline.com/en-us/train-times/malmo-to-gothenburg"
+                href="https://www.thetrainline.com/en-us/train-times/malmo-central-to-gothenburg-central"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#00A387] hover:bg-[#008f75] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
