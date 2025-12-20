@@ -210,7 +210,29 @@ export default function MunichToRozvadov() {
             </div>
           </section>
 
-          {/* Other sections: Schedule, Prices, Tips, etc. tailored to poker/gambling context */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Munich to Rozvadov Schedule</h2>
+            <p className="text-blue-200/80 leading-relaxed">
+              Frequent trains to Waidhaus or Plzeň, plus FlixBus direct options. King's Casino shuttle runs on demand for players.
+            </p>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Ticket Prices & Tips</h2>
+            <p className="text-blue-200/80 leading-relaxed mb-6">
+              Train + shuttle €20–40, FlixBus €20–35, casino shuttle often free/low-cost for registered players.
+            </p>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Travel Tips for Gamblers</h2>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-3">
+              <li>Register with King's Casino in advance for free shuttle eligibility.</li>
+              <li>Bring passport/ID – Czech border.</li>
+              <li>Casino has on-site hotel, restaurants, spa – no need to leave.</li>
+              <li>Cash games and tournaments run 24/7.</li>
+            </ul>
+          </section>
 
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
@@ -225,36 +247,76 @@ export default function MunichToRozvadov() {
                 Train tickets on Trainline
               </a>
               <a
-                href="https://www.omio.com/trains/munich/rozvadov"
+                href="https://www.omio.com/buses/munich/rozvadov"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Compare bus/train on Omio
+                Bus/train on Omio
               </a>
             </div>
             <p className="text-blue-300 mt-6 text-center">
-              <a href="https://www.kings-resort.com/en/transport/shuttle-service/" target="_blank" className="underline hover:text-cyan-300">
+              <a href="https://www.kings-resort.com/en/transport/shuttle-service/" target="_blank" rel="noopener" className="underline hover:text-cyan-300">
                 Check King's Casino shuttle schedule (often free for players) →
               </a>
             </p>
           </section>
 
-          {/* Eurail section (valid on DB trains) */}
+          <section className="mb-12">
+            <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="p-3 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-xl">
+                  <Star className="w-8 h-8 text-cyan-400" />
+                </div>
+                <div>
+                  <h2 className="text-3xl font-bold text-blue-100">Eurail/Interrail Pass</h2>
+                  <p className="text-cyan-300 text-sm">For wider Europe trips</p>
+                </div>
+              </div>
 
-          {/* FAQs tailored to poker players */}
+              <div className="space-y-4 text-blue-200/80 leading-relaxed">
+                <p>Eurail/Interrail passes valid on DB trains to Waidhaus. Seat reservation recommended.</p>
+              </div>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs for Poker & Gambling Trips</h2>
+            <div className="space-y-6">
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">How long does it take from Munich to Rozvadov?</summary>
+                <p className="mt-4 text-blue-200/80">Around 2h30m–3h30m depending on connection.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">What's the cheapest way?</summary>
+                <p className="mt-4 text-blue-200/80">FlixBus or train + casino shuttle – from €20–40.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Does King's Casino offer a shuttle from Munich?</summary>
+                <p className="mt-4 text-blue-200/80">Yes – free or low-cost for players (check schedule).</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Is there a direct train?</summary>
+                <p className="mt-4 text-blue-200/80">No – closest is Waidhaus + casino pickup.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Best option for poker players?</summary>
+                <p className="mt-4 text-blue-200/80">Casino shuttle or train to Waidhaus + free pickup.</p>
+              </details>
+            </div>
+          </section>
 
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a hotel in Rozvadov?</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="https://www.booking.com/hotel/cz/king-39-s.en.html"
+                href="https://www.booking.com/hotel/cz/king-s-resort.en-gb.html"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
-                Book King's Resort Hotel on Booking.com
+                Book King's Resort on Booking.com
               </a>
               <a
                 href="https://www.hotels.com/ho522909/king-s-resort-rozvadov-czech-republic/"
@@ -270,7 +332,14 @@ export default function MunichToRozvadov() {
             </p>
           </section>
 
-          {/* Related Routes – Prague to Rozvadov, etc. */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-2">
+              <li><a href="/prague-to-rozvadov" className="text-cyan-300 hover:text-cyan-400">Prague to Rozvadov (King's Casino)</a></li>
+              <li><a href="/munich-to-prague" className="text-cyan-300 hover:text-cyan-400">Munich to Prague train</a></li>
+              <li><a href="/nuremberg-to-rozvadov" className="text-cyan-300 hover:text-cyan-400">Nuremberg to Rozvadov</a></li>
+            </ul>
+          </section>
         </main>
 
         <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
