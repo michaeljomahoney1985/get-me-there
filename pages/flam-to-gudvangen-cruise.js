@@ -300,32 +300,32 @@ export default function FlamToGudvangen() {
             </div>
           </section>
 
-          {/* Booking CTAs */}
+          {/* Booking CTAs – Updated to relevant partners */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="https://www.thetrainline.com/en-us/boat-times/flam-to-gudvangen"
+                href="https://www.booking.com/searchresults.html?dest_id=-577184;dest_type=city&checkin=2026-06-01&checkout=2026-06-02&group_adults=2&no_rooms=1&label=fjordcruise" // Example affiliate link – replace with your actual affiliate
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <Ship className="w-6 h-6" />
-                Check times and book on Trainline
+                Book cruise on Booking.com
               </a>
               <a
-                href="https://www.omio.com/ferries/flam/gudvangen"
+                href="https://www.cruisedirect.com" // General cruise comparison – or specific Flåm search if available
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Compare cruise & combos on Omio
+                Compare cruise prices on Cruise Direct
               </a>
             </div>
           </section>
 
-          {/* Eurail/Interrail Note (no pass valid on cruise) */}
+          {/* Eurail/Interrail Note */}
           <section className="mb-12">
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <div className="flex items-center gap-4 mb-6">
@@ -349,7 +349,7 @@ export default function FlamToGudvangen() {
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
               <li><a href="/bergen-to-flam" className="text-cyan-300 hover:text-cyan-400">Bergen to Flåm train + cruise combo</a></li>
-              <li><a href="/oslo-to-bergen" className="text-cyan-300 hover:text-cyan-400">Oslo to Bergen scenic train</a></li>
+              <li><a href="/oslo-to-bergen" className="text-cyan-300 hover:text-cyan-400">Oslo to Bergen full Bergen Line</a></li>
               <li><a href="/gudvangen-to-voss" className="text-cyan-300 hover:text-cyan-400">Gudvangen to Voss shuttle bus</a></li>
             </ul>
           </section>
