@@ -260,7 +260,7 @@ export default function MunichToBerlin() {
             </p>
           </section>
 
-          {/* Booking CTAs – Trainline in green */}
+          {/* Booking CTAs */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -342,20 +342,27 @@ export default function MunichToBerlin() {
             </div>
           </section>
 
-          {/* NEW: Booking.com Hotel Section */}
+          {/* Hotels Section – Booking.com + Hotels.com */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a hotel in Berlin?</h2>
-            <a
-              href="https://www.booking.com/city/de/berlin.en.html"
-              target="_blank"
-              rel="nofollow noopener"
-              className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
-            >
-              Find hotels on Booking.com
-            </a>
-            <p className="text-blue-300 text-sm mt-4">
-              (Add your affiliate ID later: &aid=YOUR_ID)
-            </p>
+            <div className="grid md:grid-cols-2 gap-8">
+              <a
+                href="https://www.booking.com/city/de/berlin.en.html"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                Find hotels on Booking.com
+              </a>
+              <a
+                href="https://www.hotels.com/ho120001/berlin-germany/"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003B95] hover:bg-[#002b70] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                Find hotels on Hotels.com
+              </a>
+            </div>
           </section>
 
           <section className="mb-12">
