@@ -9,15 +9,15 @@ export default function BerlinToMunich() {
         <title>Berlin to Munich by Train: Time, Cost & Travel Guide (2026)</title>
         <meta
           name="description"
-          content="Book Berlin to Munich train tickets from €18 with Deutsche Bahn ICE. Discover 2026 schedules, cheap fares, direct high-speed routes, tips, and why the train beats flying on Germany's flagship route."
+          content="Book Berlin to Munich train tickets from €15 with Deutsche Bahn ICE. Discover 2026 schedules, cheap fares, direct high-speed routes across Germany, tips, and why this fast journey is the best way to connect the capital with Bavaria's vibrant heart."
         />
         <meta property="og:title" content="Berlin to Munich by Train: Time, Cost & Travel Guide (2026)" />
-        <meta property="og:description" content="Direct ICE from Berlin to Munich in ~4h – cheap tickets, schedules, tips & FAQs." />
+        <meta property="og:description" content="Direct DB ICE from Berlin to Munich in ~4h – cheap advance tickets, frequent departures, scenic German landscapes." />
         <meta property="og:url" content="https://www.get-me-there.com/berlin-to-munich" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Berlin to Munich by Train: Time, Cost & Travel Guide (2026)" />
-        <meta name="twitter:description" content="Direct ICE from Berlin to Munich in ~4h – cheap tickets, schedules, tips & FAQs." />
+        <meta name="twitter:description" content="Direct DB ICE from Berlin to Munich in ~4h – cheap advance tickets, frequent departures, scenic German landscapes." />
 
         <script type="application/ld+json">
           {JSON.stringify({
@@ -27,27 +27,27 @@ export default function BerlinToMunich() {
               {
                 "@type": "Question",
                 name: "How long does the train from Berlin to Munich take?",
-                acceptedAnswer: { "@type": "Answer", text: "Direct ICE high-speed trains take as little as 3 hours 55 minutes on the fastest services." }
+                acceptedAnswer: { "@type": "Answer", text: "Direct Deutsche Bahn ICE high-speed trains take around 4 hours." }
               },
               {
                 "@type": "Question",
                 name: "Do I need ID for the Berlin to Munich train?",
-                acceptedAnswer: { "@type": "Answer", text: "No passport or ID checks – domestic German route." }
+                acceptedAnswer: { "@type": "Answer", text: "No – domestic German route." }
               },
               {
                 "@type": "Question",
-                name: "Can I bring luggage or a bike on ICE?",
-                acceptedAnswer: { "@type": "Answer", text: "Generous allowance: no weight limit, multiple racks. Bikes require reservation (€9)." }
+                name: "Can I bring luggage or a bike?",
+                acceptedAnswer: { "@type": "Answer", text: "Generous allowance on DB trains; bikes require reservation (€10–15)." }
               },
               {
                 "@type": "Question",
                 name: "When is the best time to book cheap tickets?",
-                acceptedAnswer: { "@type": "Answer", text: "Book 3–6 months ahead for €18–30 Sparpreis fares. Off-peak and midweek cheapest." }
+                acceptedAnswer: { "@type": "Answer", text: "Book 3–6 months ahead for Sparpreis fares from €15." }
               },
               {
                 "@type": "Question",
                 name: "Which side of the train has the best views from Berlin to Munich?",
-                acceptedAnswer: { "@type": "Answer", text: "Right side (facing forward) for more open countryside and glimpses of the Bavarian landscape approaching Munich." }
+                acceptedAnswer: { "@type": "Answer", text: "Right side (facing forward) for more varied landscapes including Thuringian Forest and Bavarian hills." }
               }
             ]
           })}
@@ -67,7 +67,6 @@ export default function BerlinToMunich() {
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white">
-        {/* Background SVG */}
         <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-20">
           <svg className="absolute bottom-0 w-full h-96" viewBox="0 0 1200 400" preserveAspectRatio="none">
             <defs>
@@ -85,7 +84,6 @@ export default function BerlinToMunich() {
           </svg>
         </div>
 
-        {/* Header */}
         <header className="relative border-b border-blue-400/20 backdrop-blur-sm bg-slate-900/50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex items-center justify-between">
@@ -108,7 +106,6 @@ export default function BerlinToMunich() {
         </header>
 
         <main className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          {/* Breadcrumb */}
           <div className="flex items-center gap-3 text-cyan-400 text-sm mb-4">
             <a href="/" className="hover:text-cyan-300">Home</a>
             <span>→</span>
@@ -117,7 +114,6 @@ export default function BerlinToMunich() {
             <span className="text-blue-300">Berlin to Munich</span>
           </div>
 
-          {/* H1 */}
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
               Berlin to Munich by Train:
@@ -126,12 +122,10 @@ export default function BerlinToMunich() {
             <span className="text-blue-100">Time, Cost & Travel Guide (2026)</span>
           </h1>
 
-          {/* Intro */}
           <p className="text-xl text-blue-200/80 leading-relaxed mb-12">
-            Germany's flagship high-speed route connects the vibrant capital Berlin with Bavaria's lively heart Munich. Modern ICE trains reach speeds up to 300 km/h on the upgraded line, making this one of Europe's fastest domestic connections – perfect for Oktoberfest, business, or exploring contrasting German cultures.
+            Germany's premier north-south high-speed corridor links edgy Berlin with traditional Munich in just 4 hours on ICE trains. This scenic route through central Germany passes forests, rivers, and Bavarian hills – perfect for Oktoberfest trips, business, or experiencing the contrast between Prussian capital and Bavarian heartland without airport stress.
           </p>
 
-          {/* Route Highlights Card */}
           <section className="mb-12">
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/60 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <div className="flex items-center gap-3 mb-6">
@@ -144,10 +138,10 @@ export default function BerlinToMunich() {
                 <div className="bg-slate-800/70 rounded-2xl p-6 text-center">
                   <Clock className="w-8 h-8 text-cyan-400 mx-auto mb-2" />
                   <p className="text-3xl font-bold text-white">~4h</p>
-                  <p className="text-blue-300 text-sm">Direct (fastest 3h55m)</p>
+                  <p className="text-blue-300 text-sm">Direct</p>
                 </div>
                 <div className="bg-slate-800/70 rounded-2xl p-6 text-center">
-                  <p className="text-3xl font-bold text-white">€18–120</p>
+                  <p className="text-3xl font-bold text-white">€15–120</p>
                   <p className="text-blue-300 text-sm">One-way (2026 advance fares)</p>
                 </div>
                 <div className="bg-slate-800/70 rounded-2xl p-6 text-center">
@@ -157,7 +151,7 @@ export default function BerlinToMunich() {
               </div>
 
               <p className="text-blue-200/90 leading-relaxed mb-6">
-                High-speed direct ICE trains on Germany's premier route. Fast, comfortable, and reliable with views of Saxony and Bavarian countryside.
+                High-speed direct ICE trains on Germany's upgraded north-south axis – fast, frequent, and comfortable.
               </p>
 
               <div className="bg-slate-800/60 rounded-2xl p-6">
@@ -165,16 +159,15 @@ export default function BerlinToMunich() {
                   <span className="text-yellow-400">💡</span> Tips:
                 </p>
                 <ul className="text-blue-200/90 space-y-2 text-sm">
-                  <li>Sit on the right side (from Berlin) for best countryside views approaching Bavaria</li>
-                  <li>Seat reservation (€4–6) recommended in peak season</li>
-                  <li>Onboard bistro available — but bring snacks for savings</li>
-                  <li>Book early for cheapest Sparpreis fares (limited availability)</li>
+                  <li>Right side (from Berlin) for Thuringian Forest and Bavarian landscapes</li>
+                  <li>Seat reservation recommended (€5–10)</li>
+                  <li>Onboard restaurant serves meals and Bavarian beer</li>
+                  <li>Book early for Sparpreis advance fares</li>
                 </ul>
               </div>
             </div>
           </section>
 
-          {/* Quick Comparison Table */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Quick Comparison</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20 overflow-x-auto">
@@ -189,61 +182,57 @@ export default function BerlinToMunich() {
                 </thead>
                 <tbody className="text-blue-200/80">
                   <tr className="border-b border-blue-400/10">
-                    <td className="py-4 px-4 font-semibold text-cyan-300">Train (ICE direct)</td>
+                    <td className="py-4 px-4 font-semibold text-cyan-300">Train (DB ICE direct)</td>
                     <td className="py-4 px-4">~4h</td>
-                    <td className="py-4 px-4">€18–120+</td>
-                    <td className="py-4 px-4">Everyone—fast, comfortable, city-center</td>
+                    <td className="py-4 px-4">€15–120+</td>
+                    <td className="py-4 px-4">Everyone—fastest and most comfortable</td>
                   </tr>
                   <tr className="border-b border-blue-400/10">
                     <td className="py-4 px-4 font-semibold text-cyan-300">Bus (FlixBus)</td>
                     <td className="py-4 px-4">7–9h</td>
                     <td className="py-4 px-4">€20–50</td>
-                    <td className="py-4 px-4">Budget; overnight options</td>
+                    <td className="py-4 px-4">Budget travelers</td>
                   </tr>
                   <tr>
                     <td className="py-4 px-4 font-semibold text-cyan-300">Flight</td>
-                    <td className="py-4 px-4">4–6h door-to-door</td>
+                    <td className="py-4 px-4">3–5h door-to-door</td>
                     <td className="py-4 px-4">€60–200</td>
-                    <td className="py-4 px-4">Rarely—airports far from centers</td>
+                    <td className="py-4 px-4">Speed, but airports add hassle</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </section>
 
-          {/* Schedule */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Berlin to Munich Schedule</h2>
             <p className="text-blue-200/80 leading-relaxed">
-              Frequent direct ICE departures (every 30–60 minutes) from Berlin Hbf to München Hbf. First trains ~4am, last ~10pm. Fastest services under 4 hours.
+              Hourly direct ICE departures from Berlin Hbf to München Hbf. Fastest services around 4 hours.
             </p>
           </section>
 
-          {/* Ticket Prices & Discounts */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Ticket Prices & Discounts</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
-              Sparpreis advance tickets from €18–30 when booked early. Flexpreis anytime ~€100+. BahnCard 25/50 saves 25–50%. Book 3–6 months ahead for lowest fares.
+              Sparpreis advance tickets from €15–40 when booked early. Standard fares €90–120. Book 3–6 months ahead for lowest prices.
             </p>
           </section>
 
-          {/* Travel Tips for First-Time Passengers */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Travel Tips for First-Time Passengers</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-3">
-              <li>No ID checks – domestic German travel.</li>
-              <li>Seat reservation (€4–6) recommended on busy routes.</li>
-              <li>First Class includes lounge access at major stations.</li>
-              <li>Generous luggage – no weight limits.</li>
+              <li>No ID checks – domestic German route.</li>
+              <li>Seat reservation recommended (€5–10).</li>
+              <li>First Class offers lounge access at stations.</li>
+              <li>Generous luggage allowance.</li>
             </ul>
           </section>
 
-          {/* Train Journey Breakdown */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Train Journey Breakdown</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <p className="text-blue-200/80 leading-relaxed mb-6">
-                High-speed ICE trains reach 300 km/h on the upgraded Berlin–Munich line. Route passes through Saxony and Bavaria with views of forests and rolling hills.
+                High-speed ICE trains speed south through Saxony, Thuringia, and into Bavaria with views of forests, rivers, and hills.
               </p>
               <p className="text-blue-200/80 leading-relaxed">
                 Onboard restaurant, Wi-Fi, power sockets. Quiet zones available.
@@ -251,56 +240,27 @@ export default function BerlinToMunich() {
             </div>
           </section>
 
-          {/* Who This Route Is Best For */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
-              <li><strong>Oktoberfest Visitors:</strong> Direct to Munich beer halls.</li>
-              <li><strong>Business Travelers:</strong> Fast connection between major hubs.</li>
-              <li><strong>Culture Seekers:</strong> Contrast Berlin edge with Bavarian tradition.</li>
-              <li><strong>Families:</strong> Comfortable, spacious trains.</li>
+              <li><strong>Oktoberfest Goers:</strong> Direct to Munich's beer halls.</li>
+              <li><strong>Culture Lovers:</strong> Berlin history to Bavarian tradition.</li>
+              <li><strong>Business Travelers:</strong> Productive time onboard.</li>
+              <li><strong>Families:</strong> Comfortable long-distance journey.</li>
             </ul>
           </section>
 
-          {/* Scenic & Seasonal Advice */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Scenic & Seasonal Advice</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
-              Fast route with glimpses of German countryside. Autumn colours and spring green best; winter snow possible.
+              Varied landscapes from flat north to hilly Bavaria. Autumn colours and spring green particularly nice.
             </p>
             <p className="text-blue-200/80 leading-relaxed mb-8">
-              Right side (facing forward) for more open views approaching Bavaria.
+              Right side (facing forward) for more scenic sections.
             </p>
           </section>
 
-          {/* FAQ Section */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs About Berlin to Munich Train</h2>
-            <div className="space-y-6">
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">How long does the train from Berlin to Munich take?</summary>
-                <p className="mt-4 text-blue-200/80">As little as 3 hours 55 minutes on the fastest ICE services.</p>
-              </details>
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Do I need ID?</summary>
-                <p className="mt-4 text-blue-200/80">No – domestic German route.</p>
-              </details>
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Can I bring luggage or a bike?</summary>
-                <p className="mt-4 text-blue-200/80">No weight limit. Bikes require €9 reservation.</p>
-              </details>
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Best time to book cheap fares?</summary>
-                <p className="mt-4 text-blue-200/80">3–6 months ahead for €18–30 Sparpreis tickets.</p>
-              </details>
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Which side has the best views?</summary>
-                <p className="mt-4 text-blue-200/80">Right side for Bavarian countryside near Munich.</p>
-              </details>
-            </div>
-          </section>
-
-          {/* Booking CTAs */}
+          {/* Booking CTAs – Trainline in green */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -308,10 +268,10 @@ export default function BerlinToMunich() {
                 href="https://www.thetrainline.com/en-us/train-times/berlin-to-munich"
                 target="_blank"
                 rel="nofollow noopener"
-                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#00A387] hover:bg-[#008f75] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <Train className="w-6 h-6" />
-                Check train times and book on Trainline
+                Check times and book on Trainline
               </a>
               <a
                 href="https://www.omio.com/trains/berlin/munich"
@@ -320,12 +280,11 @@ export default function BerlinToMunich() {
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Compare train, bus & flight on Omio
+                Compare prices on Omio
               </a>
             </div>
           </section>
 
-          {/* Eurail/Interrail Pass Section */}
           <section className="mb-12">
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <div className="flex items-center gap-4 mb-6">
@@ -339,8 +298,8 @@ export default function BerlinToMunich() {
               </div>
 
               <div className="space-y-4 text-blue-200/80 leading-relaxed">
-                <p>Eurail (non-EU) or Interrail (EU residents) passes are valid on ICE with mandatory seat reservation (€4–6).</p>
-                <p>Limited passholder seats—book early via DB or rail.cc.</p>
+                <p>Eurail (non-EU) or Interrail (EU residents) passes are valid on DB trains with mandatory seat reservation (€5–10).</p>
+                <p>Popular route – book reservations early.</p>
               </div>
 
               <div className="mt-8">
@@ -357,18 +316,42 @@ export default function BerlinToMunich() {
             </div>
           </section>
 
-          {/* Related Routes */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs About Berlin to Munich Train</h2>
+            <div className="space-y-6">
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">How long does the train from Berlin to Munich take?</summary>
+                <p className="mt-4 text-blue-200/80">Around 4 hours on direct ICE services.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Do I need ID?</summary>
+                <p className="mt-4 text-blue-200/80">No – domestic German route.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Can I bring luggage or a bike?</summary>
+                <p className="mt-4 text-blue-200/80">Generous allowance. Bikes require €10–15 reservation.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Best time to book cheap fares?</summary>
+                <p className="mt-4 text-blue-200/80">3–6 months ahead for €15 Sparpreis tickets.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Which side has the best views?</summary>
+                <p className="mt-4 text-blue-200/80">Right side for Thuringian Forest and Bavarian hills.</p>
+              </details>
+            </div>
+          </section>
+
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
-              <li><a href="/berlin-to-hamburg" className="text-cyan-300 hover:text-cyan-400">Berlin to Hamburg by train</a></li>
-              <li><a href="/munich-to-vienna" className="text-cyan-300 hover:text-cyan-400">Munich to Vienna by train</a></li>
-              <li><a href="/frankfurt-to-munich" className="text-cyan-300 hover:text-cyan-400">Frankfurt to Munich train</a></li>
+              <li><a href="/munich-to-berlin" className="text-cyan-300 hover:text-cyan-400">Munich to Berlin (reverse)</a></li>
+              <li><a href="/hamburg-to-berlin" className="text-cyan-300 hover:text-cyan-400">Hamburg to Berlin train</a></li>
+              <li><a href="/munich-to-zurich" className="text-cyan-300 hover:text-cyan-400">Munich to Zurich train</a></li>
             </ul>
           </section>
         </main>
 
-        {/* Footer */}
         <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="text-center text-sm text-blue-300/50 pt-8 border-t border-blue-400/10">
