@@ -9,46 +9,26 @@ export default function BergenToFlam() {
         <title>Bergen to Flåm by Train: Time, Cost & Travel Guide (2026)</title>
         <meta
           name="description"
-          content="Book Bergen to Flåm train tickets from €50 return with Vy & Flåmsbana. Discover 2026 schedules, cheap fares, and why the Flåm Railway is one of the world's most spectacular scenic rail journeys."
+          content="Book Bergen to Flåm train tickets from €50 return with Vy. Discover 2026 schedules, cheap fares, direct mainline + legendary Flåmsbana, tips, and why this is one of the world's most spectacular scenic rail journeys."
         />
         <meta property="og:title" content="Bergen to Flåm by Train: Time, Cost & Travel Guide (2026)" />
-        <meta property="og:description" content="Mainline + legendary Flåmsbana from Bergen to Flåm in ~5h – breathtaking fjord and mountain scenery." />
+        <meta property="og:description" content="Mainline + Flåmsbana from Bergen to Flåm in ~5h – breathtaking fjords, waterfalls, mountains." />
         <meta property="og:url" content="https://www.get-me-there.com/bergen-to-flam" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Bergen to Flåm by Train: Time, Cost & Travel Guide (2026)" />
-        <meta name="twitter:description" content="Mainline + legendary Flåmsbana from Bergen to Flåm in ~5h – breathtaking fjord and mountain scenery." />
+        <meta name="twitter:description" content="Mainline + Flåmsbana from Bergen to Flåm in ~5h – breathtaking fjords, waterfalls, mountains." />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
-              {
-                "@type": "Question",
-                name: "How long does the train from Bergen to Flåm take?",
-                acceptedAnswer: { "@type": "Answer", text: "Around 5 hours total (Bergen–Myrdal ~4h + Flåmsbana ~1h). Most people do a return day trip." }
-              },
-              {
-                "@type": "Question",
-                name: "Do I need a passport for the Bergen to Flåm train?",
-                acceptedAnswer: { "@type": "Answer", text: "No – domestic Norwegian route." }
-              },
-              {
-                "@type": "Question",
-                name: "Can I bring luggage or a bike?",
-                acceptedAnswer: { "@type": "Answer", text: "Generous allowance on mainline; limited on Flåmsbana (bikes not allowed on tourist trains)." }
-              },
-              {
-                "@type": "Question",
-                name: "When is the best time to book cheap tickets?",
-                acceptedAnswer: { "@type": "Answer", text: "Book early for combined tickets; Flåmsbana sells out in peak summer." }
-              },
-              {
-                "@type": "Question",
-                name: "Which side of the train has the best views on Flåmsbana?",
-                acceptedAnswer: { "@type": "Answer", text: "Right side descending (left ascending) for the most dramatic waterfalls and valley views." }
-              }
+              { "@type": "Question", name: "How long does the train from Bergen to Flåm take?", acceptedAnswer: { "@type": "Answer", text: "Around 5 hours total (Bergen–Myrdal ~4h + Flåmsbana ~1h). Most people do a return day trip." } },
+              { "@type": "Question", name: "Do I need a passport for the Bergen to Flåm train?", acceptedAnswer: { "@type": "Answer", text: "No – domestic Norwegian route." } },
+              { "@type": "Question", name: "Can I bring luggage or a bike?", acceptedAnswer: { "@type": "Answer", text: "Generous allowance on mainline; limited on Flåmsbana (bikes require reservation)." } },
+              { "@type": "Question", name: "When is the best time to book cheap tickets?", acceptedAnswer: { "@type": "Answer", text: "Book early for combined Minipris fares." } },
+              { "@type": "Question", name: "Which side of the train has the best views from Bergen to Flåm?", acceptedAnswer: { "@type": "Answer", text: "Right side descending Flåmsbana (left ascending) for dramatic waterfalls and valley views." } }
             ]
           })}
         </script>
@@ -67,7 +47,6 @@ export default function BergenToFlam() {
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white">
-        {/* Background SVG */}
         <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-20">
           <svg className="absolute bottom-0 w-full h-96" viewBox="0 0 1200 400" preserveAspectRatio="none">
             <defs>
@@ -76,25 +55,17 @@ export default function BergenToFlam() {
                 <stop offset="100%" stopColor="#3b82f6" stopOpacity="0.6" />
               </linearGradient>
             </defs>
-            <path
-              d="M0,400 L0,180 L200,140 L350,200 L500,80 L650,160 L800,100 L950,180 L1200,120 L1200,400 Z"
-              fill="url(#train-gradient)"
-              className="animate-pulse"
-              style={{ animationDuration: '8s' }}
-            />
+            <path d="M0,400 L0,180 L200,140 L350,200 L500,80 L650,160 L800,100 L950,180 L1200,120 L1200,400 Z" fill="url(#train-gradient)" className="animate-pulse" style={{ animationDuration: '8s' }} />
           </svg>
         </div>
 
-        {/* Header */}
         <header className="relative border-b border-blue-400/20 backdrop-blur-sm bg-slate-900/50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex items-center justify-between">
               <a href="/" className="flex items-center gap-3 group">
                 <Mountain className="w-10 h-10 text-cyan-400 group-hover:text-cyan-300 transition-all" />
                 <div>
-                  <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-cyan-300 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
-                    Get Me There
-                  </h1>
+                  <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-cyan-300 via-blue-400 to-indigo-400 bg-clip-text text-transparent">Get Me There</h1>
                   <p className="text-sm text-blue-300/70">Find your perfect route</p>
                 </div>
               </a>
@@ -108,7 +79,6 @@ export default function BergenToFlam() {
         </header>
 
         <main className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          {/* Breadcrumb */}
           <div className="flex items-center gap-3 text-cyan-400 text-sm mb-4">
             <a href="/" className="hover:text-cyan-300">Home</a>
             <span>→</span>
@@ -117,7 +87,6 @@ export default function BergenToFlam() {
             <span className="text-blue-300">Bergen to Flåm</span>
           </div>
 
-          {/* H1 */}
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
               Bergen to Flåm by Train:
@@ -126,18 +95,16 @@ export default function BergenToFlam() {
             <span className="text-blue-100">Time, Cost & Travel Guide (2026)</span>
           </h1>
 
-          {/* Intro */}
           <p className="text-xl text-blue-200/80 leading-relaxed mb-12">
-            The journey from Bergen to tiny Flåm combines the Bergen Line with the legendary Flåm Railway (Flåmsbana) – widely regarded as one of the most spectacular train rides on Earth. Descending 866 metres through 20 tunnels with views of waterfalls, sheer cliffs, and fjords, this is Norway's ultimate scenic rail experience and a bucket-list must-do.
+            The journey from colourful Bergen to tiny Flåm combines the Bergen Line with the legendary Flåm Railway (Flåmsbana) – widely regarded as one of the most spectacular train rides on Earth. Descending 866 metres through 20 tunnels with views of waterfalls, sheer cliffs, and fjords, this is Norway's ultimate scenic rail experience and a bucket-list must-do.
           </p>
 
-          {/* Route Highlights Card */}
           <section className="mb-12">
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/60 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <div className="flex items-center gap-3 mb-6">
                 <Train className="w-8 h-8 text-cyan-400" />
                 <h2 className="text-2xl font-bold text-blue-100">Bergen Line + Flåmsbana</h2>
-                <p className="text-cyan-300 text-sm">Vy & Flåm Railway</p>
+                <p className="text-cyan-300 text-sm">Vy</p>
               </div>
 
               <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -215,7 +182,7 @@ export default function BergenToFlam() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Bergen to Flåm Schedule</h2>
             <p className="text-blue-200/80 leading-relaxed">
-              Multiple connections daily: Bergen–Myrdal mainline (Vy) + timed transfer to Flåmsbana (up to 10 departures/day). Popular for return day trips from Bergen.
+              Multiple timed connections daily: Bergen–Myrdal mainline (Vy) + Flåmsbana (up to 10 departures/day). Popular for return day trips from Bergen.
             </p>
           </section>
 
@@ -227,7 +194,7 @@ export default function BergenToFlam() {
             </p>
           </section>
 
-          {/* Travel Tips for First-Time Passengers */}
+          {/* Travel Tips */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Travel Tips for First-Time Passengers</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-3">
@@ -238,7 +205,7 @@ export default function BergenToFlam() {
             </ul>
           </section>
 
-          {/* Train Journey Breakdown */}
+          {/* Journey Breakdown */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Train Journey Breakdown</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
@@ -251,7 +218,7 @@ export default function BergenToFlam() {
             </div>
           </section>
 
-          {/* Who This Route Is Best For */}
+          {/* Who Best For */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
@@ -262,7 +229,7 @@ export default function BergenToFlam() {
             </ul>
           </section>
 
-          {/* Scenic & Seasonal Advice */}
+          {/* Scenic Advice */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Scenic & Seasonal Advice</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
@@ -273,7 +240,7 @@ export default function BergenToFlam() {
             </p>
           </section>
 
-          {/* FAQ Section */}
+          {/* FAQs */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs About Bergen to Flåm Train</h2>
             <div className="space-y-6">
@@ -300,18 +267,18 @@ export default function BergenToFlam() {
             </div>
           </section>
 
-          {/* Booking CTAs */}
+          {/* Updated Booking CTAs */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="https://www.thetrainline.com/en-us/train-times/bergen-to-flam"
+                href="https://www.vy.no/en"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <Train className="w-6 h-6" />
-                Check train times and book on Trainline
+                Book on Vy.no (official)
               </a>
               <a
                 href="https://www.omio.com/trains/bergen/flam"
@@ -320,12 +287,12 @@ export default function BergenToFlam() {
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Compare train & tours on Omio
+                Compare prices on Omio
               </a>
             </div>
           </section>
 
-          {/* Eurail/Interrail Pass Section */}
+          {/* Eurail */}
           <section className="mb-12">
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <div className="flex items-center gap-4 mb-6">
@@ -361,14 +328,13 @@ export default function BergenToFlam() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
-              <li><a href="/oslo-to-bergen" className="text-cyan-300 hover:text-cyan-400">Oslo to Bergen full Bergen Line</a></li>
-              <li><a href="/flam-to-gudvangen" className="text-cyan-300 hover:text-cyan-400">Flåm fjord cruise & bus</a></li>
-              <li><a href="/bergen-to-oslo" className="text-cyan-300 hover:text-cyan-400">Return Bergen to Oslo</a></li>
+              <li><a href="/flam-to-bergen" className="text-cyan-300 hover:text-cyan-400">Flåm to Bergen (reverse journey)</a></li>
+              <li><a href="/flam-to-gudvangen" className="text-cyan-300 hover:text-cyan-400">Flåm to Gudvangen fjord cruise</a></li>
+              <li><a href="/oslo-to-bergen" className="text-cyan-300 hover:text-cyan-400">Full Oslo to Bergen Bergen Line</a></li>
             </ul>
           </section>
         </main>
 
-        {/* Footer */}
         <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="text-center text-sm text-blue-300/50 pt-8 border-t border-blue-400/10">
