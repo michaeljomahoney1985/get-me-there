@@ -238,25 +238,28 @@ export default function NurembergToRozvadov() {
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="https://www.thetrainline.com/en-us/train-times/nuremberg-to-weiden-in-der-oberpfalz"
+                href="https://www.thetrainline.com/"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#00A387] hover:bg-[#008f75] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <Train className="w-6 h-6" />
-                Train tickets on Trainline
+                Search trains & buses on Trainline
               </a>
               <a
-                href="https://www.omio.com/buses/nuremberg/rozvadov"
+                href="https://www.omio.com/"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Bus/train on Omio
+                Compare all options on Omio
               </a>
             </div>
-            <p className="text-blue-300 mt-6 text-center">
+            <p className="text-blue-300 mt-6 text-center text-sm">
+              Enter Nuremberg to Rozvadov (or Waidhaus) and your dates for live prices.
+            </p>
+            <p className="text-blue-300 mt-4 text-center">
               <a href="https://www.kings-resort.com/en/transport/shuttle-service/" target="_blank" rel="noopener" className="underline hover:text-cyan-300">
                 Check King's Casino shuttle & pickup schedule (often free for players) →
               </a>
