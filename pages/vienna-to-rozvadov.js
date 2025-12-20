@@ -238,13 +238,13 @@ export default function ViennaToRozvadov() {
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="https://www.omio.com/"
+                href="https://www.omio.com/search?from=Vienna&to=Rozvadov"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Search trains & buses on Omio
+                Search trains & buses on Omio (pre-filled)
               </a>
               <a
                 href="https://www.thetrainline.com/"
@@ -257,7 +257,7 @@ export default function ViennaToRozvadov() {
               </a>
             </div>
             <p className="text-blue-300 mt-6 text-center text-sm">
-              Enter Vienna to Rozvadov (or Weiden/Regensburg) and dates for options.
+              Omio link is pre-filled with Vienna → Rozvadov for instant results.
             </p>
             <p className="text-blue-300 mt-4 text-center">
               <a href="https://www.kings-resort.com/en/transport/shuttle-service/" target="_blank" rel="noopener" className="underline hover:text-cyan-300">
@@ -279,7 +279,20 @@ export default function ViennaToRozvadov() {
               </div>
 
               <div className="space-y-4 text-blue-200/80 leading-relaxed">
-                <p>Eurail/Interrail passes valid on ÖBB and DB trains part of the way. Seat reservation recommended.</p>
+                <p>Eurail (non-EU) or Interrail (EU residents) passes are valid on ÖBB and DB trains part of the way with seat reservation recommended (€5–15).</p>
+                <p>Useful for longer European trips including Vienna.</p>
+              </div>
+
+              <div className="mt-8">
+                <a
+                  href="https://www.eurail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300"
+                >
+                  Explore Eurail Passes
+                  <Star className="w-5 h-5" />
+                </a>
               </div>
             </div>
           </section>
