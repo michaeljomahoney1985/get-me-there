@@ -9,15 +9,15 @@ export default function MunichToVienna() {
         <title>Munich to Vienna by Train: Time, Cost & Travel Guide (2026)</title>
         <meta
           name="description"
-          content="Book Munich to Vienna train tickets from €19 with ÖBB Railjet or Westbahn. Discover 2026 schedules, cheap fares, direct scenic Alpine routes, tips, and why the train beats flying."
+          content="Book Munich to Vienna train tickets from €25 with ÖBB Railjet or DB/ÖBB EuroCity. Discover 2026 schedules, cheap fares, direct high-speed routes through Bavarian and Austrian countryside, tips, and why this scenic journey is perfect for exploring two grand European capitals."
         />
         <meta property="og:title" content="Munich to Vienna by Train: Time, Cost & Travel Guide (2026)" />
-        <meta property="og:description" content="Direct Railjet from Munich to Vienna in ~4h – cheap tickets, schedules, tips & FAQs." />
+        <meta property="og:description" content="Direct Railjet from Munich to Vienna in ~4h – cheap tickets, frequent departures, Alpine glimpses." />
         <meta property="og:url" content="https://www.get-me-there.com/munich-to-vienna" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Munich to Vienna by Train: Time, Cost & Travel Guide (2026)" />
-        <meta name="twitter:description" content="Direct Railjet from Munich to Vienna in ~4h – cheap tickets, schedules, tips & FAQs." />
+        <meta name="twitter:description" content="Direct Railjet from Munich to Vienna in ~4h – cheap tickets, frequent departures, Alpine glimpses." />
 
         <script type="application/ld+json">
           {JSON.stringify({
@@ -27,7 +27,7 @@ export default function MunichToVienna() {
               {
                 "@type": "Question",
                 name: "How long does the train from Munich to Vienna take?",
-                acceptedAnswer: { "@type": "Answer", text: "Direct Railjet trains take exactly 4 hours on the fastest services." }
+                acceptedAnswer: { "@type": "Answer", text: "Direct ÖBB Railjet or DB/ÖBB trains take around 4 hours." }
               },
               {
                 "@type": "Question",
@@ -37,17 +37,17 @@ export default function MunichToVienna() {
               {
                 "@type": "Question",
                 name: "Can I bring luggage or a bike?",
-                acceptedAnswer: { "@type": "Answer", text: "Generous allowance on Railjet; bikes require reservation (€12)." }
+                acceptedAnswer: { "@type": "Answer", text: "Generous allowance; bikes require reservation (€10–15)." }
               },
               {
                 "@type": "Question",
                 name: "When is the best time to book cheap tickets?",
-                acceptedAnswer: { "@type": "Answer", text: "Book 3–6 months ahead for €19–29 Sparschiene fares." }
+                acceptedAnswer: { "@type": "Answer", text: "Book 3–6 months ahead for lowest fares from €25." }
               },
               {
                 "@type": "Question",
                 name: "Which side of the train has the best views from Munich to Vienna?",
-                acceptedAnswer: { "@type": "Answer", text: "Right side (facing forward) for stunning Alpine scenery through Salzburg and the Austrian valleys." }
+                acceptedAnswer: { "@type": "Answer", text: "Right side (facing forward) for distant Alpine views and Salzburg approach." }
               }
             ]
           })}
@@ -67,7 +67,6 @@ export default function MunichToVienna() {
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white">
-        {/* Background SVG */}
         <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-20">
           <svg className="absolute bottom-0 w-full h-96" viewBox="0 0 1200 400" preserveAspectRatio="none">
             <defs>
@@ -85,7 +84,6 @@ export default function MunichToVienna() {
           </svg>
         </div>
 
-        {/* Header */}
         <header className="relative border-b border-blue-400/20 backdrop-blur-sm bg-slate-900/50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex items-center justify-between">
@@ -108,7 +106,6 @@ export default function MunichToVienna() {
         </header>
 
         <main className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          {/* Breadcrumb */}
           <div className="flex items-center gap-3 text-cyan-400 text-sm mb-4">
             <a href="/" className="hover:text-cyan-300">Home</a>
             <span>→</span>
@@ -117,7 +114,6 @@ export default function MunichToVienna() {
             <span className="text-blue-300">Munich to Vienna</span>
           </div>
 
-          {/* H1 */}
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
               Munich to Vienna by Train:
@@ -126,38 +122,36 @@ export default function MunichToVienna() {
             <span className="text-blue-100">Time, Cost & Travel Guide (2026)</span>
           </h1>
 
-          {/* Intro */}
           <p className="text-xl text-blue-200/80 leading-relaxed mb-12">
-            One of Europe's most scenic rail journeys connects Bavaria's lively capital Munich with imperial Vienna. Modern ÖBB Railjet trains speed through the Alps, offering stunning mountain views – perfect for culture lovers, music fans, or anyone seeking classic Central European charm without airport hassle.
+            The scenic cross-border high-speed link connects Bavarian Munich with imperial Vienna in just 4 hours on modern Railjet trains. This comfortable journey through rolling countryside, distant Alps, and the Salzburg region is ideal for culture lovers, music enthusiasts, or combining Bavarian beer halls with Viennese coffee houses.
           </p>
 
-          {/* Route Highlights Card */}
           <section className="mb-12">
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/60 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <div className="flex items-center gap-3 mb-6">
                 <Train className="w-8 h-8 text-cyan-400" />
                 <h2 className="text-2xl font-bold text-blue-100">Direct Railjet Train</h2>
-                <p className="text-cyan-300 text-sm">ÖBB & Westbahn</p>
+                <p className="text-cyan-300 text-sm">ÖBB (Austrian Railways)</p>
               </div>
 
               <div className="grid md:grid-cols-3 gap-6 mb-8">
                 <div className="bg-slate-800/70 rounded-2xl p-6 text-center">
                   <Clock className="w-8 h-8 text-cyan-400 mx-auto mb-2" />
                   <p className="text-3xl font-bold text-white">~4h</p>
-                  <p className="text-blue-300 text-sm">Direct (fastest services)</p>
+                  <p className="text-blue-300 text-sm">Direct (fastest)</p>
                 </div>
                 <div className="bg-slate-800/70 rounded-2xl p-6 text-center">
-                  <p className="text-3xl font-bold text-white">€19–80</p>
+                  <p className="text-3xl font-bold text-white">€25–100</p>
                   <p className="text-blue-300 text-sm">One-way (2026 advance fares)</p>
                 </div>
                 <div className="bg-slate-800/70 rounded-2xl p-6 text-center">
-                  <p className="text-3xl font-bold text-white">Every 1–2h</p>
+                  <p className="text-3xl font-bold text-white">Several daily</p>
                   <p className="text-blue-300 text-sm">From München Hbf</p>
                 </div>
               </div>
 
               <p className="text-blue-200/90 leading-relaxed mb-6">
-                Comfortable direct Railjet trains cross the Alps with panoramic views of Salzburg and Austrian valleys – one of Europe's most beautiful rail routes.
+                Modern direct Railjet trains (ÖBB) with some DB/ÖBB EuroCity services – comfortable, scenic, and reliable for this popular route.
               </p>
 
               <div className="bg-slate-800/60 rounded-2xl p-6">
@@ -165,16 +159,15 @@ export default function MunichToVienna() {
                   <span className="text-yellow-400">💡</span> Tips:
                 </p>
                 <ul className="text-blue-200/90 space-y-2 text-sm">
-                  <li>Sit on the right side (from Munich) for the best Alpine mountain views</li>
-                  <li>Seat reservation (€3–4) recommended in summer/high season</li>
-                  <li>Onboard restaurant serves Austrian specialties</li>
-                  <li>Book early for cheapest Sparschiene fares (limited availability)</li>
+                  <li>Right side (from Munich) for distant Alpine views and Salzburg approach</li>
+                  <li>Seat reservation included/recommended</li>
+                  <li>Onboard restaurant with Austrian specialties</li>
+                  <li>Book early for cheapest fares</li>
                 </ul>
               </div>
             </div>
           </section>
 
-          {/* Quick Comparison Table */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Quick Comparison</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20 overflow-x-auto">
@@ -191,116 +184,82 @@ export default function MunichToVienna() {
                   <tr className="border-b border-blue-400/10">
                     <td className="py-4 px-4 font-semibold text-cyan-300">Train (Railjet direct)</td>
                     <td className="py-4 px-4">~4h</td>
-                    <td className="py-4 px-4">€19–80+</td>
-                    <td className="py-4 px-4">Everyone—scenic, comfortable, city-center</td>
+                    <td className="py-4 px-4">€25–100+</td>
+                    <td className="py-4 px-4">Scenery, comfort, city-center</td>
                   </tr>
                   <tr className="border-b border-blue-400/10">
                     <td className="py-4 px-4 font-semibold text-cyan-300">Bus (FlixBus)</td>
-                    <td className="py-4 px-4">6–8h</td>
-                    <td className="py-4 px-4">€25–50</td>
+                    <td className="py-4 px-4">5–6h</td>
+                    <td className="py-4 px-4">€20–40</td>
                     <td className="py-4 px-4">Budget travelers</td>
                   </tr>
                   <tr>
                     <td className="py-4 px-4 font-semibold text-cyan-300">Flight</td>
-                    <td className="py-4 px-4">4–6h door-to-door</td>
-                    <td className="py-4 px-4">€80–200</td>
-                    <td className="py-4 px-4">Rarely—airports far from centers</td>
+                    <td className="py-4 px-4">3–5h door-to-door</td>
+                    <td className="py-4 px-4">€50–150</td>
+                    <td className="py-4 px-4">Speed, but airports add time</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </section>
 
-          {/* Schedule */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Munich to Vienna Schedule</h2>
             <p className="text-blue-200/80 leading-relaxed">
-              Frequent direct Railjet departures (every 1–2 hours) from München Hbf to Wien Hbf. First trains ~5am, last ~9pm. Journey time consistently around 4 hours.
+              Several direct Railjet and EuroCity departures daily from München Hbf to Wien Hbf. Fastest services around 4 hours.
             </p>
           </section>
 
-          {/* Ticket Prices & Discounts */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Ticket Prices & Discounts</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
-              Sparschiene advance tickets from €19–29 when booked early. Standard fares €50–80. Vorteilscard or BahnCard saves extra. Book 3–6 months ahead for lowest prices.
+              Advance tickets from €25–50 when booked early. Standard fares €70–100. Book ahead for best deals.
             </p>
           </section>
 
-          {/* Travel Tips for First-Time Passengers */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Travel Tips for First-Time Passengers</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-3">
               <li>No passport checks (Schengen).</li>
-              <li>Seat reservation (€3–4) recommended in summer.</li>
-              <li>First Class offers more space and quiet.</li>
+              <li>Seat reservation recommended (€5–10).</li>
+              <li>Comfort class offers more space.</li>
               <li>Generous luggage allowance.</li>
             </ul>
           </section>
 
-          {/* Train Journey Breakdown */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Train Journey Breakdown</h2>
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <p className="text-blue-200/80 leading-relaxed mb-6">
-                Modern Railjet trains speed through Salzburg with breathtaking Alpine scenery – mountains, valleys, and rivers.
+                Trains head east through Bavarian countryside, pass near Salzburg, and enter Austria with distant Alpine views.
               </p>
               <p className="text-blue-200/80 leading-relaxed">
-                Onboard restaurant, Wi-Fi, power sockets. Quiet and family zones available.
+                Onboard restaurant, Wi-Fi, power sockets. Quiet zones available.
               </p>
             </div>
           </section>
 
-          {/* Who This Route Is Best For */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
-              <li><strong>Scenic Lovers:</strong> Stunning Alpine views year-round.</li>
-              <li><strong>Classical Music Fans:</strong> Direct to Vienna's concert halls.</li>
-              <li><strong>Culture Seekers:</strong> Bavarian beer to imperial palaces.</li>
-              <li><strong>Families:</strong> Comfortable and relaxing journey.</li>
+              <li><strong>Culture Lovers:</strong> Bavarian to Viennese heritage.</li>
+              <li><strong>Music Enthusiasts:</strong> Mozart, Strauss, Beethoven connections.</li>
+              <li><strong>Foodies:</strong> Beer halls to coffee houses.</li>
+              <li><strong>Relaxing Journeys:</strong> Scenic alternative to flying.</li>
             </ul>
           </section>
 
-          {/* Scenic & Seasonal Advice */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Scenic & Seasonal Advice</h2>
             <p className="text-blue-200/80 leading-relaxed mb-6">
-              One of Europe's most beautiful rail routes with dramatic Alpine scenery. Spring/summer green meadows, autumn golden, winter snow-capped peaks.
+              Pleasant route with distant Alps and rolling hills. Summer green, autumn colours, winter possible snow.
             </p>
             <p className="text-blue-200/80 leading-relaxed mb-8">
-              Right side (facing forward) for the best mountain views.
+              Right side (facing forward) for best Alpine glimpses.
             </p>
           </section>
 
-          {/* FAQ Section */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs About Munich to Vienna Train</h2>
-            <div className="space-y-6">
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">How long does the train from Munich to Vienna take?</summary>
-                <p className="mt-4 text-blue-200/80">Exactly 4 hours on most direct Railjet services.</p>
-              </details>
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Do I need a passport?</summary>
-                <p className="mt-4 text-blue-200/80">No – Schengen zone route.</p>
-              </details>
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Can I bring luggage or a bike?</summary>
-                <p className="mt-4 text-blue-200/80">Generous allowance. Bikes require €12 reservation.</p>
-              </details>
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Best time to book cheap fares?</summary>
-                <p className="mt-4 text-blue-200/80">3–6 months ahead for €19–29 Sparschiene tickets.</p>
-              </details>
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Which side has the best views?</summary>
-                <p className="mt-4 text-blue-200/80">Right side for stunning Alpine scenery.</p>
-              </details>
-            </div>
-          </section>
-
-          {/* Booking CTAs */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -308,10 +267,10 @@ export default function MunichToVienna() {
                 href="https://www.thetrainline.com/en-us/train-times/munich-to-vienna"
                 target="_blank"
                 rel="nofollow noopener"
-                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#00A387] hover:bg-[#008f75] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <Train className="w-6 h-6" />
-                Check train times and book on Trainline
+                Check times and book on Trainline
               </a>
               <a
                 href="https://www.omio.com/trains/munich/vienna"
@@ -320,12 +279,11 @@ export default function MunichToVienna() {
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Compare train, bus & flight on Omio
+                Compare prices on Omio
               </a>
             </div>
           </section>
 
-          {/* Eurail/Interrail Pass Section */}
           <section className="mb-12">
             <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
               <div className="flex items-center gap-4 mb-6">
@@ -339,8 +297,8 @@ export default function MunichToVienna() {
               </div>
 
               <div className="space-y-4 text-blue-200/80 leading-relaxed">
-                <p>Eurail (non-EU) or Interrail (EU residents) passes are valid on Railjet with mandatory seat reservation (€3–4).</p>
-                <p>Limited passholder seats—book early via ÖBB or rail.cc.</p>
+                <p>Eurail (non-EU) or Interrail (EU residents) passes are valid on ÖBB and DB trains with seat reservation recommended (€5–10).</p>
+                <p>Popular route – book early.</p>
               </div>
 
               <div className="mt-8">
@@ -357,18 +315,64 @@ export default function MunichToVienna() {
             </div>
           </section>
 
-          {/* Related Routes */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs About Munich to Vienna Train</h2>
+            <div className="space-y-6">
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">How long does the train from Munich to Vienna take?</summary>
+                <p className="mt-4 text-blue-200/80">Around 4 hours on direct Railjet services.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Do I need a passport?</summary>
+                <p className="mt-4 text-blue-200/80">No – Schengen route.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Can I bring luggage or a bike?</summary>
+                <p className="mt-4 text-blue-200/80">Generous allowance. Bikes require €10–15 reservation.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Best time to book cheap fares?</summary>
+                <p className="mt-4 text-blue-200/80">3–6 months ahead for €25+ tickets.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Which side has the best views?</summary>
+                <p className="mt-4 text-blue-200/80">Right side for Alpine glimpses.</p>
+              </details>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a hotel in Vienna?</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <a
+                href="https://www.booking.com/city/at/vienna.html"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                Find hotels on Booking.com
+              </a>
+              <a
+                href="https://www.hotels.com/de39254/hotels-vienna-austria/"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#E31C3D] hover:bg-[#c41734] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                Find hotels on Hotels.com
+              </a>
+            </div>
+          </section>
+
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
-              <li><a href="/berlin-to-munich" className="text-cyan-300 hover:text-cyan-400">Berlin to Munich by train</a></li>
-              <li><a href="/vienna-to-budapest" className="text-cyan-300 hover:text-cyan-400">Vienna to Budapest by train</a></li>
-              <li><a href="/munich-to-zurich" className="text-cyan-300 hover:text-cyan-400">Munich to Zurich scenic route</a></li>
+              <li><a href="/vienna-to-munich" className="text-cyan-300 hover:text-cyan-400">Vienna to Munich (reverse)</a></li>
+              <li><a href="/berlin-to-munich" className="text-cyan-300 hover:text-cyan-400">Berlin to Munich train</a></li>
+              <li><a href="/vienna-to-budapest" className="text-cyan-300 hover:text-cyan-400">Vienna to Budapest train</a></li>
             </ul>
           </section>
         </main>
 
-        {/* Footer */}
         <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="text-center text-sm text-blue-300/50 pt-8 border-t border-blue-400/10">
