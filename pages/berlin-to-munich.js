@@ -260,27 +260,27 @@ export default function BerlinToMunich() {
             </p>
           </section>
 
-          {/* Booking CTAs – Trainline in green */}
+          {/* Book Your Ticket – major route, so pre-filled Omio + general Trainline */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="https://www.thetrainline.com/en-us/train-times/berlin-to-munich"
-                target="_blank"
-                rel="nofollow noopener"
-                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#00A387] hover:bg-[#008f75] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
-              >
-                <Train className="w-6 h-6" />
-                Check times and book on Trainline
-              </a>
-              <a
-                href="https://www.omio.com/trains/berlin/munich"
+                href="https://www.omio.com/search?from=Berlin&to=Munich"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Compare prices on Omio
+                Search on Omio
+              </a>
+              <a
+                href="https://www.thetrainline.com/"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#00A387] hover:bg-[#008f75] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                <Train className="w-6 h-6" />
+                Search on Trainline
               </a>
             </div>
           </section>
@@ -339,6 +339,29 @@ export default function BerlinToMunich() {
                 <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Which side has the best views?</summary>
                 <p className="mt-4 text-blue-200/80">Right side for Thuringian Forest and Bavarian hills.</p>
               </details>
+            </div>
+          </section>
+
+          {/* Hotels Section – Munich */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a hotel in Munich?</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <a
+                href="https://www.booking.com/city/de/munich.html"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                Find hotels on Booking.com
+              </a>
+              <a
+                href="https://www.hotels.com/de171660/hotels-munich-germany/"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#E31C3D] hover:bg-[#c41734] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                Find hotels on Hotels.com
+              </a>
             </div>
           </section>
 
