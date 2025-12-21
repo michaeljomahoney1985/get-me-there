@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mountain, Train, CheckCircle, Star, Clock, MapPin } from 'lucide-react';
+import { Mountain, Train, CheckCircle, Star, Clock } from 'lucide-react';
 import Head from 'next/head';
 
 export default function OsloToBergen() {
@@ -260,18 +260,17 @@ export default function OsloToBergen() {
             </p>
           </section>
 
-          {/* Updated Book Your Ticket – pre-filled Omio + Trainline */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="https://www.omio.com/search?from=Oslo&to=Bergen"
+                href="https://www.omio.com/"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Search on Omio (pre-filled)
+                Search on Omio
               </a>
               <a
                 href="https://www.thetrainline.com/"
@@ -283,9 +282,6 @@ export default function OsloToBergen() {
                 Search on Trainline
               </a>
             </div>
-            <p className="text-blue-300 mt-6 text-center text-sm">
-              Omio link is pre-filled with Oslo → Bergen for instant results.
-            </p>
           </section>
 
           <section className="mb-12">
@@ -345,7 +341,6 @@ export default function OsloToBergen() {
             </div>
           </section>
 
-          {/* Hotels Section – Bergen */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a hotel in Bergen?</h2>
             <div className="grid md:grid-cols-2 gap-8">
