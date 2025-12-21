@@ -126,7 +126,7 @@ export default function AmsterdamToBerlin() {
             A comfortable high-speed connection links vibrant Amsterdam with dynamic Berlin in about 6 hours on direct ICE trains. This popular route through flat Dutch polders and German forests is ideal for city-hopping, nightlife, history, or simply enjoying two of Europe's most exciting capitals without the hassle of airports.
           </p>
 
-          {/* Recommended Option + CTAs high up */}
+          {/* Recommended Option high up with CTAs */}
           <section className="mb-12">
             <div className="bg-gradient-to-br from-cyan-900/50 to-blue-900/60 backdrop-blur-xl rounded-3xl p-8 border border-cyan-400/40">
               <h2 className="text-3xl font-bold text-cyan-200 mb-6 flex items-center gap-3">
@@ -388,13 +388,29 @@ export default function AmsterdamToBerlin() {
           </section>
 
           <section className="mb-12">
-            <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
-            <ul className="list-disc list-inside text-blue-200/80 space-y-2">
-              <li><a href="/berlin-to-amsterdam" className="text-cyan-300 hover:text-cyan-400">Berlin to Amsterdam (reverse)</a></li>
-              <li><a href="/amsterdam-to-brussels" className="text-cyan-300 hover:text-cyan-400">Amsterdam to Brussels train</a></li>
-              <li><a href="/berlin-to-prague" className="text-cyan-300 hover:text-cyan-400">Berlin to Prague train</a></li>
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Planning onward journeys?</h2>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-3 text-lg">
+              <li><a href="/berlin-to-dresden" className="text-cyan-300 hover:text-cyan-400 underline">Berlin to Dresden by train (Elbe valley scenery)</a></li>
+              <li><a href="/berlin-to-potsdam" className="text-cyan-300 hover:text-cyan-400 underline">Berlin to Potsdam day trip (palaces & gardens, no car needed)</a></li>
+              <li><a href="/berlin-to-prague" className="text-cyan-300 hover:text-cyan-400 underline">Berlin to Prague by train</a></li>
             </ul>
           </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a flight somewhere?</h2>
+            <p className="text-blue-200/80 mb-6">
+              Search hundreds of airlines for your next destination or flight home.
+            </p>
+            <a
+              href="https://www.skyscanner.net/"
+              target="_blank"
+              rel="nofollow noopener"
+              className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-orange-600 hover:bg-orange-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+            >
+              Search flights on Skyscanner
+            </a>
+          </section>
+
         </main>
 
         <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
