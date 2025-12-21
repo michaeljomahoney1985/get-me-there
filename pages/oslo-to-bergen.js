@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mountain, Train, CheckCircle, Star, Clock } from 'lucide-react';
+import { Mountain, Train, CheckCircle, Star, Clock, MapPin } from 'lucide-react';
 import Head from 'next/head';
 
 export default function OsloToBergen() {
@@ -260,55 +260,32 @@ export default function OsloToBergen() {
             </p>
           </section>
 
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs About Oslo to Bergen Train</h2>
-            <div className="space-y-6">
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">How long does the train from Oslo to Bergen take?</summary>
-                <p className="mt-4 text-blue-200/80">Around 6 hours 40 minutes to 7 hours on direct Vy services.</p>
-              </details>
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Do I need ID?</summary>
-                <p className="mt-4 text-blue-200/80">No – domestic Norwegian route.</p>
-              </details>
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Can I bring luggage or a bike?</summary>
-                <p className="mt-4 text-blue-200/80">Generous allowance. Bikes require €10–15 reservation.</p>
-              </details>
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Best time to book cheap fares?</summary>
-                <p className="mt-4 text-blue-200/80">3 months ahead for €40 Minipris tickets.</p>
-              </details>
-              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
-                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Which side has the best views?</summary>
-                <p className="mt-4 text-blue-200/80">Right side for Hardangervidda plateau and fjords.</p>
-              </details>
-            </div>
-          </section>
-
-          {/* Updated Booking CTAs */}
+          {/* Updated Book Your Ticket – pre-filled Omio + Trainline */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <a
-                href="https://www.vy.no/en"
-                target="_blank"
-                rel="nofollow noopener"
-                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
-              >
-                <Train className="w-6 h-6" />
-                Book on Vy.no (official)
-              </a>
-              <a
-                href="https://www.omio.com/trains/oslo/bergen"
+                href="https://www.omio.com/search?from=Oslo&to=Bergen"
                 target="_blank"
                 rel="nofollow noopener"
                 className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
               >
                 <CheckCircle className="w-6 h-6" />
-                Compare prices on Omio
+                Search on Omio (pre-filled)
+              </a>
+              <a
+                href="https://www.thetrainline.com/"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#00A387] hover:bg-[#008f75] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                <Train className="w-6 h-6" />
+                Search on Trainline
               </a>
             </div>
+            <p className="text-blue-300 mt-6 text-center text-sm">
+              Omio link is pre-filled with Oslo → Bergen for instant results.
+            </p>
           </section>
 
           <section className="mb-12">
@@ -343,8 +320,58 @@ export default function OsloToBergen() {
           </section>
 
           <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs About Oslo to Bergen Train</h2>
+            <div className="space-y-6">
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">How long does the train from Oslo to Bergen take?</summary>
+                <p className="mt-4 text-blue-200/80">Around 6 hours 40 minutes to 7 hours on direct Vy services.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Do I need ID?</summary>
+                <p className="mt-4 text-blue-200/80">No – domestic Norwegian route.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Can I bring luggage or a bike?</summary>
+                <p className="mt-4 text-blue-200/80">Generous allowance. Bikes require €10–15 reservation.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Best time to book cheap fares?</summary>
+                <p className="mt-4 text-blue-200/80">3 months ahead for €40 Minipris tickets.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Which side has the best views?</summary>
+                <p className="mt-4 text-blue-200/80">Right side for Hardangervidda plateau and fjords.</p>
+              </details>
+            </div>
+          </section>
+
+          {/* Hotels Section – Bergen */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a hotel in Bergen?</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <a
+                href="https://www.booking.com/city/no/bergen.html"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                Find hotels on Booking.com
+              </a>
+              <a
+                href="https://www.hotels.com/de171661/hotels-bergen-norway/"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#E31C3D] hover:bg-[#c41734] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                Find hotels on Hotels.com
+              </a>
+            </div>
+          </section>
+
+          <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
             <ul className="list-disc list-inside text-blue-200/80 space-y-2">
+              <li><a href="/bergen-to-oslo" className="text-cyan-300 hover:text-cyan-400">Bergen to Oslo (reverse)</a></li>
               <li><a href="/stockholm-to-oslo" className="text-cyan-300 hover:text-cyan-400">Stockholm to Oslo by train</a></li>
               <li><a href="/bergen-to-flam" className="text-cyan-300 hover:text-cyan-400">Bergen to Flåm scenic railway</a></li>
               <li><a href="/oslo-to-trondheim" className="text-cyan-300 hover:text-cyan-400">Oslo to Trondheim train</a></li>
