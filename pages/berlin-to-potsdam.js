@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mountain, Train, CheckCircle, Car, Star, Clock } from 'lucide-react';  // ← Clock added
+import { Mountain, Train, CheckCircle, Car, Star, Clock } from 'lucide-react';
 import Head from 'next/head';
 
 export default function BerlinToPotsdam() {
@@ -11,10 +11,41 @@ export default function BerlinToPotsdam() {
           name="description"
           content="Easy 30-minute S-Bahn from Berlin to Potsdam. Visit UNESCO Sanssouci Palace, beautiful gardens, and historic Dutch Quarter – no car needed."
         />
+        <meta property="og:title" content="Berlin to Potsdam Day Trip: Palaces & Gardens Guide (2026)" />
+        <meta property="og:description" content="Quick S-Bahn ride to Sanssouci Palace (Prussian Versailles), sprawling gardens, and charming Dutch Quarter – perfect day escape from Berlin." />
+        <meta property="og:url" content="https://www.get-me-there.com/berlin-to-potsdam" />
+        <meta property="og:type" content="article" />
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.get-me-there.com/" },
+              { "@type": "ListItem", position: 2, name: "Europe", item: "https://www.get-me-there.com/europe" },
+              { "@type": "ListItem", position: 3, name: "Berlin to Potsdam Day Trip", item: "https://www.get-me-there.com/berlin-to-potsdam" }
+            ]
+          })}
+        </script>
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white">
-        {/* Background SVG and header with logo */}
+        <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-20">
+          <svg className="absolute bottom-0 w-full h-96" viewBox="0 0 1200 400" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="train-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stopColor="#60a5fa" stopOpacity="0.3" />
+                <stop offset="100%" stopColor="#3b82f6" stopOpacity="0.6" />
+              </linearGradient>
+            </defs>
+            <path
+              d="M0,400 L0,180 L200,140 L350,200 L500,80 L650,160 L800,100 L950,180 L1200,120 L1200,400 Z"
+              fill="url(#train-gradient)"
+              className="animate-pulse"
+              style={{ animationDuration: '8s' }}
+            />
+          </svg>
+        </div>
 
         <header className="relative border-b border-blue-400/20 backdrop-blur-sm bg-slate-900/50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -92,7 +123,7 @@ export default function BerlinToPotsdam() {
             </div>
           </section>
 
-          {/* Quick facts – now Clock is defined */}
+          {/* Quick facts */}
           <section className="mb-12">
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-slate-800/70 rounded-2xl p-6 text-center">
@@ -111,10 +142,97 @@ export default function BerlinToPotsdam() {
             </div>
           </section>
 
-          {/* Highlights, car rental, activities, FAQ, hotels, related routes – all unchanged */}
+          {/* Highlights in Potsdam */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Highlights in Potsdam</h2>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-3 text-lg">
+              <li>Sanssouci Palace & terraced gardens – Prussian Versailles</li>
+              <li>New Palace – massive baroque masterpiece</li>
+              <li>Dutch Quarter – charming red-brick houses and cafes</li>
+              <li>Cecilienhof – site of the 1945 Potsdam Conference</li>
+              <li>Beautiful parks perfect for walking</li>
+            </ul>
+          </section>
 
-          {/* Rest of the page is the same as before */}
+          {/* Car rental */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a rental car in Berlin?</h2>
+            <a
+              href="https://www.rentalcars.com/"
+              target="_blank"
+              rel="nofollow noopener"
+              className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 rounded-xl font-semibold text-white shadow-lg transition-all text-lg"
+            >
+              <Car className="w-8 h-8" />
+              Compare car rental on Rentalcars.com
+            </a>
+          </section>
 
+          {/* Activities */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Potsdam tours & activities</h2>
+            <a
+              href="https://www.getyourguide.com/potsdam-l185/"
+              target="_blank"
+              rel="nofollow noopener"
+              className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-purple-600 hover:bg-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all text-lg"
+            >
+              <Star className="w-8 h-8" />
+              Book Sanssouci tours on GetYourGuide
+            </a>
+          </section>
+
+          {/* Short FAQ */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-8">Quick FAQs</h2>
+            <div className="space-y-6">
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Do I need a car for Potsdam?</summary>
+                <p className="mt-4 text-blue-200/80">No – excellent public transport and walkable sites.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">How do I get to Sanssouci Palace?</summary>
+                <p className="mt-4 text-blue-200/80">S-Bahn to Potsdam Hbf, then bus 695 or walk 20min.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">When should I buy Sanssouci tickets?</summary>
+                <p className="mt-4 text-blue-200/80">Book online in advance – they sell out fast in summer.</p>
+              </details>
+            </div>
+          </section>
+
+          {/* Hotels */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a hotel in Potsdam?</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <a
+                href="https://www.booking.com/city/de/potsdam.html"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all text-lg"
+              >
+                Find hotels on Booking.com
+              </a>
+              <a
+                href="https://www.hotels.com/de171658/hotels-potsdam-germany/"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#E31C3D] hover:bg-[#c41734] rounded-xl font-semibold text-white shadow-lg transition-all text-lg"
+              >
+                Find hotels on Hotels.com
+              </a>
+            </div>
+          </section>
+
+          {/* Related Routes */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-2">
+              <li><a href="/potsdam-to-berlin" className="text-cyan-300 hover:text-cyan-400">Potsdam to Berlin (reverse)</a></li>
+              <li><a href="/berlin-to-dresden" className="text-cyan-300 hover:text-cyan-400">Berlin to Dresden train</a></li>
+              <li><a href="/berlin-to-prague" className="text-cyan-300 hover:text-cyan-400">Berlin to Prague train</a></li>
+            </ul>
+          </section>
         </main>
 
         <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
