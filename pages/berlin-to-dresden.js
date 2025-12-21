@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mountain, Train, CheckCircle, Car, Star } from 'lucide-react';
+import { Mountain, Train, CheckCircle, Car, Star, Clock } from 'lucide-react';  // ← Clock added here
 import Head from 'next/head';
 
 export default function BerlinToDresden() {
@@ -11,11 +11,26 @@ export default function BerlinToDresden() {
           name="description"
           content="Direct trains from Berlin to Dresden in ~2h from €15. Perfect day trip to see the stunning Elbe valley, Frauenkirche, and baroque old town."
         />
-        {/* Schema and meta omitted for brevity but included in full */}
+        <meta property="og:title" content="Berlin to Dresden by Train: Quick Day Trip Guide (2026)" />
+        <meta property="og:description" content="Direct trains in ~2h – scenic Elbe valley route, cheap fares, easy day trip from Berlin." />
+        <meta property="og:url" content="https://www.get-me-there.com/berlin-to-dresden" />
+        <meta property="og:type" content="article" />
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.get-me-there.com/" },
+              { "@type": "ListItem", position: 2, name: "Europe", item: "https://www.get-me-there.com/europe" },
+              { "@type": "ListItem", position: 3, name: "Berlin to Dresden by Train", item: "https://www.get-me-there.com/berlin-to-dresden" }
+            ]
+          })}
+        </script>
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white">
-        {/* Header unchanged */}
+        {/* Background and header same as before */}
 
         <main className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="flex items-center gap-3 text-cyan-400 text-sm mb-4">
@@ -143,11 +158,21 @@ export default function BerlinToDresden() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a hotel in Dresden?</h2>
             <div className="grid md:grid-cols-2 gap-8">
-              <a href="https://www.booking.com/city/de/dresden.html" target="_blank" rel="nofollow noopener" className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all text-lg">
-                Booking.com
+              <a
+                href="https://www.booking.com/city/de/dresden.html"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all text-lg"
+              >
+                Find hotels on Booking.com
               </a>
-              <a href="https://www.hotels.com/de171659/hotels-dresden-germany/" target="_blank" rel="nofollow noopener" className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#E31C3D] hover:bg-[#c41734] rounded-xl font-semibold text-white shadow-lg transition-all text-lg">
-                Hotels.com
+              <a
+                href="https://www.hotels.com/de171659/hotels-dresden-germany/"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#E31C3D] hover:bg-[#c41734] rounded-xl font-semibold text-white shadow-lg transition-all text-lg"
+              >
+                Find hotels on Hotels.com
               </a>
             </div>
           </section>
