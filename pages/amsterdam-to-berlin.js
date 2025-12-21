@@ -126,7 +126,7 @@ export default function AmsterdamToBerlin() {
             A comfortable high-speed connection links vibrant Amsterdam with dynamic Berlin in about 6 hours on direct ICE trains. This popular route through flat Dutch polders and German forests is ideal for city-hopping, nightlife, history, or simply enjoying two of Europe's most exciting capitals without the hassle of airports.
           </p>
 
-          {/* NEW: Recommended Option + CTAs high up */}
+          {/* Recommended Option + CTAs high up */}
           <section className="mb-12">
             <div className="bg-gradient-to-br from-cyan-900/50 to-blue-900/60 backdrop-blur-xl rounded-3xl p-8 border border-cyan-400/40">
               <h2 className="text-3xl font-bold text-cyan-200 mb-6 flex items-center gap-3">
@@ -238,7 +238,77 @@ export default function AmsterdamToBerlin() {
             </div>
           </section>
 
-          {/* Rest of sections (schedule, prices, tips, journey breakdown, who it's for, scenic advice, FAQs, hotels, related routes) remain the same as previous templates */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Amsterdam to Berlin Schedule</h2>
+            <p className="text-blue-200/80 leading-relaxed">
+              6–8 direct ICE departures daily from Amsterdam Centraal to Berlin Hbf. Journey time around 6 hours.
+            </p>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Ticket Prices & Discounts</h2>
+            <p className="text-blue-200/80 leading-relaxed mb-6">
+              Sparpreis advance tickets from €20–40 when booked early. Standard fares €80–100. Book 3–6 months ahead for lowest prices.
+            </p>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Train Journey Breakdown</h2>
+            <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
+              <p className="text-blue-200/80 leading-relaxed mb-6">
+                The train speeds through flat Dutch polders, crosses into Germany near Bad Bentheim, then passes forests, rivers, and small towns in Lower Saxony before arriving in Berlin.
+              </p>
+              <p className="text-blue-200/80 leading-relaxed">
+                Onboard restaurant car, Wi-Fi, power sockets, quiet zones, and family areas. Comfortable reclining seats.
+              </p>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-2">
+              <li><strong>Scenic Seekers:</strong> Relaxing views of Dutch and German countryside.</li>
+              <li><strong>Business Travelers:</strong> Productive time with Wi-Fi and restaurant car.</li>
+              <li><strong>Families:</strong> Spacious, comfortable, no airport stress.</li>
+              <li><strong>Backpackers:</strong> Affordable advance fares and city-centre arrival.</li>
+            </ul>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Scenic & Seasonal Advice</h2>
+            <p className="text-blue-200/80 leading-relaxed mb-6">
+              Pleasant flat landscapes with canals, windmills (early part), forests, and rivers. Spring tulip fields (if timing right), summer green, autumn colours.
+            </p>
+            <p className="text-blue-200/80 leading-relaxed mb-8">
+              Right side (facing forward) for slightly more varied views.
+            </p>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs About Amsterdam to Berlin Train</h2>
+            <div className="space-y-6">
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">How long does the train from Amsterdam to Berlin take?</summary>
+                <p className="mt-4 text-blue-200/80">Direct ICE trains take around 6 hours.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Do I need a passport?</summary>
+                <p className="mt-4 text-blue-200/80">No formal checks (Schengen), but carry ID.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Can I bring luggage or a bike?</summary>
+                <p className="mt-4 text-blue-200/80">Generous allowance; bikes require €10–15 reservation.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Best time to book cheap fares?</summary>
+                <p className="mt-4 text-blue-200/80">3–6 months ahead for €20 Sparpreis tickets.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Which side has the best views?</summary>
+                <p className="mt-4 text-blue-200/80">Right side for varied Dutch polders and German forests.</p>
+              </details>
+            </div>
+          </section>
 
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
@@ -261,6 +331,37 @@ export default function AmsterdamToBerlin() {
                 <Train className="w-6 h-6" />
                 Search on Trainline
               </a>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="p-3 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-xl">
+                  <Star className="w-8 h-8 text-cyan-400" />
+                </div>
+                <div>
+                  <h2 className="text-3xl font-bold text-blue-100">Eurail/Interrail Pass</h2>
+                  <p className="text-cyan-300 text-sm">For wider Europe trips</p>
+                </div>
+              </div>
+
+              <div className="space-y-4 text-blue-200/80 leading-relaxed">
+                <p>Eurail (non-EU) or Interrail (EU residents) passes are valid on DB ICE International with mandatory seat reservation (€10–15).</p>
+                <p>Great route for pass holders – book reservations early.</p>
+              </div>
+
+              <div className="mt-8">
+                <a
+                  href="https://www.eurail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300"
+                >
+                  Explore Eurail Passes
+                  <Star className="w-5 h-5" />
+                </a>
+              </div>
             </div>
           </section>
 
@@ -298,7 +399,11 @@ export default function AmsterdamToBerlin() {
 
         <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <div className="text-center text-sm text-blue-300/50 pt-8 border-t border-blue-400/10">
+            <p className="text-xs text-blue-300/50 text-center mt-8">
+              Affiliate links may earn commission at no cost to you.<br />
+              Prices approximate for 2026—check current rates.
+            </p>
+            <div className="text-center text-sm text-blue-300/50 pt-8 border-t border-blue-400/10 mt-8">
               © 2026 Get Me There. All rights reserved.
             </div>
           </div>
