@@ -1,0 +1,369 @@
+import React from 'react';
+import { Mountain, Train, CheckCircle, Star, Clock } from 'lucide-react';
+import Head from 'next/head';
+
+export default function ParisToNormandy() {
+  return (
+    <>
+      <Head>
+        <title>Paris to Normandy by Train: Time, Cost & Travel Guide (2026)</title>
+        <meta
+          name="description"
+          content="Book Paris to Normandy train tickets from €15 with SNCF. Discover 2026 schedules, cheap fares, direct routes to Rouen, Caen, Bayeux and Le Havre, tips, and how to explore D-Day beaches, Mont Saint-Michel, and picturesque Normandy without a car."
+        />
+        <meta property="og:title" content="Paris to Normandy by Train: Time, Cost & Travel Guide (2026)" />
+        <meta property="og:description" content="Direct SNCF trains from Paris to Rouen (~1h15m), Caen (~2h), Bayeux (~2h15m) – cheap tickets, frequent departures, perfect for D-Day history, cliffs and cheese." />
+        <meta property="og:url" content="https://www.get-me-there.com/paris-to-normandy" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Paris to Normandy by Train: Time, Cost & Travel Guide (2026)" />
+        <meta name="twitter:description" content="Direct SNCF trains from Paris to Rouen (~1h15m), Caen (~2h), Bayeux (~2h15m) – cheap tickets, frequent departures, perfect for D-Day history, cliffs and cheese." />
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How long does the train from Paris to Normandy take?",
+                acceptedAnswer: { "@type": "Answer", text: "1h15m to Rouen, 2h to Caen, 2h15m to Bayeux (D-Day beaches)." }
+              },
+              {
+                "@type": "Question",
+                name: "Which station in Normandy should I choose?",
+                acceptedAnswer: { "@type": "Answer", text: "Rouen for medieval city, Caen for history, Bayeux for D-Day beaches & tapestry, Le Havre for Etretat cliffs." }
+              },
+              {
+                "@type": "Question",
+                name: "Can I visit Mont Saint-Michel from Normandy by public transport?",
+                acceptedAnswer: { "@type": "Answer", text: "Yes – easy bus from Bayeux/Caen/Rennes (see linked guide)." }
+              },
+              {
+                "@type": "Question",
+                name: "When is the best time to book cheap tickets?",
+                acceptedAnswer: { "@type": "Answer", text: "Book early for fares from €15–25." }
+              }
+            ]
+          })}
+        </script>
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.get-me-there.com/" },
+              { "@type": "ListItem", position: 2, name: "Europe", item: "https://www.get-me-there.com/europe" },
+              { "@type": "ListItem", position: 3, name: "Paris to Normandy by Train", item: "https://www.get-me-there.com/paris-to-normandy" }
+            ]
+          })}
+        </script>
+      </Head>
+
+      <div className="min-h-screen bg-gradient-to-b from-slate-900 via-blue-950 to-slate-900 text-white">
+        <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-20">
+          <svg className="absolute bottom-0 w-full h-96" viewBox="0 0 1200 400" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="train-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stopColor="#60a5fa" stopOpacity="0.3" />
+                <stop offset="100%" stopColor="#3b82f6" stopOpacity="0.6" />
+              </linearGradient>
+            </defs>
+            <path
+              d="M0,400 L0,180 L200,140 L350,200 L500,80 L650,160 L800,100 L950,180 L1200,120 L1200,400 Z"
+              fill="url(#train-gradient)"
+              className="animate-pulse"
+              style={{ animationDuration: '8s' }}
+            />
+          </svg>
+        </div>
+
+        <header className="relative border-b border-blue-400/20 backdrop-blur-sm bg-slate-900/50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div className="flex items-center justify-between">
+              <a href="/" className="flex items-center gap-3 group">
+                <Mountain className="w-10 h-10 text-cyan-400 group-hover:text-cyan-300 transition-all" />
+                <div>
+                  <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-cyan-300 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
+                    Get Me There
+                  </h1>
+                  <p className="text-sm text-blue-300/70">Find your perfect route</p>
+                </div>
+              </a>
+              <nav className="hidden md:flex gap-8 text-sm">
+                <a href="/" className="text-blue-200 hover:text-cyan-300 transition-colors">Home</a>
+                <a href="/about" className="text-blue-200 hover:text-cyan-300 transition-colors">About</a>
+                <a href="/contact" className="text-blue-200 hover:text-cyan-300 transition-colors">Contact</a>
+              </nav>
+            </div>
+          </div>
+        </header>
+
+        <main className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="flex items-center gap-3 text-cyan-400 text-sm mb-4">
+            <a href="/" className="hover:text-cyan-300">Home</a>
+            <span>→</span>
+            <a href="/europe" className="hover:text-cyan-300">Europe</a>
+            <span>→</span>
+            <span className="text-blue-300">Paris to Normandy</span>
+          </div>
+
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            <span className="bg-gradient-to-r from-cyan-200 via-blue-300 to-indigo-300 bg-clip-text text-transparent">
+              Paris to Normandy by Train:
+            </span>
+            <br />
+            <span className="text-blue-100">Time, Cost & Travel Guide (2026)</span>
+          </h1>
+
+          <p className="text-xl text-blue-200/80 leading-relaxed mb-12">
+            Direct high-speed and regional trains connect Paris with the heart of Normandy – perfect for exploring D-Day landing beaches, Mont Saint-Michel (via connection), Étretat cliffs, Rouen’s medieval centre, Honfleur harbour, and Camembert cheese country. All reachable without a car using France's excellent rail network.
+          </p>
+
+          <section className="mb-12">
+            <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/60 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
+              <div className="flex items-center gap-3 mb-6">
+                <Train className="w-8 h-8 text-cyan-400" />
+                <h2 className="text-2xl font-bold text-blue-100">Direct SNCF Trains to Key Normandy Towns</h2>
+                <p className="text-cyan-300 text-sm">SNCF TER / Intercités / TGV</p>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-6 mb-8">
+                <div className="bg-slate-800/70 rounded-2xl p-6 text-center">
+                  <Clock className="w-8 h-8 text-cyan-400 mx-auto mb-2" />
+                  <p className="text-3xl font-bold text-white">1h15m–2h15m</p>
+                  <p className="text-blue-300 text-sm">To Rouen/Caen/Bayeux</p>
+                </div>
+                <div className="bg-slate-800/70 rounded-2xl p-6 text-center">
+                  <p className="text-3xl font-bold text-white">€15–60</p>
+                  <p className="text-blue-300 text-sm">One-way (2026 advance fares)</p>
+                </div>
+                <div className="bg-slate-800/70 rounded-2xl p-6 text-center">
+                  <p className="text-3xl font-bold text-white">Frequent</p>
+                  <p className="text-blue-300 text-sm">From Paris St-Lazare</p>
+                </div>
+              </div>
+
+              <p className="text-blue-200/90 leading-relaxed mb-6">
+                Most trains depart Paris Saint-Lazare. Direct services to Rouen (1h15m), Caen (2h), Bayeux (2h15m), Cherbourg (3h15m). Le Havre via Rouen change.
+              </p>
+
+              <div className="bg-slate-800/60 rounded-2xl p-6">
+                <p className="text-cyan-300 font-semibold mb-3 flex items-center gap-2">
+                  <span className="text-yellow-400">💡</span> Tips:
+                </p>
+                <ul className="text-blue-200/90 space-y-2 text-sm">
+                  <li>Bayeux = best base for D-Day beaches (Omaha, Utah, Juno)</li>
+                  <li>Rouen = stunning medieval city, easy day trip</li>
+                  <li>Caen = good for history museums and connections</li>
+                  <li>Book early for cheapest fares</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Quick Comparison</h2>
+            <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20 overflow-x-auto">
+              <table className="w-full text-left">
+                <thead>
+                  <tr className="border-b border-blue-400/20">
+                    <th className="py-4 px-4 text-cyan-300">Option</th>
+                    <th className="py-4 px-4 text-cyan-300">Time</th>
+                    <th className="py-4 px-4 text-cyan-300">Cost</th>
+                    <th className="py-4 px-4 text-cyan-300">Best For</th>
+                  </tr>
+                </thead>
+                <tbody className="text-blue-200/80">
+                  <tr className="border-b border-blue-400/10">
+                    <td className="py-4 px-4 font-semibold text-cyan-300">Train (SNCF direct)</td>
+                    <td className="py-4 px-4">1h15m–2h15m</td>
+                    <td className="py-4 px-4">€15–60+</td>
+                    <td className="py-4 px-4">Comfort, no car needed</td>
+                  </tr>
+                  <tr className="border-b border-blue-400/10">
+                    <td className="py-4 px-4 font-semibold text-cyan-300">Bus (FlixBus/BlaBlaCar Bus)</td>
+                    <td className="py-4 px-4">3–5h</td>
+                    <td className="py-4 px-4">€15–35</td>
+                    <td className="py-4 px-4">Budget</td>
+                  </tr>
+                  <tr>
+                    <td className="py-4 px-4 font-semibold text-cyan-300">Drive</td>
+                    <td className="py-4 px-4">2–3h</td>
+                    <td className="py-4 px-4">Tolls + fuel</td>
+                    <td className="py-4 px-4">Flexibility for rural areas</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Paris to Normandy Schedule</h2>
+            <p className="text-blue-200/80 leading-relaxed">
+              Frequent direct trains from Paris Saint-Lazare: Rouen every 30–60min, Caen/Bayeux hourly in peak times.
+            </p>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Ticket Prices & Discounts</h2>
+            <p className="text-blue-200/80 leading-relaxed mb-6">
+              Advance tickets from €15–30 when booked early. Standard fares €40–60. Book ahead on SNCF Connect or Omio.
+            </p>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Travel Tips for First-Time Passengers</h2>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-3">
+              <li>Trains depart Paris Saint-Lazare (not Gare du Nord).</li>
+              <li>No passport checks – domestic French route.</li>
+              <li>Generous luggage allowance.</li>
+              <li>Bayeux is the best base for D-Day sites (buses to beaches).</li>
+            </ul>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Train Journey Breakdown</h2>
+            <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
+              <p className="text-blue-200/80 leading-relaxed mb-6">
+                Trains head northwest through Parisian suburbs, then Normandy countryside with rolling fields, apple orchards, and half-timbered houses.
+              </p>
+              <p className="text-blue-200/80 leading-relaxed">
+                Onboard café on Intercités, Wi-Fi on some services.
+              </p>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Who This Route Is Best For</h2>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-2">
+              <li><strong>History Buffs:</strong> WWII D-Day beaches & museums.</li>
+              <li><strong>Foodies:</strong> Camembert, Calvados, cider, seafood.</li>
+              <li><strong>Nature Lovers:</strong> Étretat cliffs, Honfleur harbour.</li>
+              <li><strong>Day Trippers:</strong> Rouen or Giverny easy from Paris.</li>
+            </ul>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Scenic & Seasonal Advice</h2>
+            <p className="text-blue-200/80 leading-relaxed mb-6">
+              Lovely Normandy countryside year-round. Spring apple blossoms, summer green fields, autumn colours, winter dramatic cliffs.
+            </p>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Book Your Ticket</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <a
+                href="https://www.omio.com/"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                <CheckCircle className="w-6 h-6" />
+                Search on Omio
+              </a>
+              <a
+                href="https://www.thetrainline.com/"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#00A387] hover:bg-[#008f75] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                <Train className="w-6 h-6" />
+                Search on Trainline
+              </a>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <div className="bg-gradient-to-br from-slate-800/90 to-blue-900/50 backdrop-blur-xl rounded-3xl p-8 border border-blue-400/20">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="p-3 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-xl">
+                  <Star className="w-8 h-8 text-cyan-400" />
+                </div>
+                <div>
+                  <h2 className="text-3xl font-bold text-blue-100">Eurail/Interrail Pass</h2>
+                  <p className="text-cyan-300 text-sm">For wider Europe trips</p>
+                </div>
+              </div>
+
+              <div className="space-y-4 text-blue-200/80 leading-relaxed">
+                <p>Eurail/Interrail passes valid on SNCF trains. Seat reservation recommended on Intercités (€10–20).</p>
+              </div>
+
+              <div className="mt-8">
+                <a
+                  href="https://www.eurail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 rounded-xl font-semibold text-white shadow-lg transition-all duration-300"
+                >
+                  Explore Eurail Passes
+                  <Star className="w-5 h-5" />
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-8">FAQs About Paris to Normandy Train</h2>
+            <div className="space-y-6">
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">How long to main Normandy towns?</summary>
+                <p className="mt-4 text-blue-200/80">Rouen 1h15m, Caen 2h, Bayeux 2h15m direct from Paris St-Lazare.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Best station for D-Day beaches?</summary>
+                <p className="mt-4 text-blue-200/80">Bayeux – buses to Omaha, Utah, Juno beaches.</p>
+              </details>
+              <details className="bg-slate-800/50 rounded-xl p-6 border border-blue-400/20">
+                <summary className="text-xl font-semibold text-cyan-300 cursor-pointer">Can I reach Mont Saint-Michel?</summary>
+                <p className="mt-4 text-blue-200/80">Yes – change in Caen or Rennes, then bus (see linked guide).</p>
+              </details>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Need a hotel in Normandy?</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <a
+                href="https://www.booking.com/region/fr/normandie.html"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#003580] hover:bg-[#002a60] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                Find hotels on Booking.com
+              </a>
+              <a
+                href="https://www.hotels.com/region/10963/normandy-france/"
+                target="_blank"
+                rel="nofollow noopener"
+                className="inline-flex items-center justify-center gap-3 px-8 py-6 bg-[#E31C3D] hover:bg-[#c41734] rounded-xl font-semibold text-white shadow-lg transition-all duration-300 text-lg"
+              >
+                Find hotels on Hotels.com
+              </a>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold text-blue-100 mb-6">Related Routes</h2>
+            <ul className="list-disc list-inside text-blue-200/80 space-y-2">
+              <li><a href="/london-to-paris" className="text-cyan-300 hover:text-cyan-400">London to Paris by train</a></li>
+              <li><a href="/normandy-to-mont-saint-michel" className="text-cyan-300 hover:text-cyan-400">Normandy to Mont Saint-Michel without a car</a></li>
+              <li><a href="/paris-to-brussels" className="text-cyan-300 hover:text-cyan-400">Paris to Brussels by train</a></li>
+            </ul>
+          </section>
+        </main>
+
+        <footer className="border-t border-blue-400/20 bg-slate-900/50 backdrop-blur-sm mt-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div className="text-center text-sm text-blue-300/50 pt-8 border-t border-blue-400/10">
+              © 2026 Get Me There. All rights reserved.
+            </div>
+          </div>
+        </footer>
+      </div>
+    </>
+  );
+}
